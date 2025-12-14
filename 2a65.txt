@@ -1,0 +1,3613 @@
+ 6f9628c:      	adrp	x1, 0x2a65000
+ 6f962bc:      	adrp	x1, 0x2a65000
+ 6fc0498:      	adrp	x8, 0x2a65000 <.text+0x22f2c>
+ 6fc04a0:      	adrp	x2, 0x2a65000 <.text+0x22f34>
+ 6fc04c8:      	adrp	x1, 0x2a65000 <.text+0x22f5c>
+ 6fc04d0:      	adrp	x2, 0x2a65000 <.text+0x22f64>
+ 6fc3830:      	adrp	x8, 0x2a65000 <.text+0x262b8>
+ 6fc3838:      	adrp	x2, 0x2a65000 <.text+0x262c0>
+ 6fc3860:      	adrp	x1, 0x2a65000 <.text+0x262e8>
+ 6fc3868:      	adrp	x2, 0x2a65000 <.text+0x262f0>
+ 702a650:      	fdiv	d1, d1, d5
+ 702a654:      	fmul	v1.2d, v4.2d, v1.d[0]
+ 702a658:      	fmul	v0.2d, v1.2d, v0.d[0]
+ 702a65c:      	fadd	v2.2d, v3.2d, v0.2d
+ 709d134:      	adrp	x26, 0x2a65000 <.text+0xff854>
+ 70b66f4:      	b	0x70b6658 <.text+0x12a658>
+ 712a650:      	str	d0, [sp, #48]
+ 712a654:      	ldr	s0, [x20]
+ 712a658:      	csel	x8, x8, xzr, eq
+ 712a65c:      	str	x8, [sp, #24]
+ 7150950:      	adrp	x0, 0x2a65000 <.text+0x1b2da4>
+ 71509d8:      	adrp	x1, 0x2a65000 <.text+0x1b2e2c>
+ 71e346c:      	adrp	x1, 0x1ae1f000 <.text+0x2a655c>
+ 71e34b0:      	adrp	x8, 0x1ae1f000 <.text+0x2a65a0>
+ 722a62c:      	bl	0x722a65c <.text+0x29e65c>
+ 722a640:      	cbz	x0, 0x722a650 <.text+0x29e650>
+ 722a650:      	ldr	x19, [sp, #16]
+ 722a654:      	ldp	x29, x30, [sp], #32
+ 722a658:      	ret
+ 722a65c:      	stp	x29, x30, [sp, #-32]!
+ 7230258:      	bl	0x723250c <.text+0x2a650c>
+ 7232428:      	bl	0x72325ac <.text+0x2a65ac>
+ 72324c4:      	bl	0x723250c <.text+0x2a650c>
+ 72324cc:      	b.eq	0x7232504 <.text+0x2a6504>
+ 7232518:      	b.ne	0x7232524 <.text+0x2a6524>
+ 723254c:      	b.eq	0x7232520 <.text+0x2a6520>
+ 7232598:      	b.eq	0x7232520 <.text+0x2a6520>
+ 72325a4:      	b.ne	0x7232578 <.text+0x2a6578>
+ 72325a8:      	b	0x7232520 <.text+0x2a6520>
+ 723318c:      	bl	0x723250c <.text+0x2a650c>
+ 72331f8:      	bl	0x723250c <.text+0x2a650c>
+ 7256654:      	adrp	x0, 0x2a65000 <.text+0x2b8690>
+ 72566dc:      	adrp	x1, 0x2a65000 <.text+0x2b8718>
+ 725e8a0:      	adrp	x1, 0x2a65000 <.text+0x2c08bc>
+ 725e8cc:      	adrp	x1, 0x2a65000 <.text+0x2c08e8>
+ 7284334:      	adrp	x1, 0x2a65000 <.text+0x2e62b8>
+ 72a6108:      	bl	0x72a6574 <.text+0x31a574>
+ 72a6488:      	b.ne	0x72a6518 <.text+0x31a518>
+ 72a64c4:      	cbz	w8, 0x72a651c <.text+0x31a51c>
+ 72a64e8:      	cbz	w8, 0x72a651c <.text+0x31a51c>
+ 72a6500:      	mov	x4, x20
+ 72a6504:      	add	x9, x9, x8, lsl #2
+ 72a6508:      	ldur	w24, [x9, #-4]
+ 72a650c:      	str	w3, [x19, #248]
+ 72a6510:      	bl	0xc904534 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeadf0>
+ 72a6514:      	b	0x72a6544 <.text+0x31a544>
+ 72a6518:      	b	0x72a6560 <.text+0x31a560>
+ 72a651c:      	ldp	w24, w8, [x19, #232]
+ 72a6520:      	cmp	w24, w8
+ 72a6524:      	mov	w0, w24
+ 72a6528:      	b.ne	0x72a653c <.text+0x31a53c>
+ 72a652c:      	mov	w0, #2096
+ 72a6530:      	mov	x1, x21
+ 72a6534:      	mov	x2, x23
+ 72a6538:      	bl	0xc904310 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeabcc>
+ 72a653c:      	add	w8, w0, #1
+ 72a6540:      	str	w8, [x19, #232]
+ 72a6544:      	mov	w8, #48
+ 72a6548:      	movi	v0.2d, #0000000000000000
+ 72a654c:      	ldr	x9, [x21]
+ 72a6550:      	nop
+ 72a6554:      	smaddl	x8, w24, w8, x9
+ 72a6558:      	stp	q0, q0, [x8, #16]
+ 72a655c:      	str	q0, [x8]
+ 72a6560:      	ldp	x20, x19, [sp, #48]
+ 72a6564:      	ldp	x22, x21, [sp, #32]
+ 72a6568:      	ldp	x24, x23, [sp, #16]
+ 72a656c:      	ldp	x29, x30, [sp], #64
+ 72a6570:      	ret
+ 72a6574:      	sub	sp, sp, #112
+ 72a6578:      	stp	x29, x30, [sp, #16]
+ 72a657c:      	stp	x28, x27, [sp, #32]
+ 72a6580:      	stp	x26, x25, [sp, #48]
+ 72a6584:      	stp	x24, x23, [sp, #64]
+ 72a6588:      	stp	x22, x21, [sp, #80]
+ 72a658c:      	stp	x20, x19, [sp, #96]
+ 72a6590:      	add	x29, sp, #16
+ 72a6594:      	sub	w8, w4, w3
+ 72a6598:      	adrp	x21, 0x1ae37000 <.text+0x3693dc>
+ 72a659c:      	add	x21, x21, #40
+ 72a65a0:      	mov	x20, x1
+ 72a65a4:      	mov	x23, x0
+ 72a65a8:      	add	w1, w8, #1
+ 72a65ac:      	mov	x0, x21
+ 72a65b0:      	mov	w22, w4
+ 72a65b4:      	mov	w24, w3
+ 72a65b8:      	mov	w19, w2
+ 72a65bc:      	bl	0x72a78e0 <.text+0x31b8e0>
+ 72a65c0:      	ldr	w8, [x20, #36]
+ 72a65c4:      	mov	w9, #48
+ 72a65c8:      	ldr	x10, [x20]
+ 72a65cc:      	stur	w19, [x29, #-4]
+ 72a65d0:      	mov	w24, w24
+ 72a65d4:      	mov	w25, w22
+ 72a65d8:      	bic	w8, w19, w8
+ 72a65dc:      	str	x20, [sp]
+ 72a65e0:      	adrp	x28, 0x1ae37000 <.text+0x369424>
+ 72a65e4:      	smaddl	x8, w8, w9, x10
+ 72a65e8:      	mov	w20, #12
+ 72a65ec:      	adrp	x22, 0x1ae37000 <.text+0x369430>
+ 72a65f0:      	add	x22, x22, #56
+ 72a65f4:      	ldp	x9, x8, [x8]
+ 72a65f8:      	and	x26, x9, #0xffffffffffff
+ 72a65fc:      	add	x8, x8, x26
+ 72a8d4c:      	bl	0x72a6574 <.text+0x31a574>
+ 732a650:      	madd	w10, w12, w13, w10
+ 732a654:      	ldr	x12, [x0, #8]
+ 732a658:      	mov	w13, #51819
+ 732a65c:      	sub	w11, w8, w9
+ 737f3e0:      	adrp	x1, 0x2a65000 <.text+0x3e0f78>
+ 737f458:      	adrp	x1, 0x2a65000 <.text+0x3e0ff0>
+ 739e4a8:      	adrp	x0, 0x2a65000 <.text+0x3fffc4>
+ 742a650:      	stp	x20, x19, [sp, #32]
+ 742a654:      	mov	x29, sp
+ 742a658:      	ldr	x9, [x0, #608]
+ 742a65c:      	mov	x19, x8
+ 752a650:      	bl	0xc9049ac <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb268>
+ 752a654:      	add	x0, x19, #944
+ 752a658:      	bl	0xc9049ac <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb268>
+ 752a65c:      	add	x0, x19, #920
+ 7543a90:      	adrp	x1, 0x2a65000 <.text+0x5a4f18>
+ 7545d9c:      	adrp	x1, 0x2a65000 <.text+0x5a721c>
+ 7547ff4:      	adrp	x1, 0x2a65000 <.text+0x5a946c>
+ 754a25c:      	adrp	x1, 0x2a65000 <.text+0x5ab6c8>
+ 754c444:      	adrp	x1, 0x2a65000 <.text+0x5ad8a8>
+ 75feae8:      	adrp	x0, 0x2a65000 <.text+0x65fc84>
+ 75feb48:      	adrp	x0, 0x2a65000 <.text+0x65fce4>
+ 762a650:      	bl	0x762f52c <.text+0x6a352c>
+ 762a654:      	cmn	w0, #1
+ 762a658:      	b.eq	0x762a674 <.text+0x69e674>
+ 762a65c:      	ldp	x20, x19, [sp, #64]
+ 762a6f0:      	b	0x762a65c <.text+0x69e65c>
+ 772a5e8:      	b.ls	0x772a65c <.text+0x79e65c>
+ 772a650:      	ldr	x8, [x8, #400]
+ 772a654:      	blr	x8
+ 772a658:      	b	0x772a48c <.text+0x79e48c>
+ 772a65c:      	ldr	w8, [x10]
+ 782a650:      	ldr	h3, [x11, #2]
+ 782a654:      	ldr	h5, [x11]
+ 782a658:      	sdiv	w11, w10, w9
+ 782a65c:      	ucvtf	d0, d0
+ 78b64b0:      	b.lt	0x78b6658 <.text+0x92a658>
+ 78b6618:      	cbz	w11, 0x78b6650 <.text+0x92a650>
+ 792a62c:      	tbz	w8, #31, 0x792a654 <.text+0x99e654>
+ 792a650:      	b	0x792a658 <.text+0x99e658>
+ 792a654:      	str	wzr, [x19, #280]
+ 792a658:      	ldr	w8, [x19, #396]
+ 792a65c:      	tbz	w8, #31, 0x792a684 <.text+0x99e684>
+ 7a2a63c:      	b	0x7a2a650 <.text+0xa9e650>
+ 7a2a650:      	add	x0, x19, #1440
+ 7a2a654:      	mov	w1, w22
+ 7a2a658:      	bl	0x798dd18 <.text+0xa01d18>
+ 7a2a65c:      	tbz	w0, #0, 0x7a2a6ec <.text+0xa9e6ec>
+ 7b2a648:      	tbz	w29, #3, 0x7b2a654 <.text+0xb9e654>
+ 7b2a650:      	st1	{ v0.s }[3], [x9]
+ 7b2a654:      	fdiv	v0.4s, v21.4s, v20.4s
+ 7b2a658:      	ldr	q20, [sp, #1024]
+ 7b2a65c:      	fsub	v20.4s, v20.4s, v0.4s
+ 7b2b238:      	b	0x7b2a654 <.text+0xb9e654>
+ 7c2a650:      	ldr	s7, [x23, x10]
+ 7c2a654:      	sbfiz	x9, x15, #2, #32
+ 7c2a658:      	add	x13, x23, x9
+ 7c2a65c:      	mov	w15, v1.s[3]
+ 7d2a650:      	ret
+ 7d2a654:      	ret
+ 7d2a658:      	ret
+ 7d2a65c:      	stp	x29, x30, [sp, #-32]!
+ 7e2a650:      	ldr	x10, [x0, #136]
+ 7e2a654:      	sub	w11, w9, w8
+ 7e2a658:      	cinc	w8, w8, lt
+ 7e2a65c:      	ldrb	w12, [x0, #32]
+ 7f2a63c:      	b	0x7f2a650 <.text+0xf9e650>
+ 7f2a650:      	mov	x0, x19
+ 7f2a654:      	mov	w1, wzr
+ 7f2a658:      	ldp	x20, x19, [sp, #48]
+ 7f2a65c:      	ldp	x22, x21, [sp, #32]
+ 802a650:      	mov	x4, x20
+ 802a654:      	str	w13, [x12]
+ 802a658:      	ldr	w11, [x8, #52]
+ 802a65c:      	cmp	w11, #1
+ 812a63c:      	cbz	x8, 0x812a654 <.text+0x119e654>
+ 812a650:      	b	0x812a67c <.text+0x119e67c>
+ 812a654:      	ldr	x2, [x21, #136]
+ 812a658:      	add	x1, sp, #20
+ 812a65c:      	mov	x0, x21
+ 81debe8:      	adrp	x26, 0x2a65000 <.text+0x123ce04>
+ 81dec0c:      	adrp	x1, 0x2a65000 <.text+0x123ce28>
+ 81def50:      	adrp	x20, 0x2a65000 <.text+0x123d16c>
+ 81defec:      	adrp	x1, 0x2a65000 <.text+0x123d208>
+ 81ff800:      	adrp	x8, 0x14d62000 <.text+0x12a658c>
+ 822a650:      	csel	x0, x9, x8, eq
+ 822a654:      	ldr	x8, [x0]
+ 822a658:      	ldr	x8, [x8, #8]
+ 822a65c:      	blr	x8
+ 8232524:      	tbnz	w0, #0, 0x82325a0 <.text+0x12a65a0>
+ 82a62fc:      	b	0x82a6540 <.text+0x131a540>
+ 82a6500:      	str	d0, [x21, #32]
+ 82a6504:      	ldr	x8, [x19, #16]
+ 82a6508:      	str	x8, [x21, #16]
+ 82a650c:      	ldrb	w8, [x19, #101]
+ 82a6510:      	str	x21, [x19, #16]
+ 82a6514:      	add	w8, w8, #1
+ 82a6518:      	strb	w8, [x19, #101]
+ 82a651c:      	ldrb	w8, [x0, #100]
+ 82a6520:      	cbz	w8, 0x82a6530 <.text+0x131a530>
+ 82a6524:      	ldrb	w8, [x19, #102]
+ 82a6528:      	add	w8, w8, #1
+ 82a652c:      	strb	w8, [x19, #102]
+ 82a6530:      	ldp	x20, x19, [sp, #32]
+ 82a6534:      	ldr	x21, [sp, #16]
+ 82a6538:      	ldp	x29, x30, [sp], #48
+ 82a653c:      	ret
+ 82a6540:      	stp	x29, x30, [sp, #-16]!
+ 82a6544:      	mov	x29, sp
+ 82a6548:      	adrp	x8, 0x1ae9b000 <.text+0x136551c>
+ 82a654c:      	add	x8, x8, #3656
+ 82a6550:      	ldarb	w8, [x8]
+ 82a6554:      	tbz	w8, #0, 0x82a6568 <.text+0x131a568>
+ 82a6558:      	adrp	x0, 0x1ae9b000 <.text+0x136552c>
+ 82a655c:      	add	x0, x0, #3624
+ 82a6560:      	ldp	x29, x30, [sp], #16
+ 82a6564:      	ret
+ 82a6568:      	adrp	x0, 0x1ae9b000 <.text+0x136553c>
+ 82a656c:      	add	x0, x0, #3656
+ 82a6570:      	bl	0xd2b711c <_Znam+0x9617d4>
+ 82a6574:      	cbz	w0, 0x82a6558 <.text+0x131a558>
+ 82a6578:      	adrp	x1, 0x1ae9b000 <.text+0x136554c>
+ 82a657c:      	add	x1, x1, #3624
+ 82a6580:      	adrp	x8, 0x14d7b000 <.text+0x134d0d4>
+ 82a6584:      	add	x8, x8, #2344
+ 82a6588:      	nop
+ 82a658c:      	adr	x0, #-1316
+ 82a6590:      	adrp	x2, 0x14b92000 <.text+0x134c940>
+ 82a6594:      	add	x2, x2, #864
+ 82a6598:      	stp	xzr, xzr, [x1, #8]
+ 82a659c:      	str	x8, [x1]
+ 82a65a0:      	strb	wzr, [x1, #24]
+ 82a65a4:      	bl	0xef5c21c <_ZdlPvSt11align_val_t+0xd6ccd0>
+ 82a65a8:      	adrp	x0, 0x1ae9b000 <.text+0x136557c>
+ 82a65ac:      	add	x0, x0, #3656
+ 82a65b0:      	bl	0xd2b6f78 <_Znam+0x961630>
+ 82a65b4:      	b	0x82a6558 <.text+0x131a558>
+ 82a65b8:      	mov	x8, x0
+ 82a65bc:      	mov	x0, x1
+ 82a65c0:      	mov	x1, x8
+ 82a65c4:      	b	0x82a664c <.text+0x131a64c>
+ 82a65c8:      	stp	x29, x30, [sp, #-16]!
+ 82a65cc:      	mov	x29, sp
+ 82a65d0:      	mov	x8, x0
+ 82a65d4:      	mov	x2, x3
+ 82a65d8:      	mov	x0, x1
+ 82a65dc:      	mov	x1, x8
+ 82a65e0:      	bl	0x82a674c <.text+0x131a74c>
+ 82a65e4:      	mov	w0, #16
+ 82a65e8:      	ldp	x29, x30, [sp], #16
+ 82a65ec:      	ret
+ 82a65f0:      	ldr	x0, [x0, #8]
+ 82a65f4:      	mov	w1, #16
+ 82a65f8:      	b	0x70a088c <.text+0x11488c>
+ 82a65fc:      	ldr	w9, [x1]
+ 82b6324:      	tbnz	w8, #0, 0x82b665c <.text+0x132a65c>
+ 832a650:      	b.lo	0x832a74c <.text+0x139e74c>
+ 832a654:      	adrp	x1, 0x2b27000 <.text+0x1388648>
+ 832a658:      	add	x1, x1, #2228
+ 832a65c:      	add	x0, sp, #32
+ 837b230:      	adrp	x8, 0x17086000 <.text+0x142a65c>
+ 83b65e8:      	tbz	w8, #0, 0x83b6650 <.text+0x142a650>
+ 840e950:      	adrp	x3, 0x2a65000 <.text+0x146c2ac>
+ 840ebfc:      	adrp	x3, 0x2a65000 <.text+0x146c558>
+ 840edc0:      	adrp	x3, 0x2a65000 <.text+0x146c71c>
+ 8417530:      	adrp	x1, 0x2a65000 <.text+0x1474e68>
+ 842a650:      	adrp	x8, 0x17087000 <.text+0x14d97c4>
+ 842a654:      	ldr	x8, [x8, #1216]
+ 842a658:      	ldrb	w8, [x8]
+ 842a65c:      	cmp	w8, #3
+ 852a650:      	str	x21, [sp, #16]
+ 852a654:      	stp	x20, x19, [sp, #32]
+ 852a658:      	mov	x29, sp
+ 852a65c:      	ldr	x8, [x0, #832]
+ 85cf094:      	adrp	x9, 0x233e000 <.text+0x162a650>
+ 862a650:      	add	x1, x8, x9
+ 862a654:      	mov	x0, x19
+ 862a658:      	ldp	x20, x19, [sp, #16]
+ 862a65c:      	ldp	x29, x30, [sp], #32
+ 872a650:      	mov	w0, #1
+ 872a654:      	mov	w1, #1
+ 872a658:      	mov	w2, w21
+ 872a65c:      	mov	w3, wzr
+ 877e9a0:      	adrp	x22, 0x2a65000 <.text+0x17db53c>
+ 882a650:      	mov	x29, sp
+ 882a654:      	adrp	x19, 0x1aed0000 <.text+0x18e80ec>
+ 882a658:      	add	x19, x19, #1840
+ 882a65c:      	mov	w9, #1
+ 88b66cc:      	b	0x88b665c <.text+0x192a65c>
+ 892a648:      	cbnz	w21, 0x892a658 <.text+0x199e658>
+ 892a650:      	stur	w8, [x25, #36]
+ 892a654:      	b	0x892a6a0 <.text+0x199e6a0>
+ 892a658:      	add	x22, x25, #16
+ 892a65c:      	cmp	x8, #0
+ 89b6648:      	tbnz	x14, #32, 0x89b6654 <.text+0x1a2a654>
+ 8a2a650:      	cbz	x0, 0x8a2a660 <.text+0x1a9e660>
+ 8a2a654:      	ldr	x8, [x0]
+ 8a2a658:      	ldr	x8, [x8, #64]
+ 8a2a65c:      	blr	x8
+ 8b2a650:      	ldr	x8, [x29, #24]
+ 8b2a654:      	cbz	x8, 0x8b2a660 <.text+0x1b9e660>
+ 8b2a658:      	add	x0, x29, #24
+ 8b2a65c:      	bl	0xc90b84c <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdf2108>
+ 8bb6634:      	cbz	x20, 0x8bb665c <.text+0x1c2a65c>
+ 8bb6650:      	b.ne	0x8bb665c <.text+0x1c2a65c>
+ 8c13bc0:      	adrp	x2, 0x2a65000 <.text+0x1c6f508>
+ 8c1c310:      	adrp	x2, 0x2a65000 <.text+0x1c77c34>
+ 8c1c5e4:      	adrp	x2, 0x2a65000 <.text+0x1c77f08>
+ 8c1c660:      	adrp	x2, 0x2a65000 <.text+0x1c77f84>
+ 8c1d5c8:      	adrp	x2, 0x2a65000 <.text+0x1c78ee8>
+ 8c2a634:      	b.eq	0x8c2a658 <.text+0x1c9e658>
+ 8c2a650:      	bl	0xc9a2d98 <_Znam+0x4d450>
+ 8c2a654:      	ldr	w8, [x19, #208]
+ 8c2a658:      	ldr	x9, [x19, #200]
+ 8c2a65c:      	bic	w28, w28, w21
+ 8d2a650:      	mov	w9, w11
+ 8d2a654:      	str	w13, [x0, w11, sxtw #2]
+ 8d2a658:      	cmp	w10, w1
+ 8d2a65c:      	b.lt	0x8d2a5f4 <.text+0x1d9e5f4>
+ 8e2a650:      	str	w9, [sp, #104]
+ 8e2a654:      	bl	0xcef1160 <_Znam+0x59b818>
+ 8e2a658:      	sub	x8, x29, #96
+ 8e2a65c:      	add	x1, sp, #96
+ 8f2a650:      	add	x1, sp, #32
+ 8f2a654:      	mov	x0, x20
+ 8f2a658:      	mov	w2, wzr
+ 8f2a65c:      	bl	0x7fc1f24 <.text+0x1035f24>
+ 8f3a848:      	adrp	x1, 0x2a65000 <.text+0x1f954f4>
+ 8f410a0:      	adrp	x1, 0x2a65000 <.text+0x1f9bd30>
+ 8f41a54:      	adrp	x1, 0x2a65000 <.text+0x1f9c6e4>
+ 8f43188:      	adrp	x1, 0x2a65000 <.text+0x1f9de10>
+ 8f44368:      	adrp	x1, 0x2a65000 <.text+0x1f9efec>
+ 8f4523c:      	adrp	x1, 0x2a65000 <.text+0x1f9febc>
+ 8f45bbc:      	adrp	x1, 0x2a65000 <.text+0x1fa083c>
+ 8f46010:      	adrp	x1, 0x2a65000 <.text+0x1fa0c8c>
+ 8f4624c:      	adrp	x1, 0x2a65000 <.text+0x1fa0ec8>
+ 8f4626c:      	adrp	x1, 0x2a65000 <.text+0x1fa0ee8>
+ 8f4c6e4:      	adrp	x1, 0x2a65000 <.text+0x1fa7348>
+ 8f4e1f8:      	adrp	x1, 0x2a65000 <.text+0x1fa8e54>
+ 8f4fdcc:      	adrp	x1, 0x2a65000 <.text+0x1faaa24>
+ 8fb664c:      	cbz	x0, 0x8fb665c <.text+0x202a65c>
+ 902a648:      	cbz	x0, 0x902a650 <.text+0x209e650>
+ 902a650:      	ldur	x0, [x29, #-32]
+ 902a654:      	cbz	x0, 0x902a65c <.text+0x209e65c>
+ 902a658:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+ 902a65c:      	ldp	x20, x19, [sp, #128]
+ 902b3d0:      	adrp	x1, 0x2a65000 <.text+0x2085cb8>
+ 902b3e4:      	adrp	x1, 0x2a65000 <.text+0x2085ccc>
+ 902b51c:      	adrp	x1, 0x2a65000 <.text+0x2085e04>
+ 909d244:      	adrp	x3, 0x2a65000 <.text+0x20f7964>
+ 90b664c:      	b.hs	0x90b6658 <.text+0x212a658>
+ 912a32c:      	cbz	x12, 0x912a658 <.text+0x219e658>
+ 912a334:      	b.ne	0x912a658 <.text+0x219e658>
+ 912a650:      	str	w8, [sp, #100]
+ 912a654:      	b	0x9129f44 <.text+0x219df44>
+ 912a658:      	ldr	w9, [sp, #100]
+ 912a65c:      	add	w8, w21, #1
+ 917720c:      	adrp	x21, 0x2a65000 <.text+0x21d15c4>
+ 9177220:      	adrp	x22, 0x2a65000 <.text+0x21d15d8>
+ 9177470:      	adrp	x1, 0x2a65000 <.text+0x21d1828>
+ 922a650:      	ldr	w8, [sp, #1440]
+ 922a654:      	ldr	x9, [sp, #1432]
+ 922a658:      	add	x2, sp, #824
+ 922a65c:      	mov	x0, x19
+ 92a6500:      	ldp	x8, x23, [x20]
+ 92a6504:      	mov	x22, x0
+ 92a6508:      	mov	x20, x1
+ 92a650c:      	mov	x0, x1
+ 92a6510:      	ldr	x8, [x8]
+ 92a6514:      	mov	x1, x8
+ 92a6518:      	bl	0xca95930 <_Znam+0x13ffe8>
+ 92a651c:      	ldr	w10, [x20, #8]
+ 92a6520:      	ldr	x8, [x23]
+ 92a6524:      	mov	w11, #-1
+ 92a6528:      	str	w11, [x20, #24]
+ 92a652c:      	subs	w9, w10, #1
+ 92a6530:      	str	x8, [x20, #16]
+ 92a6534:      	csel	w8, wzr, w9, lo
+ 92a6538:      	str	w22, [x29, #28]
+ 92a653c:      	cmp	w8, #1
+ 92a6540:      	b.lt	0x92a65b4 <ANativeActivity_onCreate+0xaa48c>
+ 92a6544:      	ldr	x11, [x20]
+ 92a6548:      	cmp	w10, #0
+ 92a654c:      	adrp	x10, 0x17086000 <ANativeActivity_onCreate+0xe1ba4>
+ 92a6550:      	adrp	x12, 0x233e000 <ANativeActivity_onCreate+0x8e688>
+ 92a6554:      	add	x12, x12, #758
+ 92a6558:      	ldr	x10, [x10, #2736]
+ 92a655c:      	mov	x9, xzr
+ 92a6560:      	mov	w22, wzr
+ 92a6564:      	csel	x11, x12, x11, eq
+ 92a6568:      	mov	w12, #-32
+ 92a656c:      	ldrh	w13, [x11, x9, lsl #1]
+ 92a6570:      	add	x9, x9, #1
+ 92a6574:      	sub	w14, w13, #97
+ 92a6578:      	cmp	w14, #26
+ 92a657c:      	csel	w14, w12, wzr, lo
+ 92a6580:      	cmp	w9, w8
+ 92a6584:      	add	w13, w14, w13
+ 92a6588:      	eor	w14, w22, w13
+ 92a658c:      	and	w13, w13, #0xff00
+ 92a6590:      	and	w14, w14, #0xff
+ 92a6594:      	ldr	w14, [x10, w14, uxtw #2]
+ 92a6598:      	eor	w14, w14, w22, lsr #8
+ 92a659c:      	and	w15, w14, #0xff
+ 92a65a0:      	eor	w13, w15, w13, lsr #8
+ 92a65a4:      	ldr	w13, [x10, w13, uxtw #2]
+ 92a65a8:      	eor	w22, w13, w14, lsr #8
+ 92a65ac:      	b.lt	0x92a656c <ANativeActivity_onCreate+0xaa444>
+ 92a65b0:      	b	0x92a65b8 <ANativeActivity_onCreate+0xaa490>
+ 92a65b4:      	mov	w22, wzr
+ 92a65b8:      	add	x3, x29, #28
+ 92a65bc:      	mov	x0, x19
+ 92a65c0:      	mov	w1, w22
+ 92a65c4:      	mov	x2, x20
+ 92a65c8:      	mov	x4, x21
+ 92a65cc:      	bl	0xe8ebfcc <_ZdlPvSt11align_val_t+0x6fca80>
+ 92a65d0:      	tbnz	w0, #0, 0x92a662c <ANativeActivity_onCreate+0xaa504>
+ 92a65d4:      	ldr	w8, [x19, #8]
+ 92a65d8:      	ldr	w9, [x19, #52]
+ 92a65dc:      	mov	x0, x19
+ 92a65e0:      	ldr	w21, [x29, #28]
+ 92a65e4:      	mov	w2, wzr
+ 92a65e8:      	sub	w1, w8, w9
+ 92a65ec:      	bl	0xe8ecbfc <_ZdlPvSt11align_val_t+0x6fd6b0>
+ 92a65f0:      	tbnz	w0, #0, 0x92a662c <ANativeActivity_onCreate+0xaa504>
+ 92a65f4:      	ldr	w8, [x19, #72]
+ 92a65f8:      	add	x11, x19, #56
+ 92a65fc:      	sub	w8, w8, #1
+ 932a650:      	mov	x19, x1
+ 932a654:      	cbz	x8, 0x932a67c <ANativeActivity_onCreate+0x12e554>
+ 932a658:      	ldr	x8, [x19, #16]
+ 932a65c:      	cbz	x8, 0x932a67c <ANativeActivity_onCreate+0x12e554>
+ 9420878:      	adrp	x1, 0x2a65000 <ANativeActivity_onCreate+0x20a064>
+ 942a650:      	ldr	x8, [x20]
+ 942a654:      	mov	x0, x20
+ 942a658:      	ldr	x8, [x8, #16]
+ 942a65c:      	blr	x8
+ 945b924:      	adrp	x1, 0x1afaa000 <ANativeActivity_onCreate+0x2a6538>
+ 946b5f8:      	adrp	x25, 0x17086000 <ANativeActivity_onCreate+0x2a653c>
+ 946b688:      	adrp	x8, 0x1708a000 <ANativeActivity_onCreate+0x2a65dc>
+ 9474528:      	adrp	x9, 0x14ce8000 <ANativeActivity_onCreate+0x2a65d0>
+ 94a27f4:      	bl	0x94a2634 <ANativeActivity_onCreate+0x2a650c>
+ 94a27fc:      	bl	0x94a2634 <ANativeActivity_onCreate+0x2a650c>
+ 94a2804:      	bl	0x94a2634 <ANativeActivity_onCreate+0x2a650c>
+ 94a280c:      	bl	0x94a2634 <ANativeActivity_onCreate+0x2a650c>
+ 94a2870:      	bl	0x94a26b4 <ANativeActivity_onCreate+0x2a658c>
+ 94bec88:      	adrp	x0, 0x233e000 <ANativeActivity_onCreate+0x2a6560>
+ 94bfdd4:      	adrp	x1, 0x1ed4000 <ANativeActivity_onCreate+0x2a6500>
+ 94dfc4c:      	adrp	x8, 0x1afab000 <ANativeActivity_onCreate+0x32a654>
+ 9526770:      	cbz	x20, 0x9526780 <ANativeActivity_onCreate+0x32a658>
+ 952a650:      	cmp	w8, #1
+ 952a654:      	b.lt	0x952a6c4 <ANativeActivity_onCreate+0x32e59c>
+ 952a658:      	ldr	x11, [x19]
+ 952a65c:      	cmp	w10, #0
+ 9543d94:      	adrp	x1, 0x1fbf000 <ANativeActivity_onCreate+0x32a65c>
+ 962a650:      	str	x8, [x0]
+ 962a654:      	mov	x19, x0
+ 962a658:      	ldr	x8, [x1]
+ 962a65c:      	str	x8, [x0, #8]
+ 972a650:      	bl	0x972b918 <ANativeActivity_onCreate+0x52f7f0>
+ 972a654:      	mov	w8, #-1
+ 972a658:      	sub	x3, x29, #4
+ 972a65c:      	mov	x0, x20
+ 982a650:      	mov	w3, wzr
+ 982a654:      	ldur	x8, [x29, #-24]
+ 982a658:      	str	x8, [x21]
+ 982a65c:      	ldur	w8, [x29, #-16]
+ 992a650:      	mov	w9, #22
+ 992a654:      	adrp	x11, 0x1afb1000 <ANativeActivity_onCreate+0x773f48>
+ 992a658:      	add	x11, x11, #1312
+ 992a65c:      	mov	w19, w3
+ 9a267b4:      	b.lt	0x9a26780 <ANativeActivity_onCreate+0x82a658>
+ 9a2a4cc:      	cbz	x21, 0x9a2a650 <ANativeActivity_onCreate+0x82e528>
+ 9a2a588:      	b	0x9a2a650 <ANativeActivity_onCreate+0x82e528>
+ 9a2a650:      	ldp	x20, x19, [sp, #80]
+ 9a2a654:      	ldp	x22, x21, [sp, #64]
+ 9a2a658:      	ldp	x24, x23, [sp, #48]
+ 9a2a65c:      	ldp	x26, x25, [sp, #32]
+ 9b2a638:      	cbz	x20, 0x9b2a650 <ANativeActivity_onCreate+0x92e528>
+ 9b2a650:      	adrp	x1, 0x1e13000 <ANativeActivity_onCreate+0x90f0cc>
+ 9b2a654:      	add	x1, x1, #2478
+ 9b2a658:      	add	x0, sp, #8
+ 9b2a65c:      	bl	0xca95930 <_Znam+0x13ffe8>
+ 9be1800:      	adrp	x8, 0x1afbf000 <ANativeActivity_onCreate+0xa2a650>
+ 9c266b8:      	cbz	w10, 0x9c26784 <ANativeActivity_onCreate+0xa2a65c>
+ 9c2a650:      	nop
+ 9c2a654:      	smaddl	x10, w26, w27, x10
+ 9c2a658:      	add	x8, x8, x24
+ 9c2a65c:      	ldrb	w11, [x8], #-4
+ 9d2a650:      	stp	x2, x3, [sp, #136]
+ 9d2a654:      	stp	x10, x8, [sp, #200]
+ 9d2a658:      	add	x0, sp, #216
+ 9d2a65c:      	sub	x2, x29, #40
+ 9da29f8:      	adrp	x2, 0x2a65000 <ANativeActivity_onCreate+0xb89bdc>
+ 9e268a8:      	b	0x9e26778 <ANativeActivity_onCreate+0xc2a650>
+ 9e2a55c:      	b.eq	0x9e2a658 <ANativeActivity_onCreate+0xc2e530>
+ 9e2a598:      	b.lo	0x9e2a658 <ANativeActivity_onCreate+0xc2e530>
+ 9e2a650:      	cbz	x0, 0x9e2a658 <ANativeActivity_onCreate+0xc2e530>
+ 9e2a654:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+ 9e2a658:      	ldp	x20, x19, [sp, #432]
+ 9e2a65c:      	ldp	x28, x21, [sp, #416]
+ 9f2647c:      	bl	0x9f26778 <ANativeActivity_onCreate+0xd2a650>
+ 9f2680c:      	b	0x9f26784 <ANativeActivity_onCreate+0xd2a65c>
+ 9f2a650:      	add	x2, sp, #32
+ 9f2a654:      	mov	x0, x21
+ 9f2a658:      	str	x8, [sp, #32]
+ 9f2a65c:      	bl	0x9f2a6b8 <ANativeActivity_onCreate+0xd2e590>
+ 9f96c2c:      	bl	0x94a26b4 <ANativeActivity_onCreate+0x2a658c>
+ 9ffa404:      	adrp	x9, 0x150da000 <ANativeActivity_onCreate+0xe2a65c>
+ a026768:      	b.lt	0xa026778 <ANativeActivity_onCreate+0xe2a650>
+ a02a650:      	bl	0xc910a20 <_Znwm>
+ a02a654:      	movi	v0.2s, #1
+ a02a658:      	adrp	x8, 0x150e1000 <ANativeActivity_onCreate+0xe5a80c>
+ a02a65c:      	add	x8, x8, #1992
+ a12a650:      	add	x9, x9, #2368
+ a12a654:      	mov	x0, x19
+ a12a658:      	stp	x9, x8, [sp, #8]
+ a12a65c:      	bl	0xd48f410 <_ZnwmSt11align_val_t+0xd93b4>
+ a22a650:      	lsl	x8, x8, #3
+ a22a654:      	mov	x27, xzr
+ a22a658:      	mov	w26, wzr
+ a22a65c:      	adrp	x19, 0x2861000 <ANativeActivity_onCreate+0x100fe10>
+ a2a64b8:      	b.gt	0xa2a6508 <ANativeActivity_onCreate+0x10aa3e0>
+ a2a64c0:      	b.eq	0xa2a651c <ANativeActivity_onCreate+0x10aa3f4>
+ a2a64c8:      	b.eq	0xa2a651c <ANativeActivity_onCreate+0x10aa3f4>
+ a2a64d0:      	b	0xa2a651c <ANativeActivity_onCreate+0x10aa3f4>
+ a2a64d8:      	b.gt	0xa2a656c <ANativeActivity_onCreate+0x10aa444>
+ a2a64dc:      	cbz	w8, 0xa2a651c <ANativeActivity_onCreate+0x10aa3f4>
+ a2a64e4:      	b.eq	0xa2a65bc <ANativeActivity_onCreate+0x10aa494>
+ a2a64ec:      	b.ne	0xa2a651c <ANativeActivity_onCreate+0x10aa3f4>
+ a2a6500:      	movi	v0.2s, #1
+ a2a6504:      	b	0xa2a65d0 <ANativeActivity_onCreate+0x10aa4a8>
+ a2a6508:      	cmp	w8, #9
+ a2a650c:      	b.eq	0xa2a651c <ANativeActivity_onCreate+0x10aa3f4>
+ a2a6510:      	cmp	w8, #10
+ a2a6514:      	b.eq	0xa2a651c <ANativeActivity_onCreate+0x10aa3f4>
+ a2a6518:      	cmp	w8, #11
+ a2a651c:      	mov	w0, #24
+ a2a6520:      	bl	0xc910a20 <_Znwm>
+ a2a6524:      	movi	v0.2s, #1
+ a2a6528:      	adrp	x8, 0x1514c000 <ANativeActivity_onCreate+0x10d5e98>
+ a2a652c:      	add	x8, x8, #1000
+ a2a6530:      	add	x21, x0, #16
+ a2a6534:      	mov	x20, x0
+ a2a6538:      	str	x8, [x0]
+ a2a653c:      	mov	w1, wzr
+ a2a6540:      	str	d0, [x0, #8]
+ a2a6544:      	mov	x0, x21
+ a2a6548:      	bl	0xa2a6010 <ANativeActivity_onCreate+0x10a9ee8>
+ a2a654c:      	stp	x21, x20, [x19, #8]
+ a2a6550:      	adrp	x8, 0x1514c000 <ANativeActivity_onCreate+0x10d5ec0>
+ a2a6554:      	add	x8, x8, #872
+ a2a6558:      	str	x8, [x19]
+ a2a655c:      	ldp	x20, x19, [sp, #32]
+ a2a6560:      	ldr	x21, [sp, #16]
+ a2a6564:      	ldp	x29, x30, [sp], #48
+ a2a6568:      	ret
+ a2a656c:      	cmp	w8, #3
+ a2a6570:      	b.eq	0xa2a6598 <ANativeActivity_onCreate+0x10aa470>
+ a2a6574:      	cmp	w8, #5
+ a2a6578:      	b.eq	0xa2a651c <ANativeActivity_onCreate+0x10aa3f4>
+ a2a657c:      	cmp	w8, #4
+ a2a6580:      	b.ne	0xa2a651c <ANativeActivity_onCreate+0x10aa3f4>
+ a2a6584:      	mov	x0, x19
+ a2a6588:      	mov	w1, wzr
+ a2a658c:      	mov	x2, x20
+ a2a6590:      	bl	0xa2a66f0 <ANativeActivity_onCreate+0x10aa5c8>
+ a2a6594:      	b	0xa2a6550 <ANativeActivity_onCreate+0x10aa428>
+ a2a6598:      	mov	w0, #24
+ a2a659c:      	bl	0xc910a20 <_Znwm>
+ a2a65a0:      	movi	v0.2s, #1
+ a2a65a4:      	ldr	s1, [x20]
+ a2a65a8:      	mov	x21, x0
+ a2a65ac:      	adrp	x8, 0x1514c000 <ANativeActivity_onCreate+0x10d5f1c>
+ a2a65b0:      	add	x8, x8, #1000
+ a2a65b4:      	fcvtzs	w1, s1
+ a2a65b8:      	b	0xa2a65d8 <ANativeActivity_onCreate+0x10aa4b0>
+ a2a65bc:      	mov	w0, #24
+ a2a65c0:      	bl	0xc910a20 <_Znwm>
+ a2a65c4:      	movi	v0.2s, #1
+ a2a65c8:      	ldrb	w1, [x20]
+ a2a65cc:      	mov	x21, x0
+ a2a65d0:      	adrp	x8, 0x1514c000 <ANativeActivity_onCreate+0x10d5f40>
+ a2a65d4:      	add	x8, x8, #1000
+ a2a65d8:      	str	d0, [x0, #8]
+ a2a65dc:      	add	x20, x0, #16
+ a2a65e0:      	str	x8, [x0]
+ a2a65e4:      	mov	x0, x20
+ a2a65e8:      	bl	0xa2a6010 <ANativeActivity_onCreate+0x10a9ee8>
+ a2a65ec:      	stp	x20, x21, [x19, #8]
+ a2a65f0:      	b	0xa2a6550 <ANativeActivity_onCreate+0x10aa428>
+ a2a65f4:      	adrp	x9, 0x150b4000 <ANativeActivity_onCreate+0x10d5d04>
+ a2a65f8:      	add	x9, x9, #136
+ a2a65fc:      	ldr	x8, [x0, #32]
+ a32a650:      	str	x0, [x19]
+ a32a654:      	ldp	x20, x19, [sp, #16]
+ a32a658:      	ldp	x29, x30, [sp], #32
+ a32a65c:      	ret
+ a42a650:      	mov	x0, x22
+ a42a654:      	ldr	x8, [x8, #1296]
+ a42a658:      	blr	x8
+ a42a65c:      	cbz	x0, 0xa42a6e4 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0xb804>
+ a4697b4:      	adrp	x9, 0x23ca000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x2a658>
+ a52a650:      	ldr	w8, [sp, #44]
+ a52a654:      	add	x25, sp, #32
+ a52a658:      	cmp	w8, w2
+ a52a65c:      	b.ge	0xa52a678 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x10b798>
+ a54950c:      	cbz	w8, 0xa549538 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x12a658>
+ a62a650:      	stp	x20, x19, [sp, #16]
+ a62a654:      	mov	x29, sp
+ a62a658:      	mov	x20, x1
+ a62a65c:      	mov	x19, x0
+ a64950c:      	cbz	x0, 0xa649538 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x22a658>
+ a677d7c:      	adrp	x1, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x239e54>
+ a682d94:      	adrp	x1, 0x1b020000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x2a652c>
+ a68ff30:      	adrp	x0, 0x17bd9000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x2a6578>
+ a6b72fc:      	adrp	x2, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x2792d4>
+ a6b77b8:      	adrp	x2, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x279790>
+ a6b7bac:      	adrp	x2, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x279b84>
+ a6b8074:      	adrp	x2, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x27a048>
+ a6c53e8:      	b.eq	0xa6c5418 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x2a6538>
+ a6c5404:      	cbz	x1, 0xa6c5414 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x2a6534>
+ a6c5428:      	b	0xa6c5404 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x2a6524>
+ a6c548c:      	b	0xa6c5490 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x2a65b0>
+ a72a64c:      	cbz	x0, 0xa72a654 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x30b774>
+ a72a650:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+ a72a654:      	add	w27, w27, #1
+ a72a658:      	cmp	w27, w26
+ a72a65c:      	b.ne	0xa7297cc <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x30a8ec>
+ a82a650:      	ldr	x12, [x8, #384]
+ a82a654:      	ldr	x14, [x8, #448]
+ a82a658:      	ldr	x9, [x12, w11, uxtw #3]
+ a82a65c:      	nop
+ a8942d4:      	adrp	x3, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x455b38>
+ a8944b4:      	adrp	x3, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x455d18>
+ a92a64c:      	tbz	w11, #3, 0xa92a658 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x50b778>
+ a92a650:      	add	x15, x13, #20
+ a92a654:      	st1	{ v2.s }[3], [x15]
+ a92a658:      	ldp	q6, q17, [x12, #-32]
+ a92a65c:      	dup	v5.4s, v6.s[1]
+ a92a760:      	tbnz	w11, #3, 0xa92a650 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x50b770>
+ a92a764:      	b	0xa92a658 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x50b778>
+ aa2a650:      	ldr	w12, [x2]
+ aa2a654:      	mov	w8, #40024
+ aa2a658:      	mov	w11, #8292
+ aa2a65c:      	movk	w8, #63967, lsl #16
+ aa2d828:      	adrp	x1, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x5eea28>
+ aa2d848:      	adrp	x1, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x5eea48>
+ aa4952c:      	b	0xaa49530 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x62a650>
+ ab2a650:      	b.eq	0xab2a66c <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x70b78c>
+ ab2a654:      	add	x5, x20, #12
+ ab2a658:      	mov	w0, #8
+ ab2a65c:      	mov	w1, #8
+ ab321c8:      	adrp	x8, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x6f2fb4>
+ ab322e4:      	adrp	x8, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x6f30d0>
+ ab347e8:      	adrp	x8, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x6f55cc>
+ ab494e0:      	b.eq	0xab4953c <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x72a65c>
+ ab66948:      	adrp	x1, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x727664>
+ ab6698c:      	adrp	x1, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x7276a8>
+ ab669d0:      	adrp	x1, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x7276ec>
+ ab66a10:      	adrp	x1, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x72772c>
+ ab68c30:      	adrp	x3, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x729944>
+ ab68c68:      	adrp	x3, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x72997c>
+ ab68da0:      	adrp	x5, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x729ab4>
+ ab7235c:      	adrp	x1, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x733048>
+ ac2a650:      	mov	x0, x21
+ ac2a654:      	mov	x1, x19
+ ac2a658:      	mov	x2, x20
+ ac2a65c:      	str	q1, [x19]
+ ac49524:      	b	0xac49534 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x82a654>
+ ac72cc0:      	adrp	x1, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x8335ac>
+ ac8c594:      	adrp	x3, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x84ce18>
+ ad2a650:      	mov	x21, x1
+ ad2a654:      	movk	x24, #6784, lsl #48
+ ad2a658:      	and	x9, x8, #0xfffffffffffffffe
+ ad2a65c:      	tst	x8, #0x1
+ add7884:      	adrp	x3, 0x2a65000 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x997bdc>
+ ae2a650:      	tbnz	w0, #0, 0xae2a65c <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0xa0b77c>
+ ae2a654:      	bl	0xcc9f364 <_Znam+0x349a1c>
+ ae2a658:      	tbz	w0, #0, 0xae2a5c8 <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0xa0b6e8>
+ ae2a65c:      	mov	x0, sp
+ af2a650:      	ldr	x9, [sp, #8]
+ af2a654:      	adrp	x20, 0x233e000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x44a48>
+ af2a658:      	add	x20, x20, #758
+ af2a65c:      	mov	w0, w19
+ afb98f8:      	adrp	x2, 0x17e28000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x12a658>
+ afed294:      	b.eq	0xafed2ac <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x12a650>
+ b02a650:      	ldr	w11, [x19, #104]
+ b02a654:      	add	x9, sp, #88
+ b02a658:      	ldr	w10, [x19, #168]
+ b02a65c:      	str	x9, [sp, #40]
+ b098418:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x1b3ef0>
+ b12a650:      	mov	x0, x19
+ b12a654:      	str	x8, [sp, #104]
+ b12a658:      	bl	0xade537c <Java_com_google_vr_sdk_samples_permission_PermissionHelper_onAcquirePermissions+0x9c649c>
+ b12a65c:      	and	w8, w0, #0x1
+ b140978:      	adrp	x8, 0x15374000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x2a65ec>
+ b169190:      	cbz	x20, 0xb1691b8 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x2a655c>
+ b1691a4:      	b.ne	0xb1691b8 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x2a655c>
+ b169204:      	cbz	x20, 0xb16922c <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x2a65d0>
+ b169218:      	b.ne	0xb16922c <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x2a65d0>
+ b1c4bec:      	adrp	x8, 0x15377000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x32a65c>
+ b20ca50:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x327f58>
+ b21b34c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x336818>
+ b228b6c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x344004>
+ b228bd4:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x34406c>
+ b22934c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3447e0>
+ b2293b4:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x344848>
+ b22a650:      	ldr	x9, [x9, #1952]
+ b22a654:      	ldr	x8, [x21]
+ b22a658:      	str	x0, [x9]
+ b22a65c:      	mov	x0, x19
+ b23a794:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x355be4>
+ b23a7fc:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x355c4c>
+ b23b254:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3566a0>
+ b23b2bc:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x356708>
+ b245528:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x36094c>
+ b245664:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x360a88>
+ b248d4c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x364164>
+ b248de4:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3641fc>
+ b248e94:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3642ac>
+ b248f34:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x36434c>
+ b25710c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3724e8>
+ b2a64fc:      	b.ne	0xb2a6520 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3e38c4>
+ b2a6500:      	mov	x0, x19
+ b2a6504:      	ldp	x20, x19, [sp, #80]
+ b2a6508:      	ldp	x22, x21, [sp, #64]
+ b2a650c:      	ldp	x24, x23, [sp, #48]
+ b2a6510:      	ldp	x26, x25, [sp, #32]
+ b2a6514:      	ldp	x28, x27, [sp, #16]
+ b2a6518:      	ldp	x29, x30, [sp], #96
+ b2a651c:      	ret
+ b2a6520:      	ldr	w22, [x1, #8]
+ b2a6524:      	mov	x20, x1
+ b2a6528:      	mov	x0, x19
+ b2a652c:      	mov	w1, w22
+ b2a6530:      	bl	0xb2a5edc <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3e3280>
+ b2a6534:      	add	x4, x19, #8
+ b2a6538:      	add	x5, x19, #12
+ b2a653c:      	mov	w0, #2384
+ b2a6540:      	mov	w1, #8
+ b2a6544:      	mov	w2, w22
+ b2a6548:      	mov	x3, x19
+ b2a654c:      	bl	0xc904170 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeaa2c>
+ b2a6550:      	ldr	w8, [x20, #48]
+ b2a6554:      	add	x21, x20, #16
+ b2a6558:      	add	x0, x19, #16
+ b2a655c:      	mov	x1, x21
+ b2a6560:      	str	w8, [x19, #48]
+ b2a6564:      	ldr	w8, [x20, #52]
+ b2a6568:      	str	w8, [x19, #52]
+ b2a656c:      	bl	0xc90cd44 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdf3600>
+ b2a6570:      	cmp	w22, #1
+ b2a6574:      	b.lt	0xb2a6500 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3e38a4>
+ b2a6578:      	mov	w8, #2384
+ b2a657c:      	ldr	x25, [x19]
+ b2a6580:      	ldr	x26, [x20]
+ b2a6584:      	umull	x24, w22, w8
+ b2a6588:      	mov	x23, xzr
+ b2a658c:      	mov	x27, xzr
+ b2a6590:      	ldr	x8, [x20, #32]
+ b2a6594:      	ubfx	x9, x27, #5, #27
+ b2a6598:      	cmp	x8, #0
+ b2a659c:      	csel	x8, x21, x8, eq
+ b2a65a0:      	ldr	w8, [x8, x9, lsl #2]
+ b2a65a4:      	ldr	w9, [x26, x23]
+ b2a65a8:      	str	w9, [x25, x23]
+ b2a65ac:      	lsr	w8, w8, w27
+ b2a65b0:      	tbz	w8, #0, 0xb2a6600 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3e39a4>
+ b2a65b4:      	add	x22, x25, x23
+ b2a65b8:      	add	x28, x26, x23
+ b2a65bc:      	mov	w3, wzr
+ b2a65c0:      	str	xzr, [x22, #8]!
+ b2a65c4:      	mov	x0, x22
+ b2a65c8:      	ldr	x1, [x28, #8]
+ b2a65cc:      	ldr	w2, [x28, #16]
+ b2a65d0:      	bl	0xc903f04 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdea7c0>
+ b2a65d4:      	add	x0, x22, #16
+ b2a65d8:      	add	x1, x28, #24
+ b2a65dc:      	mov	w2, #2348
+ b2a65e0:      	bl	0xef5c22c <_ZdlPvSt11align_val_t+0xd6cce0>
+ b2a65e4:      	ldr	x8, [x28, #2376]
+ b2a65e8:      	str	x8, [x22, #2368]
+ b2a65ec:      	add	x23, x23, #2384
+ b2a65f0:      	add	x27, x27, #1
+ b2a65f4:      	cmp	x24, x23
+ b2a65f8:      	b.ne	0xb2a6590 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3e3934>
+ b2a65fc:      	b	0xb2a6500 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3e38a4>
+ b2a6610:      	b	0xb2a65ec <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x3e3990>
+ b316c7c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x431d5c>
+ b319e70:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x434f44>
+ b32a650:      	csel	w8, w8, w9, gt
+ b32a654:      	mov	w1, wzr
+ b32a658:      	str	w8, [x19, #44]
+ b32a65c:      	ldp	x20, x19, [sp, #16]
+ b40f980:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x52a67c>
+ b42a650:      	b.le	0xb42a664 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x567a08>
+ b42a654:      	ldrb	w8, [x20, #480]
+ b42a658:      	str	wzr, [x20, #472]
+ b42a65c:      	orr	w8, w8, #0x1
+ b4ed284:      	b	0xb4ed2b8 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x62a65c>
+ b4ed2a4:      	b.ne	0xb4ed2b8 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x62a65c>
+ b52a650:      	ldr	w8, [x4, #8]!
+ b52a654:      	cmp	w8, w1
+ b52a658:      	b.lt	0xb52a678 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x667a1c>
+ b52a65c:      	tbnz	w1, #31, 0xb52a6fc <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x667aa0>
+ b599b18:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6b41ec>
+ b59c8f8:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6b6fc0>
+ b59ca28:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6b70f0>
+ b59cee8:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6b75b0>
+ b59cfa8:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6b7670>
+ b5a3468:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6bdb14>
+ b5a3b2c:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6be1d8>
+ b5a7310:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6c19ac>
+ b5b2b44:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6cd1b4>
+ b5b2da8:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6cd418>
+ b5b4194:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6ce7fc>
+ b5b4cb8:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterSetDoubleKey+0x6cf320>
+ b62a640:      	cbz	x22, 0xb62a650 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x608a4>
+ b62a644:      	cbz	w8, 0xb62a650 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x608a4>
+ b62a650:      	str	x22, [x19, #256]
+ b62a654:      	cbz	x21, 0xb62a670 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x608c4>
+ b62a658:      	ldr	x21, [x21, #160]
+ b62a65c:      	cbz	x21, 0xb62a670 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x608c4>
+ b62a6a0:      	b	0xb62a650 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x608a4>
+ b6fbff0:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x10efec>
+ b72a634:      	cbz	x8, 0xb72a658 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x1608ac>
+ b72a650:      	ldr	x8, [x8]
+ b72a654:      	blr	x8
+ b72a658:      	mov	w8, #1
+ b72a65c:      	mov	x0, x19
+ b82a650:      	mov	x0, x21
+ b82a654:      	ldr	x1, [x20, #16]
+ b82a658:      	ldr	w2, [x20, #24]
+ b82a65c:      	mov	w3, wzr
+ b849390:      	adrp	x8, 0x15422000 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x2a6548>
+ b849398:      	adrp	x23, 0x15422000 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x2a6550>
+ b8493b0:      	adrp	x21, 0x15422000 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x2a6568>
+ b870168:      	cbz	x23, 0xb8702c8 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x2a651c>
+ b870188:      	b.hs	0xb8702c8 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x2a651c>
+ b870258:      	tbz	w0, #0, 0xb87039c <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x2a65f0>
+ b8702d8:      	b.lo	0xb87034c <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x2a65a0>
+ b870320:      	b.ne	0xb870308 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x2a655c>
+ b92a650:      	adrp	x8, 0x15430000 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x3874bc>
+ b92a654:      	add	x8, x8, #3728
+ b92a658:      	str	x8, [x20]
+ b92a65c:      	ldr	x8, [x19, #32]
+ b9cc850:      	adrp	x0, 0x2a65000 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x3ded08>
+ b9fe490:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x410880>
+ ba2a650:      	ldr	d3, [sp, #344]
+ ba2a654:      	fadd	d2, d5, d4
+ ba2a658:      	fadd	d0, d3, d0
+ ba2a65c:      	ldp	d4, d3, [sp, #328]
+ ba6f854:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x481a80>
+ ba6f928:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_notifications_EpicFirebaseMessagingService_OnFirebaseTokenChange+0x481b54>
+ bab4020:      	bl	0xd32a658 <_Znam+0x9d4d10>
+ bab9d38:      	bl	0xd32a658 <_Znam+0x9d4d10>
+ bb2a650:      	add	x1, sp, #272
+ bb2a654:      	mov	x0, x20
+ bb2a658:      	ldr	q0, [x8, #1824]
+ bb2a65c:      	mov	x2, xzr
+ bc2a650:      	ld1	{ v2.2d, v3.2d }, [x8]
+ bc2a654:      	adrp	x8, 0x2370000 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xeac28>
+ bc2a658:      	mov	x23, x3
+ bc2a65c:      	fcmeq	v4.2d, v0.2d, v2.2d
+ bd0bb0c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x1cd930>
+ bd2a650:      	ldr	x8, [x13, #168]
+ bd2a654:      	ldr	x11, [sp, #80]
+ bd2a658:      	asr	w9, w9, #5
+ bd2a65c:      	neg	w10, w10
+ bdbfc40:      	cbz	x22, 0xbdbfc54 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x2a6510>
+ bdbfc44:      	cbz	w8, 0xbdbfc54 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x2a6510>
+ bdbfc5c:      	cbz	x22, 0xbdbfc6c <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x2a6528>
+ bdbfc60:      	cbz	w8, 0xbdbfc6c <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x2a6528>
+ bde6460:      	adrp	x0, 0x2405000 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x2a6598>
+ bde6468:      	adrp	x2, 0x2405000 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x2a65a0>
+ be2a650:      	ldr	s2, [x20, #8796]
+ be2a654:      	ldr	s1, [x8, #2580]
+ be2a658:      	fsub	s0, s0, s1
+ be2a65c:      	fmul	s0, s2, s0
+ bf2a650:      	ldr	x25, [x19, #40]
+ bf2a654:      	ldr	w26, [x20, #1808]
+ bf2a658:      	add	x8, x25, x8, lsl #6
+ bf2a65c:      	str	x8, [sp, #24]
+ c02a650:      	mov	x29, sp
+ c02a654:      	mov	x19, x0
+ c02a658:      	bl	0xbf6ee58 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x455714>
+ c02a65c:      	mov	x0, x19
+ c117fdc:      	adrp	x23, 0x17087000 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x62a658>
+ c12a650:      	ldp	x29, x30, [sp, #176]
+ c12a654:      	ldp	d9, d8, [sp, #160]
+ c12a658:      	ldp	d11, d10, [sp, #144]
+ c12a65c:      	add	sp, sp, #224
+ c191fbc:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x652bc8>
+ c19225c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x652e64>
+ c22a518:      	cbz	w9, 0xc22a65c <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x710f18>
+ c22a520:      	cbz	x0, 0xc22a654 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x710f10>
+ c22a650:      	b	0xc22a51c <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x710dd8>
+ c22a654:      	mov	w8, #1
+ c22a658:      	b	0xc22a540 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x710dfc>
+ c22a65c:      	mov	w8, wzr
+ c2a6500:      	cmp	w0, #3
+ c2a6504:      	b.ne	0xc2a6514 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x78cdd0>
+ c2a6508:      	cbz	x20, 0xc2a6514 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x78cdd0>
+ c2a650c:      	ldr	w8, [x20, #12]
+ c2a6510:      	tbz	w8, #30, 0xc2a6528 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x78cde4>
+ c2a6514:      	ldp	x20, x19, [sp, #80]
+ c2a6518:      	ldr	x21, [sp, #64]
+ c2a651c:      	ldp	x29, x30, [sp, #48]
+ c2a6520:      	add	sp, sp, #96
+ c2a6524:      	ret
+ c2a6528:      	add	x1, sp, #24
+ c2a652c:      	mov	w0, #56
+ c2a6530:      	str	xzr, [sp, #24]
+ c2a6534:      	str	wzr, [sp, #32]
+ c2a6538:      	bl	0xc924a04 <_Znwm+0x13fe4>
+ c2a653c:      	add	x4, x29, #24
+ c2a6540:      	sub	x5, x29, #4
+ c2a6544:      	mov	x1, x19
+ c2a6548:      	mov	w2, #1584
+ c2a654c:      	mov	w3, #1
+ c2a6550:      	bl	0xc2b6188 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x79ca44>
+ c2a6554:      	ldr	x20, [x29, #24]
+ c2a6558:      	ldurb	w21, [x29, #-4]
+ c2a655c:      	add	x0, sp, #8
+ c2a6560:      	add	x1, sp, #24
+ c2a6564:      	str	xzr, [sp, #8]
+ c2a6568:      	str	wzr, [sp, #16]
+ c2a656c:      	bl	0xc923ad0 <_Znwm+0x130b0>
+ c2a6570:      	add	x3, sp, #8
+ c2a6574:      	mov	x0, x19
+ c2a6578:      	mov	x1, x20
+ c2a657c:      	mov	w2, w21
+ c2a6580:      	bl	0xc2a6184 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x78ca40>
+ c2a6584:      	mov	w20, w0
+ c2a6588:      	add	x0, sp, #8
+ c2a658c:      	bl	0xc9049ac <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb268>
+ c2a6590:      	tbnz	w20, #0, 0xc2a65e4 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x78cea0>
+ c2a6594:      	ldr	x20, [x19, #160]
+ c2a6598:      	ldr	x19, [x29, #24]
+ c2a659c:      	cbz	x20, 0xc2a65cc <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x78ce88>
+ c2a65a0:      	bl	0xca30484 <_Znam+0xdab3c>
+ c2a65a4:      	ldr	x8, [x20, #32]
+ c2a65a8:      	ldrsw	x9, [x0, #56]
+ c2a65ac:      	ldr	w10, [x8, #56]
+ c2a65b0:      	cmp	w9, w10
+ c2a65b4:      	b.gt	0xc2a65cc <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x78ce88>
+ c2a65b8:      	ldr	x8, [x8, #48]
+ c2a65bc:      	ldr	x8, [x8, x9, lsl #3]
+ c2a65c0:      	add	x9, x0, #48
+ c2a65c4:      	cmp	x8, x9
+ c2a65c8:      	b.eq	0xc2a65d0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x78ce8c>
+ c2a65cc:      	mov	x20, xzr
+ c2a65d0:      	ldr	x8, [x19]
+ c2a65d4:      	mov	x0, x19
+ c2a65d8:      	mov	x1, x20
+ c2a65dc:      	ldr	x8, [x8, #1944]
+ c2a65e0:      	blr	x8
+ c2a65e4:      	add	x0, sp, #24
+ c2a65e8:      	bl	0xc9049ac <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb268>
+ c2a65ec:      	b	0xc2a6514 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x78cdd0>
+ c2a65f0:      	stp	x29, x30, [sp, #-64]!
+ c2a65f4:      	str	x23, [sp, #16]
+ c2a65f8:      	stp	x22, x21, [sp, #32]
+ c2a65fc:      	stp	x20, x19, [sp, #48]
+ c324458:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x7e4a18>
+ c32a650:      	ldrb	w8, [x28]
+ c32a654:      	cmp	w8, #0
+ c32a658:      	csel	x23, x23, xzr, eq
+ c32a65c:      	str	x23, [x21, #80]
+ c42a650:      	add	x22, x1, #8
+ c42a654:      	ldrb	w8, [x21]
+ c42a658:      	ldur	x0, [x22, #-8]
+ c42a65c:      	cbz	w8, 0xc42a66c <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x910f28>
+ c42a69c:      	b.ne	0xc42a658 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x910f14>
+ c52a650:      	cmp	w25, #2
+ c52a654:      	b.lo	0xc52a66c <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xa10f28>
+ c52a658:      	ldr	x0, [sp, #8344]
+ c52a65c:      	lsl	x2, x27, #1
+ c52a6a0:      	b	0xc52a650 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xa10f0c>
+ c62a650:      	fmov	s11, s4
+ c62a654:      	mov	x19, x0
+ c62a658:      	fmov	s12, s3
+ c62a65c:      	fmov	s13, s1
+ c72a650:      	cmp	w8, #0
+ c72a654:      	cset	w0, ne
+ c72a658:      	ret
+ c72a65c:      	adrp	x8, 0x18744000 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xc40f80>
+ c82a630:      	cbz	x9, 0xc82a658 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xd10f14>
+ c82a650:      	ldr	x8, [x8]
+ c82a654:      	blr	x8
+ c82a658:      	add	x1, sp, #120
+ c82a65c:      	mov	w0, #128
+ c92a650:      	b.ne	0xc92a660 <_Znwm+0x19c40>
+ c92a654:      	ldrb	w8, [x20, #1921]
+ c92a658:      	and	w8, w8, #0xfe
+ c92a65c:      	strb	w8, [x20, #1921]
+ c99c598:      	adrp	x8, 0x2a65000 <_Znam+0x1ef74>
+ c9f2988:      	adrp	x1, 0x2a65000 <_Znam+0x7520c>
+ ca2a650:      	ldrb	w9, [x0, #45]
+ ca2a654:      	cbz	w9, 0xca2a66c <_Znam+0xd4d24>
+ ca2a658:      	cmp	w9, #3
+ ca2a65c:      	cset	w0, ne
+ ca2a670:      	b	0xca2a658 <_Znam+0xd4d10>
+ ca2a684:      	cbnz	x8, 0xca2a650 <_Znam+0xd4d08>
+ ca2a6a4:      	b	0xca2a650 <_Znam+0xd4d08>
+ caaa23c:      	adrp	x1, 0x2a65000 <_Znam+0x12c7e0>
+ caaa390:      	adrp	x1, 0x2a65000 <_Znam+0x12c934>
+ cb29264:      	cbz	w8, 0xcb2a650 <_Znam+0x1d4d08>
+ cb2a1b0:      	cbz	x23, 0xcb2a65c <_Znam+0x1d4d14>
+ cb2a650:      	ldr	q0, [x21, #32]
+ cb2a654:      	ldr	d2, [x21, #48]
+ cb2a658:      	b	0xcb29284 <_Znam+0x1d393c>
+ cb2a65c:      	mov	w0, #64
+ cb46224:      	adrp	x2, 0x2a65000 <_Znam+0x1c8558>
+ cb462e4:      	adrp	x2, 0x2a65000 <_Znam+0x1c8618>
+ cb46364:      	adrp	x2, 0x2a65000 <_Znam+0x1c8698>
+ cb463e8:      	adrp	x2, 0x2a65000 <_Znam+0x1c871c>
+ cb4646c:      	adrp	x2, 0x2a65000 <_Znam+0x1c87a0>
+ cb464f0:      	adrp	x2, 0x2a65000 <_Znam+0x1c8824>
+ cb46574:      	adrp	x2, 0x2a65000 <_Znam+0x1c88a8>
+ cb465f8:      	adrp	x2, 0x2a65000 <_Znam+0x1c892c>
+ cb46dcc:      	adrp	x8, 0x2a65000 <_Znam+0x1c9100>
+ cb47804:      	adrp	x8, 0x2a65000 <_Znam+0x1c9b34>
+ cb48390:      	adrp	x8, 0x2a65000 <_Znam+0x1ca6bc>
+ cb487f4:      	adrp	x8, 0x2a65000 <_Znam+0x1cab20>
+ cb48b8c:      	adrp	x8, 0x2a65000 <_Znam+0x1caeb8>
+ cb7ff60:      	b.eq	0xcb7ffa0 <_Znam+0x22a658>
+ cb8002c:      	b.eq	0xcb7ffa0 <_Znam+0x22a658>
+ cbd2c2c:      	adrp	x23, 0x17086000 <_Znam+0x2a65b4>
+ cbd3e34:      	adrp	x2, 0x2a65000 <_Znam+0x255f34>
+ cbfbb0c:      	cbnz	x8, 0xcbfbf30 <_Znam+0x2a65e8>
+ cbfbb14:      	b.ne	0xcbfbecc <_Znam+0x2a6584>
+ cbfbb1c:      	cbnz	x8, 0xcbfbecc <_Znam+0x2a6584>
+ cbfbb6c:      	cbz	w11, 0xcbfbe88 <_Znam+0x2a6540>
+ cbfbec0:      	cbz	w11, 0xcbfbea8 <_Znam+0x2a6560>
+ cbfcc28:      	b.ne	0xcbfbe78 <_Znam+0x2a6530>
+ cc26008:      	adrp	x8, 0x23d8000 <_Znam+0x2a6588>
+ cc2a650:      	cmp	x8, #0
+ cc2a654:      	csel	x9, x23, x8, eq
+ cc2a658:      	mov	w8, #1
+ cc2a65c:      	ldr	w10, [x9, w25, sxtw #2]
+ cc4ac88:      	adrp	x2, 0x2a65000 <_Znam+0x2ccbac>
+ cd2a650:      	movi	v0.2d, #0000000000000000
+ cd2a654:      	add	x0, x19, #888
+ cd2a658:      	mov	w1, wzr
+ cd2a65c:      	str	q0, [x0]
+ cdec434:      	adrp	x2, 0x2a65000 <_Znam+0x46dcd0>
+ ce0be84:      	adrp	x1, 0x2a65000 <_Znam+0x48d6a4>
+ ce2a650:      	add	x29, sp, #16
+ ce2a654:      	sub	sp, sp, #400
+ ce2a658:      	fmov	s8, s0
+ ce2a65c:      	ldrb	w8, [x2, #52]
+ ce2ee90:      	adrp	x1, 0x2a65000 <_Znam+0x4b0624>
+ ce2f56c:      	adrp	x1, 0x2a65000 <_Znam+0x4b0cfc>
+ ce80054:      	b	0xce7ff98 <_Znam+0x52a650>
+ ce8005c:      	b	0xce7ffa0 <_Znam+0x52a658>
+ cf2a650:      	str	x19, [sp, #16]
+ cf2a654:      	mov	x29, sp
+ cf2a658:      	mov	x19, x0
+ cf2a65c:      	ldr	x0, [x0, #16]
+ cf7ffa8:      	b.ne	0xcf7ff98 <_Znam+0x62a650>
+ d02a650:      	mov	w2, #118
+ d02a654:      	add	x1, x20, x8
+ d02a658:      	bl	0x14b8a180 <memcpy@plt>
+ d02a65c:      	adrp	x8, 0x1ae1f000 <_Znam+0x70c4e8>
+ d0671b0:      	adrp	x2, 0x2a65000 <_Znam+0x6e8060>
+ d12a650:      	cmp	w9, #0
+ d12a654:      	csel	x8, x8, xzr, eq
+ d12a658:      	stur	x8, [x29, #-8]
+ d12a65c:      	bl	0xcdd8214 <_Znam+0x4828cc>
+ d22a650:      	str	xzr, [x20, #560]
+ d22a654:      	str	d0, [x19, #1088]
+ d22a658:      	movi	v0.2d, #0000000000000000
+ d22a65c:      	stp	q0, q0, [x8]
+ d2a6500:      	stp	x28, x27, [sp, #16]
+ d2a6504:      	stp	x26, x25, [sp, #32]
+ d2a6508:      	stp	x24, x23, [sp, #48]
+ d2a650c:      	stp	x22, x21, [sp, #64]
+ d2a6510:      	stp	x20, x19, [sp, #80]
+ d2a6514:      	mov	x29, sp
+ d2a6518:      	sub	sp, sp, #640
+ d2a651c:      	fmov	v0.2d, #1.00000000
+ d2a6520:      	ldr	w8, [x0, #72]
+ d2a6524:      	ldr	x20, [x29, #96]
+ d2a6528:      	mov	x22, x0
+ d2a652c:      	mov	x24, x4
+ d2a6530:      	mov	x19, x3
+ d2a6534:      	mov	x23, x2
+ d2a6538:      	cmp	w8, #1
+ d2a653c:      	stp	x6, x7, [sp, #48]
+ d2a6540:      	stp	x1, x5, [sp, #32]
+ d2a6544:      	str	q0, [sp, #96]
+ d2a6548:      	b.lt	0xd2a65f8 <_Znam+0x950cb0>
+ d2a654c:      	adrp	x8, 0x2394000 <_Znam+0x924fbc>
+ d2a6550:      	mov	x27, xzr
+ d2a6554:      	mov	x28, xzr
+ d2a6558:      	ldr	q0, [x8, #64]
+ d2a655c:      	adrp	x8, 0x2376000 <_Znam+0x924f54>
+ d2a6560:      	sub	x25, x29, #112
+ d2a6564:      	mov	w26, #96
+ d2a6568:      	str	q0, [sp, #80]
+ d2a656c:      	ldr	q0, [x8, #3728]
+ d2a6570:      	str	q0, [sp, #64]
+ d2a6574:      	ldr	x8, [x22, #64]
+ d2a6578:      	ldr	x9, [x20]
+ d2a657c:      	ldr	q0, [sp, #96]
+ d2a6580:      	ldrsw	x21, [x8, x28, lsl #2]
+ d2a6584:      	ldr	x8, [sp, #56]
+ d2a6588:      	ldr	x8, [x8, #16]
+ d2a658c:      	ldrsw	x10, [x8, x21, lsl #2]
+ d2a6590:      	ldr	x8, [x22, #80]
+ d2a6594:      	cmn	w10, #1
+ d2a6598:      	b.eq	0xd2a68c4 <_Znam+0x950f7c>
+ d2a659c:      	movi	v1.2d, #0000000000000000
+ d2a65a0:      	smaddl	x2, w10, w26, x9
+ d2a65a4:      	stur	q0, [x29, #-48]
+ d2a65a8:      	ldr	q0, [sp, #64]
+ d2a65ac:      	sub	x0, x29, #112
+ d2a65b0:      	add	x1, x8, x27
+ d2a65b4:      	stp	xzr, xzr, [x29, #-112]
+ d2a65b8:      	stur	q0, [x29, #-32]
+ d2a65bc:      	stp	q1, q1, [x25, #32]
+ d2a65c0:      	ldr	q1, [sp, #80]
+ d2a65c4:      	stur	q1, [x29, #-96]
+ d2a65c8:      	bl	0xc930784 <_Znwm+0x1fd64>
+ d2a65cc:      	ldr	x8, [x20]
+ d2a65d0:      	nop
+ d2a65d4:      	smaddl	x0, w21, w26, x8
+ d2a65d8:      	sub	x1, x29, #112
+ d2a65dc:      	mov	w2, #96
+ d2a65e0:      	bl	0x14b8a180 <memcpy@plt>
+ d2a65e4:      	ldrsw	x8, [x22, #72]
+ d2a65e8:      	add	x28, x28, #1
+ d2a65ec:      	add	x27, x27, #96
+ d2a65f0:      	cmp	x28, x8
+ d2a65f4:      	b.lt	0xd2a6574 <_Znam+0x950c2c>
+ d2a65f8:      	ldr	x9, [x24, #112]
+ d2a65fc:      	ldr	x10, [x22, #96]
+ d2a68d0:      	b	0xd2a65dc <_Znam+0x950c94>
+ d32a650:      	b	0xd32a5a0 <_Znam+0x9d4c58>
+ d32a654:      	b	0xd32a658 <_Znam+0x9d4d10>
+ d32a658:      	stp	x29, x30, [sp, #-32]!
+ d32a65c:      	str	x19, [sp, #16]
+ d42a650:      	stp	x22, x21, [sp, #96]
+ d42a654:      	stp	x20, x19, [sp, #112]
+ d42a658:      	add	x29, sp, #32
+ d42a65c:      	mov	w21, w4
+ d52a63c:      	cbnz	w20, 0xd52a650 <_ZnwmSt11align_val_t+0x1745f4>
+ d52a650:      	bl	0xce69270 <_Znam+0x513928>
+ d52a654:      	mov	x1, x0
+ d52a658:      	mov	x0, sp
+ d52a65c:      	mov	x21, sp
+ d62a1c4:      	b.gt	0xd62a65c <_ZnwmSt11align_val_t+0x274600>
+ d62a650:      	fadd	s0, s2, s0
+ d62a654:      	mov	x1, x20
+ d62a658:      	b	0xd62a1b0 <_ZnwmSt11align_val_t+0x274154>
+ d62a65c:      	mov	w8, #2
+ d62a7a0:      	b	0xd62a654 <_ZnwmSt11align_val_t+0x2745f8>
+ d65c4e0:      	cbnz	w8, 0xd65c5d8 <_ZnwmSt11align_val_t+0x2a657c>
+ d65c4f8:      	cbz	x0, 0xd65c5bc <_ZnwmSt11align_val_t+0x2a6560>
+ d65c500:      	cbz	x8, 0xd65c5bc <_ZnwmSt11align_val_t+0x2a6560>
+ d65c528:      	b.lt	0xd65c5d0 <_ZnwmSt11align_val_t+0x2a6574>
+ d65c598:      	cbz	x0, 0xd65c5a0 <_ZnwmSt11align_val_t+0x2a6544>
+ d65c5d4:      	b	0xd65c594 <_ZnwmSt11align_val_t+0x2a6538>
+ d65c608:      	cbnz	x0, 0xd65c644 <_ZnwmSt11align_val_t+0x2a65e8>
+ d65c61c:      	cbz	x0, 0xd65c624 <_ZnwmSt11align_val_t+0x2a65c8>
+ d65c634:      	cbnz	x0, 0xd65c64c <_ZnwmSt11align_val_t+0x2a65f0>
+ d65c648:      	b	0xd65c60c <_ZnwmSt11align_val_t+0x2a65b0>
+ d65c654:      	b	0xd65c638 <_ZnwmSt11align_val_t+0x2a65dc>
+ d6e26f4:      	cbz	x0, 0xd6e06b4 <_ZnwmSt11align_val_t+0x32a658>
+ d6e272c:      	b	0xd6e06ac <_ZnwmSt11align_val_t+0x32a650>
+ d6e2aac:      	b	0xd6e06b4 <_ZnwmSt11align_val_t+0x32a658>
+ d70c618:      	adrp	x2, 0x2733000 <_ZnwmSt11align_val_t+0x32a658>
+ d72a568:      	cbz	w8, 0xd72a65c <_ZnwmSt11align_val_t+0x374600>
+ d72a5b8:      	b.ge	0xd72a65c <_ZnwmSt11align_val_t+0x374600>
+ d72a650:      	ldr	w9, [x9, #24]
+ d72a654:      	cmp	w8, w9
+ d72a658:      	b.lt	0xd72a5d4 <_ZnwmSt11align_val_t+0x374578>
+ d72a65c:      	ldp	x20, x19, [sp, #128]
+ d82a5ec:      	b.eq	0xd82a65c <_ZnwmSt11align_val_t+0x474600>
+ d82a650:      	ldp	x29, x30, [sp, #16]
+ d82a654:      	add	sp, sp, #64
+ d82a658:      	ret
+ d82a65c:      	mov	w0, #2096
+ d8a365c:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c1d08>
+ d8a699c:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c503c>
+ d8a6a38:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c50d8>
+ d8a6a78:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c5118>
+ d8a6ab8:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c5158>
+ d8a6b4c:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c51ec>
+ d8a6b8c:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c522c>
+ d8a6c20:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c52c0>
+ d8a6c60:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c5300>
+ d8a6ca0:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c5340>
+ d8a6ce0:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c5380>
+ d8a7040:      	adrp	x1, 0x2a65000 <_ZnwmSt11align_val_t+0x4c56dc>
+ d8dd4b0:      	bl	0x102a6520 <_ZdaPvmSt11align_val_t+0x1052724>
+ d8dffc8:      	cbz	x21, 0xd8e06b4 <_ZnwmSt11align_val_t+0x52a658>
+ d8dffd0:      	cbz	x0, 0xd8e06b4 <_ZnwmSt11align_val_t+0x52a658>
+ d8dffe0:      	b.gt	0xd8e06b4 <_ZnwmSt11align_val_t+0x52a658>
+ d8dfff4:      	b.ne	0xd8e06b4 <_ZnwmSt11align_val_t+0x52a658>
+ d92a414:      	cbnz	x0, 0xd92a65c <_ZnwmSt11align_val_t+0x574600>
+ d92a650:      	ldr	x8, [x8, #8]
+ d92a654:      	blr	x8
+ d92a658:      	b	0xd92a410 <_ZnwmSt11align_val_t+0x5743b4>
+ d92a65c:      	ldr	x8, [x0]
+ d95fda0:      	adrp	x9, 0x2a65000 <_ZnwmSt11align_val_t+0x57e15c>
+ d95fde0:      	adrp	x9, 0x2a65000 <_ZnwmSt11align_val_t+0x57e19c>
+ d97ac80:      	cbz	w19, 0xd97ac9c <JNI_OnLoad+0x2a654>
+ d97ac98:      	b	0xd97aca0 <JNI_OnLoad+0x2a658>
+ da11c58:      	b.ne	0xda11c40 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x2a650>
+ da2a620:      	b.ne	0xda2a654 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x43064>
+ da2a640:      	b.ne	0xda2a654 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x43064>
+ da2a650:      	ret
+ da2a654:      	asr	w9, w9, #2
+ da2a658:      	and	w9, w9, #0x80000001
+ da2a65c:      	cmp	w9, #1
+ dafb3a8:      	adrp	x20, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0xe7b60>
+ db2a650:      	cmp	w8, w9
+ db2a654:      	b.eq	0xdb2a6c0 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x1430d0>
+ db2a658:      	ldr	x8, [x20, #72]
+ db2a65c:      	ldr	w9, [x20, #80]
+ dc12528:      	b	0xdc11c40 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x22a650>
+ dc2a650:      	stp	x24, x23, [sp, #32]
+ dc2a654:      	stp	x22, x21, [sp, #48]
+ dc2a658:      	stp	x20, x19, [sp, #64]
+ dc2a65c:      	add	x29, sp, #16
+ dc40e0c:      	adrp	x1, 0x1fce000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x22a654>
+ dc8dafc:      	cbz	x0, 0xdc8db0c <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x2a651c>
+ dcb7dd4:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x2a3e9c>
+ dd11b70:      	cbz	x1, 0xdd11c40 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x32a650>
+ dd11b98:      	b.hi	0xdd11c48 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x32a658>
+ dd2a650:      	mov	w1, wzr
+ dd2a654:      	ldr	x8, [x0]
+ dd2a658:      	ldr	x8, [x8, #1136]
+ dd2a65c:      	blr	x8
+ de11cf8:      	b.lt	0xde11c44 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x42a654>
+ de2a650:      	mov	x24, x4
+ de2a654:      	mov	x23, x3
+ de2a658:      	mov	w1, w19
+ de2a65c:      	bl	0xc9a3278 <_Znam+0x4d930>
+ df2a634:      	b.hi	0xdf2a650 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x543060>
+ df2a650:      	cbnz	x1, 0xdf2a6b8 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x5430c8>
+ df2a654:      	bl	0xc904a28 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb2e4>
+ df2a658:      	ldr	x0, [x19, #32]
+ df2a65c:      	sbfiz	x2, x20, #4, #32
+ df42cd4:      	adrp	x1, 0x1b20000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x52a65c>
+ df49db4:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x535434>
+ df49dd4:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x535454>
+ df49df4:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x535474>
+ e02a650:      	mov	x21, x0
+ e02a654:      	str	x8, [x0]
+ e02a658:      	bl	0xc924c54 <_Znwm+0x14234>
+ e02a65c:      	adrp	x9, 0x17087000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x6671e0>
+ e067a60:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x652c68>
+ e111c28:      	cbnz	x0, 0xe111c40 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x72a650>
+ e111c30:      	cbnz	x0, 0xe111c48 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x72a658>
+ e12a650:      	add	x0, x0, #672
+ e12a654:      	mov	x1, sp
+ e12a658:      	stp	x26, x8, [sp]
+ e12a65c:      	bl	0xe124e18 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x73d828>
+ e219b58:      	tbnz	w8, #0, 0xe219ba4 <_ZdlPvSt11align_val_t+0x2a658>
+ e219b68:      	cbz	w0, 0xe219ba4 <_ZdlPvSt11align_val_t+0x2a658>
+ e22a650:      	add	x0, x19, #376
+ e22a654:      	bl	0xe22a90c <_ZdlPvSt11align_val_t+0x3b3c0>
+ e22a658:      	ldr	x0, [x19, #360]
+ e22a65c:      	str	wzr, [x19, #368]
+ e22a73c:      	b	0xe22a650 <_ZdlPvSt11align_val_t+0x3b104>
+ e2a64f0:      	cbz	x0, 0xe2a6500 <_ZdlPvSt11align_val_t+0xb6fb4>
+ e2a6500:      	ldr	w8, [x23, #8]
+ e2a6504:      	mov	w9, #-1
+ e2a6508:      	mov	x0, x20
+ e2a650c:      	str	w9, [x20, #24]
+ e2a6510:      	str	w8, [x20, #16]
+ e2a6514:      	str	w21, [x29, #28]
+ e2a6518:      	bl	0xcbdcf38 <_Znam+0x2875f0>
+ e2a651c:      	mov	w21, w0
+ e2a6520:      	add	x3, x29, #28
+ e2a6524:      	mov	x0, x19
+ e2a6528:      	mov	w1, w21
+ e2a652c:      	mov	x2, x20
+ e2a6530:      	mov	x4, x22
+ e2a6534:      	bl	0xe2a67bc <_ZdlPvSt11align_val_t+0xb7270>
+ e2a6538:      	tbnz	w0, #0, 0xe2a6610 <_ZdlPvSt11align_val_t+0xb70c4>
+ e2a653c:      	ldr	w8, [x19, #8]
+ e2a6540:      	ldr	w9, [x19, #52]
+ e2a6544:      	sub	w8, w8, w9
+ e2a6548:      	cmp	w8, #4
+ e2a654c:      	b.lo	0xe2a6638 <_ZdlPvSt11align_val_t+0xb70ec>
+ e2a6550:      	lsr	w9, w8, #1
+ e2a6554:      	mov	w10, #65521
+ e2a6558:      	mov	w12, #8
+ e2a655c:      	movk	w10, #1, lsl #16
+ e2a6560:      	add	w9, w9, #7
+ e2a6564:      	cmp	w8, w10
+ e2a6568:      	lsr	w11, w9, #16
+ e2a656c:      	csel	w9, w11, w9, hi
+ e2a6570:      	cset	w11, hi
+ e2a6574:      	lsr	w10, w9, #8
+ e2a6578:      	cmp	w9, #255
+ e2a657c:      	lsl	w13, w11, #4
+ e2a6580:      	bfi	w12, w11, #4, #1
+ e2a6584:      	csel	w9, w10, w9, hi
+ e2a6588:      	lsr	w10, w9, #4
+ e2a658c:      	csel	w11, w12, w13, hi
+ e2a6590:      	cmp	w9, #15
+ e2a6594:      	csel	w9, w10, w9, hi
+ e2a6598:      	orr	w10, w11, #0x4
+ e2a659c:      	lsr	w12, w9, #2
+ e2a65a0:      	csel	w10, w10, w11, hi
+ e2a65a4:      	cmp	w9, #3
+ e2a65a8:      	orr	w11, w10, #0x2
+ e2a65ac:      	csel	w9, w12, w9, hi
+ e2a65b0:      	csel	w10, w11, w10, hi
+ e2a65b4:      	cmp	w9, #1
+ e2a65b8:      	cinc	w9, w10, hi
+ e2a65bc:      	mov	w10, #2
+ e2a65c0:      	lsl	w10, w10, w9
+ e2a65c4:      	ldr	w9, [x29, #28]
+ e2a65c8:      	ldr	w11, [x19, #72]
+ e2a65cc:      	cmp	w8, #1
+ e2a65d0:      	b.lt	0xe2a65dc <_ZdlPvSt11align_val_t+0xb7090>
+ e2a65d4:      	cmp	w11, w10
+ e2a65d8:      	b.lt	0xe2a6628 <_ZdlPvSt11align_val_t+0xb70dc>
+ e2a65dc:      	sub	w8, w11, #1
+ e2a65e0:      	add	x12, x19, #56
+ e2a65e4:      	and	w8, w8, w21
+ e2a65e8:      	str	w8, [x20, #28]
+ e2a65ec:      	ldr	x10, [x19, #64]
+ e2a65f0:      	ldr	w11, [x19, #72]
+ e2a65f4:      	cmp	x10, #0
+ e2a65f8:      	sub	w11, w11, #1
+ e2a65fc:      	csel	x10, x12, x10, eq
+ e2a663c:      	b	0xe2a65c4 <_ZdlPvSt11align_val_t+0xb7078>
+ e32a650:      	bl	0xdeb3c7c <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x4cc68c>
+ e32a654:      	mov	x0, x20
+ e32a658:      	ldp	x20, x19, [sp, #16]
+ e32a65c:      	ldp	x29, x30, [sp], #32
+ e3a11d0:      	adrp	x4, 0x2a65000 <_ZdlPvSt11align_val_t+0x183794>
+ e3e4bc8:      	adrp	x0, 0x2a65000 <_ZdlPvSt11align_val_t+0x1c7080>
+ e3e57cc:      	adrp	x0, 0x2a65000 <_ZdlPvSt11align_val_t+0x1c7c80>
+ e419b98:      	cbz	w10, 0xe419ba0 <_ZdlPvSt11align_val_t+0x22a654>
+ e419cac:      	b	0xe419ba4 <_ZdlPvSt11align_val_t+0x22a658>
+ e419d04:      	b	0xe419ba0 <_ZdlPvSt11align_val_t+0x22a654>
+ e42a650:      	str	d0, [x20, #32]
+ e42a654:      	str	x9, [x20, #8]
+ e42a658:      	stp	x8, x10, [x20, #16]
+ e42a65c:      	str	x20, [x19, #16]
+ e472c7c:      	adrp	x9, 0x16ffd000 <_ZdlPvSt11align_val_t+0x2a655c>
+ e4959fc:      	cbnz	w8, 0xe495b00 <_ZdlPvSt11align_val_t+0x2a65b4>
+ e495aa8:      	cbz	x0, 0xe495ab4 <_ZdlPvSt11align_val_t+0x2a6568>
+ e495ab0:      	cbnz	w8, 0xe495b10 <_ZdlPvSt11align_val_t+0x2a65c4>
+ e495ac4:      	b.ne	0xe495ad4 <_ZdlPvSt11align_val_t+0x2a6588>
+ e495ae4:      	cbz	x20, 0xe495af0 <_ZdlPvSt11align_val_t+0x2a65a4>
+ e495aec:      	cbnz	w8, 0xe495b1c <_ZdlPvSt11align_val_t+0x2a65d0>
+ e495b18:      	b	0xe495ab4 <_ZdlPvSt11align_val_t+0x2a6568>
+ e495b24:      	b	0xe495af0 <_ZdlPvSt11align_val_t+0x2a65a4>
+ e495b30:      	b	0xe495b34 <_ZdlPvSt11align_val_t+0x2a65e8>
+ e519ba0:      	cbz	x0, 0xe519ba8 <_ZdlPvSt11align_val_t+0x32a65c>
+ e52a650:      	stp	x22, x21, [sp, #32]
+ e52a654:      	stp	x20, x19, [sp, #48]
+ e52a658:      	mov	x29, sp
+ e52a65c:      	ldp	x21, x20, [x1]
+ e555414:      	bl	0x12a65864 <_ZdaPvmSt11align_val_t+0x3811a68>
+ e62a63c:      	cbz	x0, 0xe62a650 <_ZdlPvSt11align_val_t+0x43b104>
+ e62a650:      	ldp	x20, x19, [sp, #144]
+ e62a654:      	ldr	x21, [sp, #128]
+ e62a658:      	ldp	x29, x30, [sp, #112]
+ e62a65c:      	add	sp, sp, #160
+ e62a67c:      	cbz	x8, 0xe62a650 <_ZdlPvSt11align_val_t+0x43b104>
+ e62a6f8:      	cbz	x0, 0xe62a650 <_ZdlPvSt11align_val_t+0x43b104>
+ e62a708:      	b	0xe62a650 <_ZdlPvSt11align_val_t+0x43b104>
+ e72a650:      	ldp	x24, x23, [sp, #32]
+ e72a654:      	ldp	x26, x25, [sp, #16]
+ e72a658:      	ldp	x29, x30, [sp], #80
+ e72a65c:      	b	0xcdc729c <_Znam+0x471954>
+ e819b8c:      	tbz	w8, #0, 0xe819ba4 <_ZdlPvSt11align_val_t+0x62a658>
+ e82a650:      	str	xzr, [sp, #56]
+ e82a654:      	str	q0, [x19, #1392]
+ e82a658:      	ldr	q0, [x19, #1408]
+ e82a65c:      	str	q1, [x19, #1408]
+ e8da024:      	adrp	x1, 0x2a65000 <_ZdlPvSt11align_val_t+0x6bb104>
+ e8da198:      	adrp	x1, 0x2a65000 <_ZdlPvSt11align_val_t+0x6bb278>
+ e92a650:      	add	x1, x1, #2668
+ e92a654:      	add	x0, x20, #232
+ e92a658:      	bl	0xca568e8 <_Znam+0x100fa0>
+ e92a65c:      	adrp	x1, 0x1c7a000 <_ZdlPvSt11align_val_t+0x707e50>
+ ea2a650:      	add	x1, x1, #3694
+ ea2a654:      	adrp	x2, 0x19b2a000 <_ZdlPvSt11align_val_t+0x867508>
+ ea2a658:      	add	x2, x2, #2236
+ ea2a65c:      	adrp	x3, 0x20c1000 <_ZdlPvSt11align_val_t+0x808b6c>
+ eb2a650:      	mov	x1, x20
+ eb2a654:      	mov	x3, x2
+ eb2a658:      	mov	w4, #1
+ eb2a65c:      	mov	w5, wzr
+ ec19b50:      	bl	0xec19ba8 <_ZdlPvSt11align_val_t+0xa2a65c>
+ ec2a644:      	b.ne	0xec2a658 <_ZdlPvSt11align_val_t+0xa3b10c>
+ ec2a650:      	bl	0xc904310 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeabcc>
+ ec2a654:      	mov	w8, w0
+ ec2a658:      	mov	w9, #48
+ ec2a65c:      	ldr	x10, [x20]
+ ed2a650:      	add	x8, x8, #1432
+ ed2a654:      	str	x9, [x19, #40]
+ ed2a658:      	str	x8, [x19, #360]
+ ed2a65c:      	ldr	x19, [sp, #16]
+ ee2a650:      	nop
+ ee2a654:      	umaddl	x10, w9, w10, x8
+ ee2a658:      	ubfx	x9, x9, #1, #31
+ ee2a65c:      	mov	w9, w9
+ eec9e98:      	adrp	x1, 0x2a65000 <_ZdlPvSt11align_val_t+0xca97bc>
+ eecaaa8:      	adrp	x1, 0x2a65000 <_ZdlPvSt11align_val_t+0xcaa3c8>
+ ef1939c:      	cbnz	w10, 0xef19ba0 <_ZdlPvSt11align_val_t+0xd2a654>
+ ef2a650:      	stur	q0, [x19, #56]
+ ef2a654:      	stur	q0, [x19, #72]
+ ef2a658:      	ldr	q0, [x8, #3552]
+ ef2a65c:      	stp	xzr, xzr, [x19, #96]
+ efdc200:      	adrp	x1, 0x2a65000 <_ZdlPvSt11align_val_t+0xdbb6d8>
+ f02a650:      	strh	w9, [x8, #24]
+ f02a654:      	str	wzr, [x8, #36]
+ f02a658:      	stur	d0, [x8, #28]
+ f02a65c:      	str	xzr, [x8, #40]
+ f0564c8:      	adrp	x9, 0x1d1e000 <_ZnamSt11align_val_t+0x2a658>
+ f0a77cc:      	bl	0xf2a6504 <_ZdaPvmSt11align_val_t+0x52708>
+ f121824:      	adrp	x1, 0x2a65000 <_ZnamSt11align_val_t+0xf8ba4>
+ f121874:      	adrp	x1, 0x2a65000 <_ZnamSt11align_val_t+0xf8bf4>
+ f1218b4:      	adrp	x1, 0x2a65000 <_ZnamSt11align_val_t+0xf8c34>
+ f129cd4:      	cbz	w26, 0xf12a658 <_ZnamSt11align_val_t+0x1334c8>
+ f12a650:      	str	w10, [x8, w9, sxtw #2]
+ f12a654:      	b	0xf129d08 <_ZnamSt11align_val_t+0x132b78>
+ f12a658:      	mov	w8, #-1
+ f12a65c:      	b	0xf129ce8 <_ZnamSt11align_val_t+0x132b58>
+ f1adc6c:      	adrp	x24, 0x2a65000 <_ZnamSt11align_val_t+0x184dbc>
+ f1addbc:      	adrp	x24, 0x2a65000 <_ZnamSt11align_val_t+0x184f0c>
+ f1f48c0:      	adrp	x0, 0x2a65000 <_ZnamSt11align_val_t+0x1cb8f4>
+ f1f4b04:      	adrp	x0, 0x2a65000 <_ZnamSt11align_val_t+0x1cbb38>
+ f1f4d10:      	adrp	x0, 0x2a65000 <_ZnamSt11align_val_t+0x1cbd44>
+ f1f4f1c:      	adrp	x0, 0x2a65000 <_ZnamSt11align_val_t+0x1cbf50>
+ f1f5128:      	adrp	x0, 0x2a65000 <_ZnamSt11align_val_t+0x1cc158>
+ f1f57b4:      	adrp	x0, 0x2a65000 <_ZnamSt11align_val_t+0x1cc7e4>
+ f221774:      	b.lo	0xf2217e0 <_ZnamSt11align_val_t+0x22a650>
+ f22a650:      	adrp	x8, 0x14f79000 <_ZnamSt11align_val_t+0x24a9fc>
+ f22a654:      	add	x8, x8, #40
+ f22a658:      	mov	x19, x3
+ f22a65c:      	mov	x20, x2
+ f24daec:      	adrp	x1, 0x2a65000 <_ZnamSt11align_val_t+0x2249bc>
+ f2a6500:      	b	0xf2a6478 <_ZdaPvmSt11align_val_t+0x5267c>
+ f2a6504:      	sub	sp, sp, #192
+ f2a6508:      	stp	x29, x30, [sp, #128]
+ f2a650c:      	stp	x24, x23, [sp, #144]
+ f2a6510:      	stp	x22, x21, [sp, #160]
+ f2a6514:      	stp	x20, x19, [sp, #176]
+ f2a6518:      	add	x29, sp, #128
+ f2a651c:      	movi	v0.2d, #0000000000000000
+ f2a6520:      	add	x23, sp, #24
+ f2a6524:      	mov	x19, x0
+ f2a6528:      	mov	w8, #6
+ f2a652c:      	add	x0, x23, #48
+ f2a6530:      	mov	w20, w3
+ f2a6534:      	mov	x21, x2
+ f2a6538:      	mov	x22, x1
+ f2a653c:      	strb	w8, [sp, #24]
+ f2a6540:      	stur	q0, [sp, #28]
+ f2a6544:      	stur	q0, [sp, #44]
+ f2a6548:      	stur	q0, [sp, #56]
+ f2a654c:      	bl	0xcd2b6f8 <_Znam+0x3d5db0>
+ f2a6550:      	mov	w8, #8
+ f2a6554:      	str	xzr, [sp, #96]
+ f2a6558:      	adrp	x24, 0x17087000 <_ZdaPvmSt11align_val_t+0x71ee0>
+ f2a655c:      	str	wzr, [sp, #104]
+ f2a6560:      	str	xzr, [sp, #112]
+ f2a6564:      	str	wzr, [sp, #120]
+ f2a6568:      	strb	w8, [sp, #24]
+ f2a656c:      	ldr	x24, [x24, #2144]
+ f2a6570:      	stp	x22, x21, [sp, #40]
+ f2a6574:      	strb	w20, [sp, #88]
+ f2a6578:      	ldrb	w8, [x24]
+ f2a657c:      	cbz	x19, 0xf2a6590 <_ZdaPvmSt11align_val_t+0x52794>
+ f2a6580:      	cbz	w8, 0xf2a6590 <_ZdaPvmSt11align_val_t+0x52794>
+ f2a6584:      	mov	x0, x19
+ f2a6588:      	bl	0xcac3ad0 <_Znam+0x16e188>
+ f2a658c:      	ldrb	w8, [x24]
+ f2a6590:      	str	xzr, [sp, #16]
+ f2a6594:      	str	x19, [sp]
+ f2a6598:      	cbz	x19, 0xf2a65a8 <_ZdaPvmSt11align_val_t+0x527ac>
+ f2a659c:      	cbz	w8, 0xf2a65a8 <_ZdaPvmSt11align_val_t+0x527ac>
+ f2a65a0:      	mov	x0, x19
+ f2a65a4:      	bl	0xcac3ad0 <_Znam+0x16e188>
+ f2a65a8:      	add	x0, sp, #16
+ f2a65ac:      	mov	x1, sp
+ f2a65b0:      	bl	0xc90fa50 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdf630c>
+ f2a65b4:      	ldr	x21, [sp, #16]
+ f2a65b8:      	mov	x1, sp
+ f2a65bc:      	mov	w0, #32
+ f2a65c0:      	str	xzr, [sp]
+ f2a65c4:      	str	wzr, [sp, #8]
+ f2a65c8:      	bl	0xc924a04 <_Znwm+0x13fe4>
+ f2a65cc:      	adrp	x8, 0x15ad6000 <_ZdaPvmSt11align_val_t+0x6c890>
+ f2a65d0:      	add	x8, x8, #2008
+ f2a65d4:      	mov	x20, x0
+ f2a65d8:      	str	x8, [x0]
+ f2a65dc:      	bl	0xc924c54 <_Znwm+0x14234>
+ f2a65e0:      	adrp	x8, 0x15ad6000 <_ZdaPvmSt11align_val_t+0x6c8a4>
+ f2a65e4:      	add	x8, x8, #2232
+ f2a65e8:      	stp	x0, x21, [x20, #16]
+ f2a65ec:      	add	x0, x23, #88
+ f2a65f0:      	mov	x1, sp
+ f2a65f4:      	str	x8, [x20]
+ f2a65f8:      	bl	0xc923c08 <_Znwm+0x131e8>
+ f2a65fc:      	mov	x0, sp
+ f32a650:      	stp	xzr, xzr, [x8, #8]
+ f32a654:      	sturb	wzr, [x8, #24]
+ f32a658:      	bl	0xc90955c <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdefe18>
+ f32a65c:      	stp	x26, x24, [sp, #104]
+ f32ff78:      	bl	0xf67e44c <_ZdaPvmSt11align_val_t+0x42a650>
+ f37e440:      	cbz	x1, 0xf37e454 <_ZdaPvmSt11align_val_t+0x12a658>
+ f37e448:      	cbz	w8, 0xf37e454 <_ZdaPvmSt11align_val_t+0x12a658>
+ f42a650:      	b.le	0xf42a674 <_ZdaPvmSt11align_val_t+0x1d6878>
+ f42a654:      	sxtw	x13, w13
+ f42a658:      	add	x16, x9, w14, sxtw #4
+ f42a65c:      	add	x15, x9, x13, lsl #4
+ f4b28d0:      	adrp	x8, 0x2394000 <_ZdaPvmSt11align_val_t+0x22a65c>
+ f4fa320:      	cbz	x1, 0xf4fa374 <_ZdaPvmSt11align_val_t+0x2a6578>
+ f4fa348:      	cbz	x0, 0xf4fa37c <_ZdaPvmSt11align_val_t+0x2a6580>
+ f4fa378:      	b	0xf4fa36c <_ZdaPvmSt11align_val_t+0x2a6570>
+ f4fa380:      	b	0xf4fa364 <_ZdaPvmSt11align_val_t+0x2a6568>
+ f4fa388:      	b	0xf4fa320 <_ZdaPvmSt11align_val_t+0x2a6524>
+ f4fa3a0:      	cbz	x1, 0xf4fa3c0 <_ZdaPvmSt11align_val_t+0x2a65c4>
+ f4fa3bc:      	cbnz	x0, 0xf4fa3dc <_ZdaPvmSt11align_val_t+0x2a65e0>
+ f4fa4a8:      	b	0xf4fa3c4 <_ZdaPvmSt11align_val_t+0x2a65c8>
+ f4fa594:      	b	0xf4fa38c <_ZdaPvmSt11align_val_t+0x2a6590>
+ f52a650:      	bl	0xf59d63c <_ZdaPvmSt11align_val_t+0x349840>
+ f52a654:      	ldr	w8, [sp, #16]
+ f52a658:      	cmp	w8, #2
+ f52a65c:      	b.lt	0xf52a69c <_ZdaPvmSt11align_val_t+0x2d68a0>
+ f564b8c:      	adrp	x8, 0x15b95000 <_ZdaPvmSt11align_val_t+0x32a654>
+ f57e444:      	cbz	x8, 0xf57e454 <_ZdaPvmSt11align_val_t+0x32a658>
+ f62a640:      	b.eq	0xf62a65c <_ZdaPvmSt11align_val_t+0x3d6860>
+ f62a650:      	ldr	w3, [x19, #228]
+ f62a654:      	mov	x1, x8
+ f62a658:      	bl	0xbba8c88 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0x8f544>
+ f62a65c:      	ldr	w8, [x19, #224]
+ f72a650:      	stp	x20, x19, [sp, #64]
+ f72a654:      	mov	x29, sp
+ f72a658:      	ldr	x22, [x0]
+ f72a65c:      	mov	w19, w1
+ f75ff9c:      	adrp	x26, 0x1708c000 <_ZdaPvmSt11align_val_t+0x52a654>
+ f7a8550:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x521248>
+ f82a650:      	bl	0xeb2dba8 <_ZdlPvSt11align_val_t+0x93e65c>
+ f82a654:      	cbz	x0, 0xf82a808 <_ZdaPvmSt11align_val_t+0x5d6a0c>
+ f82a658:      	bl	0xe033f70 <Java_com_epicgames_unreal_GameActivity_nativeCrashReporterGetSignalBuffer+0x64c980>
+ f82a65c:      	cbz	x0, 0xf82a808 <_ZdaPvmSt11align_val_t+0x5d6a0c>
+ f92a650:      	mov	x0, x8
+ f92a654:      	bl	0xf92a6fc <_ZdaPvmSt11align_val_t+0x6d6900>
+ f92a658:      	ldp	x20, x19, [sp, #32]
+ f92a65c:      	ldp	x29, x30, [sp, #16]
+ fa2a650:      	bl	0xc924a04 <_Znwm+0x13fe4>
+ fa2a654:      	adrp	x8, 0x15c26000 <_ZdaPvmSt11align_val_t+0x7ef048>
+ fa2a658:      	add	x8, x8, #1712
+ fa2a65c:      	str	x8, [x0]
+ fa50b84:      	adrp	x1, 0x1b083000 <_ZdaPvmSt11align_val_t+0x82a654>
+ fb2a63c:      	tbz	w8, #15, 0xfb2a650 <_ZdaPvmSt11align_val_t+0x8d6854>
+ fb2a650:      	ldr	s0, [x19, #388]
+ fb2a654:      	fcmp	s0, s8
+ fb2a658:      	b.eq	0xfb2a660 <_ZdaPvmSt11align_val_t+0x8d6864>
+ fb2a65c:      	str	s8, [x19, #388]
+ fc2a650:      	add	x8, x8, #816
+ fc2a654:      	ldrb	w8, [x8]
+ fc2a658:      	cmp	w8, #3
+ fc2a65c:      	b.lo	0xfc2a784 <_ZdaPvmSt11align_val_t+0x9d6988>
+ fd2a650:      	ldr	x8, [x8, #48]
+ fd2a654:      	ldr	x8, [x8, x9, lsl #3]
+ fd2a658:      	add	x9, x0, #48
+ fd2a65c:      	cmp	x8, x9
+ fe2a650:      	str	x19, [sp, #16]
+ fe2a654:      	mov	x29, sp
+ fe2a658:      	mov	x19, x0
+ fe2a65c:      	bl	0xce64f5c <_Znam+0x50f614>
+ fe7e424:      	b	0xfe7e450 <_ZdaPvmSt11align_val_t+0xc2a654>
+ feefebc:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0xc66e98>
+ ff2a650:      	stp	x20, x19, [sp, #64]
+ ff2a654:      	mov	x29, sp
+ ff2a658:      	ldr	w8, [x0, #20]
+ ff2a65c:      	ldr	w23, [x0, #8]
+1002a650:      	cbz	x8, 0x1002a668 <_ZdaPvmSt11align_val_t+0xdd686c>
+1002a654:      	ldr	x1, [x20, #24]
+1002a658:      	sub	x2, x29, #24
+1002a65c:      	mov	x0, x20
+100623c0:      	adrp	x22, 0x17086000 <_ZdaPvmSt11align_val_t+0xe2a654>
+1012a650:      	tst	x8, #0x1
+1012a654:      	eor	x9, x9, x10
+1012a658:      	csel	x8, x8, x9, eq
+1012a65c:      	str	x8, [x21, #136]
+101bf4b0:      	bl	0x102a6520 <_ZdaPvmSt11align_val_t+0x1052724>
+1022a650:      	str	x9, [sp, #32]
+1022a654:      	csel	w9, wzr, w10, eq
+1022a658:      	cmp	w24, #0
+1022a65c:      	csel	w27, wzr, w11, eq
+1027e098:      	cbz	x27, 0x1027e450 <_ZdaPvmSt11align_val_t+0x102a654>
+102a6500:      	cmp	x9, #0
+102a6504:      	cinc	x8, x9, ne
+102a6508:      	str	x8, [x20, #32]
+102a650c:      	bl	0x102a6520 <_ZdaPvmSt11align_val_t+0x1052724>
+102a6510:      	ldp	x20, x19, [sp, #32]
+102a6514:      	ldp	x29, x30, [sp, #16]
+102a6518:      	add	sp, sp, #48
+102a651c:      	ret
+102a6520:      	ldr	x8, [x0, #16240]
+102a6524:      	cbz	x8, 0x102a6558 <_ZdaPvmSt11align_val_t+0x105275c>
+102a6528:      	sub	sp, sp, #80
+102a652c:      	stp	x29, x30, [sp, #32]
+102a6530:      	str	x21, [sp, #48]
+102a6534:      	stp	x20, x19, [sp, #64]
+102a6538:      	add	x29, sp, #32
+102a653c:      	ldr	x9, [x8, #16224]
+102a6540:      	cmp	x9, x0
+102a6544:      	b.eq	0x102a6564 <_ZdaPvmSt11align_val_t+0x1052768>
+102a6548:      	ldp	x20, x19, [sp, #64]
+102a654c:      	ldr	x21, [sp, #48]
+102a6550:      	ldp	x29, x30, [sp, #32]
+102a6554:      	add	sp, sp, #80
+102a6558:      	mov	w8, #16281
+102a655c:      	strb	wzr, [x0, x8]
+102a6560:      	ret
+102a6564:      	str	xzr, [x8, #16224]
+102a6568:      	mov	x19, x0
+102a656c:      	ldrb	w9, [x0, #356]
+102a6570:      	cmp	w9, #2
+102a6574:      	b.ne	0x102a6584 <_ZdaPvmSt11align_val_t+0x1052788>
+102a6578:      	mov	w9, #16281
+102a657c:      	ldrb	w9, [x0, x9]
+102a6580:      	cbnz	w9, 0x102a6664 <_ZdaPvmSt11align_val_t+0x1052868>
+102a6584:      	mov	w21, w1
+102a6588:      	mov	w2, #2
+102a658c:      	mov	w9, #16232
+102a6590:      	mov	x0, x8
+102a6594:      	mov	x1, x19
+102a6598:      	strb	w2, [x8, x9]
+102a659c:      	mov	x20, x19
+102a65a0:      	bl	0x102bbed4 <_ZdaPvmSt11align_val_t+0x10680d8>
+102a65a4:      	ldr	x8, [x19, #16240]
+102a65a8:      	cbz	x8, 0x102a65b0 <_ZdaPvmSt11align_val_t+0x10527b4>
+102a65ac:      	str	xzr, [x20, #16240]
+102a65b0:      	mov	x0, x19
+102a65b4:      	bl	0x1029d6f0 <_ZdaPvmSt11align_val_t+0x10498f4>
+102a65b8:      	ldrb	w8, [x19, #356]
+102a65bc:      	mov	x0, x19
+102a65c0:      	cmp	w8, #3
+102a65c4:      	b.ne	0x102a6548 <_ZdaPvmSt11align_val_t+0x105274c>
+102a65c8:      	tbnz	w21, #0, 0x102a6548 <_ZdaPvmSt11align_val_t+0x105274c>
+102a65cc:      	ldr	x8, [x0]
+102a65d0:      	mov	x0, x19
+102a65d4:      	ldr	x8, [x8, #4320]
+102a65d8:      	blr	x8
+102a65dc:      	mov	x8, x0
+102a65e0:      	mov	x0, x19
+102a65e4:      	cbz	x8, 0x102a6548 <_ZdaPvmSt11align_val_t+0x105274c>
+102a65e8:      	mov	x20, x0
+102a65ec:      	bl	0xcc80a84 <_Znam+0x32b13c>
+102a65f0:      	movi	v0.2d, #0000000000000000
+102a65f4:      	mov	x8, x0
+102a65f8:      	mov	w9, #4556
+102a65fc:      	mov	x0, sp
+102a6660:      	b	0x102a6548 <_ZdaPvmSt11align_val_t+0x105274c>
+102a666c:      	b	0x102a658c <_ZdaPvmSt11align_val_t+0x1052790>
+102c3ba4:      	bl	0x102a6520 <_ZdaPvmSt11align_val_t+0x1052724>
+102c9a9c:      	bl	0x102a6520 <_ZdaPvmSt11align_val_t+0x1052724>
+1032a650:      	ldr	x8, [x24]
+1032a654:      	mov	w23, w0
+1032a658:      	mov	x0, x24
+1032a65c:      	ldr	x8, [x8, #1008]
+1042a650:      	stp	x29, x30, [sp, #16]
+1042a654:      	stp	x28, x27, [sp, #32]
+1042a658:      	stp	x26, x25, [sp, #48]
+1042a65c:      	stp	x24, x23, [sp, #64]
+104df4b4:      	adrp	x8, 0x1708a000 <_ZdaPvmSt11align_val_t+0x12a6564>
+104fa10c:      	cbz	x8, 0x104fa33c <_ZdaPvmSt11align_val_t+0x12a6540>
+104fa17c:      	cbz	x0, 0x104fa358 <_ZdaPvmSt11align_val_t+0x12a655c>
+104fa18c:      	cbz	w9, 0x104fa34c <_ZdaPvmSt11align_val_t+0x12a6550>
+104fa2f0:      	b.pl	0x104fa324 <_ZdaPvmSt11align_val_t+0x12a6528>
+104fa304:      	cbz	x0, 0x104fa318 <_ZdaPvmSt11align_val_t+0x12a651c>
+104fa314:      	b.gt	0x104fa324 <_ZdaPvmSt11align_val_t+0x12a6528>
+104fa328:      	cbz	x0, 0x104fa330 <_ZdaPvmSt11align_val_t+0x12a6534>
+104fa38c:      	b	0x104fa390 <_ZdaPvmSt11align_val_t+0x12a6594>
+104fa3a0:      	cbz	x8, 0x104fa3d8 <_ZdaPvmSt11align_val_t+0x12a65dc>
+104fa3a8:      	cbz	x19, 0x104fa3d8 <_ZdaPvmSt11align_val_t+0x12a65dc>
+104fa3c0:      	b.gt	0x104fa3d8 <_ZdaPvmSt11align_val_t+0x12a65dc>
+104fa3d4:      	b.eq	0x104fa3e4 <_ZdaPvmSt11align_val_t+0x12a65e8>
+104fa3e8:      	cbnz	w8, 0x104fa3d8 <_ZdaPvmSt11align_val_t+0x12a65dc>
+1052a650:      	ldr	w13, [x11]
+1052a654:      	cmp	w13, w9
+1052a658:      	b.eq	0x1052a66c <_ZdaPvmSt11align_val_t+0x12d6870>
+1052a65c:      	ldr	w11, [x11, #12]
+105328a0:      	adrp	x8, 0x23cb000 <_ZdaPvmSt11align_val_t+0x12a6508>
+10553708:      	adrp	x8, 0x1b0a5000 <_ZdaPvmSt11align_val_t+0x132a654>
+1062a650:      	cbz	x0, 0x1062a658 <_ZdaPvmSt11align_val_t+0x13d685c>
+1062a654:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+1062a658:      	ldp	x20, x19, [sp, #432]
+1062a65c:      	ldr	d12, [sp, #304]
+1072a650:      	mov	x19, x0
+1072a654:      	bl	0xcc44720 <_Znam+0x2eedd8>
+1072a658:      	tbz	w0, #0, 0x1072a7c4 <_ZdaPvmSt11align_val_t+0x14d69c8>
+1072a65c:      	movi	v0.2d, #0000000000000000
+1075bad4:      	adrp	x3, 0x2a65000 <_ZdaPvmSt11align_val_t+0x14d0900>
+1075bec8:      	adrp	x3, 0x2a65000 <_ZdaPvmSt11align_val_t+0x14d0cf4>
+1075ca4c:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x14d1874>
+1075ced8:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x14d1d00>
+1075d8ac:      	adrp	x4, 0x2a65000 <_ZdaPvmSt11align_val_t+0x14d26d0>
+1075d9c8:      	adrp	x4, 0x2a65000 <_ZdaPvmSt11align_val_t+0x14d27ec>
+1082a650:      	adds	w9, w8, w9
+1082a654:      	b.eq	0x1082a670 <_ZdaPvmSt11align_val_t+0x15d6874>
+1082a658:      	mov	w8, #72
+1082a65c:      	add	x1, x20, #72
+10854304:      	adrp	x0, 0x1b0a9000 <_ZdaPvmSt11align_val_t+0x162a65c>
+1092a650:      	ldr	x9, [x21, #1368]
+1092a654:      	adrp	x0, 0x1bd0000 <_ZdaPvmSt11align_val_t+0x169b2f0>
+1092a658:      	add	x0, x0, #3418
+1092a65c:      	mov	x1, x25
+1097e420:      	cbz	x19, 0x1097e450 <_ZdaPvmSt11align_val_t+0x172a654>
+1097e434:      	b.ne	0x1097e450 <_ZdaPvmSt11align_val_t+0x172a654>
+10a2a62c:      	b.ne	0x10a2a65c <_ZdaPvmSt11align_val_t+0x17d6860>
+10a2a650:      	b.le	0x10a2a65c <_ZdaPvmSt11align_val_t+0x17d6860>
+10a2a654:      	ldrb	w8, [x19, #840]
+10a2a658:      	cbnz	w8, 0x10a2a81c <_ZdaPvmSt11align_val_t+0x17d6a20>
+10a2a65c:      	fcmp	d11, #0.0
+10b2a650:      	bl	0xc90f5c4 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdf5e80>
+10b2a654:      	mov	x21, x0
+10b2a658:      	cbz	x0, 0x10b2a67c <_ZdaPvmSt11align_val_t+0x18d6880>
+10b2a65c:      	ldp	x8, x9, [x19, #32]
+10c2a650:      	mov	x3, xzr
+10c2a654:      	bl	0xe481328 <_ZdlPvSt11align_val_t+0x291ddc>
+10c2a658:      	nop
+10c2a65c:      	adr	x2, #-2652
+10d2a650:      	ldr	x8, [x21, #32]
+10d2a654:      	cbnz	x8, 0x10d2a684 <_ZdaPvmSt11align_val_t+0x1ad6888>
+10d2a658:      	ldr	x2, [x21, #136]
+10d2a65c:      	add	x1, x29, #24
+10d7e440:      	bl	0x10d7e458 <_ZdaPvmSt11align_val_t+0x1b2a65c>
+10d7eba4:      	bl	0x10d7e458 <_ZdaPvmSt11align_val_t+0x1b2a65c>
+10e2a650:      	cmp	w8, w2
+10e2a654:      	b.ne	0x10e2a664 <_ZdaPvmSt11align_val_t+0x1bd6868>
+10e2a658:      	ldp	x20, x19, [sp, #16]
+10e2a65c:      	ldp	x29, x30, [sp], #32
+10e7e448:      	tbz	w9, #0, 0x10e7e454 <_ZdaPvmSt11align_val_t+0x1c2a658>
+10e7f4ec:      	adrp	x3, 0x2a65000 <_ZdaPvmSt11align_val_t+0x1bf2688>
+10ef3830:      	adrp	x20, 0x2a65000 <_ZdaPvmSt11align_val_t+0x1c667fc>
+10efc420:      	adrp	x20, 0x2a65000 <_ZdaPvmSt11align_val_t+0x1c6f3c8>
+10f2a650:      	ldr	x21, [sp, #16]
+10f2a654:      	ldp	x29, x30, [sp], #48
+10f2a658:      	br	x2
+10f2a65c:      	sub	sp, sp, #64
+10fc5080:      	adrp	x0, 0x2a65000 <_ZdaPvmSt11align_val_t+0x1d37d04>
+10fc50a0:      	adrp	x0, 0x2a65000 <_ZdaPvmSt11align_val_t+0x1d37d24>
+1102a650:      	ret
+1102a654:      	sub	x0, x0, #672
+1102a658:      	b	0x1102a594 <_ZdaPvmSt11align_val_t+0x1dd6798>
+1102a65c:      	stp	x29, x30, [sp, #-48]!
+1102a720:      	b	0x1102a65c <_ZdaPvmSt11align_val_t+0x1dd6860>
+1107e450:      	cbz	x0, 0x1107e458 <_ZdaPvmSt11align_val_t+0x1e2a65c>
+11101308:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x1e73a9c>
+1112a650:      	eor	w10, w10, w23
+1112a654:      	ror	w10, w10, #8
+1112a658:      	adds	w10, w10, #1
+1112a65c:      	csel	w10, w24, w10, hs
+1117e318:      	tbnz	w25, #0, 0x1117e44c <_ZdaPvmSt11align_val_t+0x1f2a650>
+1117e388:      	b	0x1117e44c <_ZdaPvmSt11align_val_t+0x1f2a650>
+1117e394:      	b.lo	0x1117e44c <_ZdaPvmSt11align_val_t+0x1f2a650>
+1117e444:      	cbz	x0, 0x1117e44c <_ZdaPvmSt11align_val_t+0x1f2a650>
+1122a650:      	strb	w8, [sp, #256]
+1122a654:      	stur	q0, [x0, #24]
+1122a658:      	add	x0, x0, #48
+1122a65c:      	bl	0xc923c08 <_Znwm+0x131e8>
+1127e42c:      	cbz	x0, 0x1127e450 <_ZdaPvmSt11align_val_t+0x202a654>
+1127e440:      	cbz	w8, 0x1127e44c <_ZdaPvmSt11align_val_t+0x202a650>
+112a5078:      	b	0x112a65e8 <_ZdaPvmSt11align_val_t+0x20527ec>
+112a6500:      	bl	0xc924a04 <_Znwm+0x13fe4>
+112a6504:      	mov	x1, x23
+112a6508:      	mov	x2, x22
+112a650c:      	mov	x3, x21
+112a6510:      	mov	x4, x20
+112a6514:      	bl	0x112cbea4 <_ZdaPvmSt11align_val_t+0x20780a8>
+112a6518:      	ldr	w8, [sp, #8]
+112a651c:      	mov	x20, xzr
+112a6520:      	cbz	w8, 0x112a65c4 <_ZdaPvmSt11align_val_t+0x20527c8>
+112a6524:      	ldr	x0, [sp]
+112a6528:      	cbz	x0, 0x112a65c4 <_ZdaPvmSt11align_val_t+0x20527c8>
+112a652c:      	ldr	x8, [x0]
+112a6530:      	ldr	x8, [x8, #56]
+112a6534:      	blr	x8
+112a6538:      	tbz	w0, #0, 0x112a65c0 <_ZdaPvmSt11align_val_t+0x20527c4>
+112a653c:      	mov	x0, x19
+112a6540:      	mov	w1, #1
+112a6544:      	bl	0xcd47790 <_Znam+0x3f1e48>
+112a6548:      	ldr	w8, [sp, #8]
+112a654c:      	mov	x20, xzr
+112a6550:      	cbz	w8, 0x112a656c <_ZdaPvmSt11align_val_t+0x2052770>
+112a6554:      	ldr	x0, [sp]
+112a6558:      	cbz	x0, 0x112a656c <_ZdaPvmSt11align_val_t+0x2052770>
+112a655c:      	ldr	x8, [x0]
+112a6560:      	ldr	x8, [x8, #64]
+112a6564:      	blr	x8
+112a6568:      	mov	x20, x0
+112a656c:      	mov	x2, x19
+112a6570:      	ldr	w8, [x2, #12]!
+112a6574:      	ldur	w0, [x2, #-4]
+112a6578:      	cmp	w0, w8
+112a657c:      	b.ne	0x112a658c <_ZdaPvmSt11align_val_t+0x2052790>
+112a6580:      	mov	w0, #2064
+112a6584:      	mov	x1, x19
+112a6588:      	bl	0xc904310 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeabcc>
+112a658c:      	ldr	x8, [x19]
+112a6590:      	add	w9, w0, #1
+112a6594:      	str	w9, [x19, #8]
+112a6598:      	add	x8, x8, w0, sxtw #4
+112a659c:      	str	xzr, [x8]
+112a65a0:      	str	wzr, [x8, #8]
+112a65a4:      	ldr	x9, [sp]
+112a65a8:      	str	x9, [x8]
+112a65ac:      	ldr	w9, [sp, #8]
+112a65b0:      	str	xzr, [sp]
+112a65b4:      	str	w9, [x8, #8]
+112a65b8:      	str	wzr, [sp, #8]
+112a65bc:      	b	0x112a65c4 <_ZdaPvmSt11align_val_t+0x20527c8>
+112a65c0:      	mov	x20, xzr
+112a65c4:      	mov	x0, sp
+112a65c8:      	bl	0xc9049ac <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb268>
+112a65cc:      	mov	x0, x20
+112a65d0:      	ldp	x20, x19, [sp, #64]
+112a65d4:      	ldr	x23, [sp, #32]
+112a65d8:      	ldp	x22, x21, [sp, #48]
+112a65dc:      	ldp	x29, x30, [sp, #16]
+112a65e0:      	add	sp, sp, #80
+112a65e4:      	ret
+112a65e8:      	cbz	x1, 0x112a666c <_ZdaPvmSt11align_val_t+0x2052870>
+112a65ec:      	sub	sp, sp, #48
+112a65f0:      	stp	x29, x30, [sp, #16]
+112a65f4:      	stp	x20, x19, [sp, #32]
+112a65f8:      	add	x29, sp, #16
+112a65fc:      	mov	x20, x1
+112f6d0c:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x2068ccc>
+112f6d40:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x2068d00>
+1132a650:      	mov	x20, x0
+1132a654:      	cbz	x0, 0x1132a670 <_ZdaPvmSt11align_val_t+0x20d6874>
+1132a658:      	ldp	x8, x9, [x21, #32]
+1132a65c:      	add	x0, x20, x9, asr #1
+11346e50:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x20b8cd0>
+11354208:      	adrp	x0, 0x2a65000 <_ZdaPvmSt11align_val_t+0x20c6050>
+1142a650:      	ret
+1142a654:      	mov	x0, xzr
+1142a658:      	ret
+1142a65c:      	adrp	x9, 0x16353000 <_ZdaPvmSt11align_val_t+0x21ea504>
+114e6808:      	adrp	x8, 0x163a3000 <_ZdaPvmSt11align_val_t+0x22a6500>
+114fa308:      	cbz	x0, 0x114fa318 <_ZdaPvmSt11align_val_t+0x22a651c>
+114fa350:      	cbz	x0, 0x114fa360 <_ZdaPvmSt11align_val_t+0x22a6564>
+114fa37c:      	b	0x114fa328 <_ZdaPvmSt11align_val_t+0x22a652c>
+114fa3b4:      	b.eq	0x114fa3e4 <_ZdaPvmSt11align_val_t+0x22a65e8>
+114fa3bc:      	cbz	x0, 0x114fa3c4 <_ZdaPvmSt11align_val_t+0x22a65c8>
+114fa3e8:      	cbz	x0, 0x114fa3d4 <_ZdaPvmSt11align_val_t+0x22a65d8>
+114fa3f0:      	b	0x114fa3d4 <_ZdaPvmSt11align_val_t+0x22a65d8>
+1152a650:      	mov	w9, #15064
+1152a654:      	mov	w10, #8365
+1152a658:      	strh	w9, [sp, #112]
+1152a65c:      	mov	w9, #14
+11533994:      	adrp	x22, 0x2fbf000 <_ZdaPvmSt11align_val_t+0x22a65c8>
+11543f20:      	adrp	x8, 0x2a65000 <_ZdaPvmSt11align_val_t+0x22b55ac>
+1156ee2c:      	adrp	x8, 0x152f6000 <_ZdaPvmSt11align_val_t+0x232a650>
+1157e43c:      	cbz	x20, 0x1157e44c <_ZdaPvmSt11align_val_t+0x232a650>
+1157e440:      	cbz	w8, 0x1157e44c <_ZdaPvmSt11align_val_t+0x232a650>
+1162a650:      	add	w11, w8, #30
+1162a654:      	csel	w10, w11, w10, lt
+1162a658:      	asr	w11, w10, #5
+1162a65c:      	cmp	w23, w10, asr #5
+1172a5c8:      	cbz	x20, 0x1172a654 <_ZdaPvmSt11align_val_t+0x24d6858>
+1172a650:      	b	0x1172a394 <_ZdaPvmSt11align_val_t+0x24d6598>
+1172a654:      	adrp	x9, 0x17086000 <_ZdaPvmSt11align_val_t+0x24ecdc8>
+1172a658:      	mov	x8, x23
+1172a65c:      	ldr	x9, [x9, #4056]
+11757e88:      	adrp	x8, 0x1b0ca000 <_ZdaPvmSt11align_val_t+0x252a658>
+117620f8:      	adrp	x20, 0x2a65000 <_ZdaPvmSt11align_val_t+0x24d2f08>
+11762108:      	adrp	x22, 0x2a65000 <_ZdaPvmSt11align_val_t+0x24d2f18>
+1177e434:      	tbz	w23, #0, 0x1177e44c <_ZdaPvmSt11align_val_t+0x252a650>
+1177e444:      	b	0x1177e44c <_ZdaPvmSt11align_val_t+0x252a650>
+1182a650:      	adrp	x8, 0x16478000 <_ZdaPvmSt11align_val_t+0x25e998c>
+1182a654:      	add	x8, x8, #1384
+1182a658:      	str	x8, [x1]
+1182a65c:      	ldr	x8, [x0, #8]
+1192a650:      	ldr	w8, [x19, #200]
+1192a654:      	cmp	w8, w1
+1192a658:      	b.ne	0x1192a688 <_ZdaPvmSt11align_val_t+0x26d688c>
+1192a65c:      	ldr	x1, [x0]
+11a2a650:      	ldr	w8, [x26, #40]
+11a2a654:      	ldr	w10, [x9, w24, sxtw #2]
+11a2a658:      	ands	w12, w10, w20
+11a2a65c:      	b.eq	0x11a2a690 <_ZdaPvmSt11align_val_t+0x27d6894>
+11a3ef94:      	adrp	x21, 0x2a65000 <_ZdaPvmSt11align_val_t+0x27af234>
+11b2a650:      	add	x1, x1, #1176
+11b2a654:      	sub	x0, x29, #4
+11b2a658:      	bl	0xca55494 <_Znam+0xffb4c>
+11b2a65c:      	ldur	w2, [x29, #-4]
+11c2a650:      	ldr	s1, [x0, #440]
+11c2a654:      	ldrb	w9, [x0, #617]
+11c2a658:      	cmp	w1, #0
+11c2a65c:      	ldrb	w10, [x0, #616]
+11c951e8:      	adrp	x8, 0x1ae1f000 <_ZdaPvmSt11align_val_t+0x2a65a14>
+11c95228:      	adrp	x9, 0x1ae1f000 <_ZdaPvmSt11align_val_t+0x2a65a54>
+11c954ac:      	adrp	x22, 0x1ae1f000 <_ZdaPvmSt11align_val_t+0x2a65cd8>
+11c9951c:      	adrp	x8, 0x19bc1000 <_ZdaPvmSt11align_val_t+0x2a653c0>
+11ca4220:      	adrp	x8, 0x17087000 <_ZdaPvmSt11align_val_t+0x2a653b0>
+11ca4598:      	adrp	x9, 0x17086000 <_ZdaPvmSt11align_val_t+0x2a65724>
+11ca4b1c:      	adrp	x2, 0x17091000 <_ZdaPvmSt11align_val_t+0x2a65cd4>
+11ca4b30:      	adrp	x2, 0x17090000 <_ZdaPvmSt11align_val_t+0x2a65ce4>
+11ca4b6c:      	adrp	x2, 0x17090000 <_ZdaPvmSt11align_val_t+0x2a65d20>
+11cac044:      	adrp	x8, 0x15056000 <_ZdaPvmSt11align_val_t+0x2a650f0>
+11cac068:      	adrp	x8, 0x15056000 <_ZdaPvmSt11align_val_t+0x2a65114>
+11cac5dc:      	adrp	x8, 0x14f4c000 <_ZdaPvmSt11align_val_t+0x2a65260>
+11cac710:      	adrp	x8, 0x14f4c000 <_ZdaPvmSt11align_val_t+0x2a65394>
+11cad458:      	adrp	x2, 0x14b92000 <_ZdaPvmSt11align_val_t+0x2a651f0>
+11cb8e04:      	tbz	w0, #0, 0x11cb8e10 <_ZdaPvmSt11align_val_t+0x2a65014>
+11cb8e0c:      	b	0x11cb8e20 <_ZdaPvmSt11align_val_t+0x2a65024>
+11cb8e2c:      	cbz	x0, 0x11cb8e48 <_ZdaPvmSt11align_val_t+0x2a6504c>
+11cb8e38:      	tbz	w9, #0, 0x11cb8e44 <_ZdaPvmSt11align_val_t+0x2a65048>
+11cb8e48:      	cbz	x19, 0x11cb8e54 <_ZdaPvmSt11align_val_t+0x2a65058>
+11cb8e84:      	b	0x11cb8e88 <_ZdaPvmSt11align_val_t+0x2a6508c>
+11cb8ea4:      	cbz	x1, 0x11cb8ee8 <_ZdaPvmSt11align_val_t+0x2a650ec>
+11cb8ec0:      	cbz	x19, 0x11cb8ee8 <_ZdaPvmSt11align_val_t+0x2a650ec>
+11cb8ed4:      	b.ne	0x11cb8ee8 <_ZdaPvmSt11align_val_t+0x2a650ec>
+11cb8f08:      	b	0x11cb8f0c <_ZdaPvmSt11align_val_t+0x2a65110>
+11cb8f28:      	cbz	x1, 0x11cb8f6c <_ZdaPvmSt11align_val_t+0x2a65170>
+11cb8f44:      	cbz	x19, 0x11cb8f6c <_ZdaPvmSt11align_val_t+0x2a65170>
+11cb8f58:      	b.ne	0x11cb8f6c <_ZdaPvmSt11align_val_t+0x2a65170>
+11cb9008:      	cbz	x8, 0x11cb9020 <_ZdaPvmSt11align_val_t+0x2a65224>
+11cb901c:      	b	0x11cb9058 <_ZdaPvmSt11align_val_t+0x2a6525c>
+11cb90b0:      	cbz	x8, 0x11cb90d8 <_ZdaPvmSt11align_val_t+0x2a652dc>
+11cb910c:      	cbz	x0, 0x11cb9114 <_ZdaPvmSt11align_val_t+0x2a65318>
+11cb915c:      	cbz	x0, 0x11cb9164 <_ZdaPvmSt11align_val_t+0x2a65368>
+11cb91a4:      	cbz	x0, 0x11cb91ac <_ZdaPvmSt11align_val_t+0x2a653b0>
+11cb91c8:      	b	0x11cb9174 <_ZdaPvmSt11align_val_t+0x2a65378>
+11cb91d0:      	b	0x11cb9174 <_ZdaPvmSt11align_val_t+0x2a65378>
+11cb91f0:      	cbnz	x8, 0x11cb9204 <_ZdaPvmSt11align_val_t+0x2a65408>
+11cb9234:      	bl	0x11cb925c <_ZdaPvmSt11align_val_t+0x2a65460>
+11cb9258:      	b	0x11cb91f4 <_ZdaPvmSt11align_val_t+0x2a653f8>
+11cb9278:      	cbz	x1, 0x11cb9294 <_ZdaPvmSt11align_val_t+0x2a65498>
+11cb9288:      	cbz	w8, 0x11cb9294 <_ZdaPvmSt11align_val_t+0x2a65498>
+11cb92a4:      	cbz	w20, 0x11cb92bc <_ZdaPvmSt11align_val_t+0x2a654c0>
+11cb92b0:      	cbz	x0, 0x11cb92bc <_ZdaPvmSt11align_val_t+0x2a654c0>
+11cb92fc:      	b	0x11cb9300 <_ZdaPvmSt11align_val_t+0x2a65504>
+11cb9300:      	cbz	x1, 0x11cb9430 <_ZdaPvmSt11align_val_t+0x2a65634>
+11cb9338:      	b.gt	0x11cb9350 <_ZdaPvmSt11align_val_t+0x2a65554>
+11cb934c:      	b.eq	0x11cb93bc <_ZdaPvmSt11align_val_t+0x2a655c0>
+11cb9364:      	b.gt	0x11cb937c <_ZdaPvmSt11align_val_t+0x2a65580>
+11cb9378:      	b.eq	0x11cb93dc <_ZdaPvmSt11align_val_t+0x2a655e0>
+11cb9390:      	b.gt	0x11cb9420 <_ZdaPvmSt11align_val_t+0x2a65624>
+11cb93a4:      	b.ne	0x11cb9420 <_ZdaPvmSt11align_val_t+0x2a65624>
+11cb93b4:      	cbnz	x0, 0x11cb9324 <_ZdaPvmSt11align_val_t+0x2a65528>
+11cb93b8:      	b	0x11cb9420 <_ZdaPvmSt11align_val_t+0x2a65624>
+11cb93c8:      	tbz	w19, #0, 0x11cb93d4 <_ZdaPvmSt11align_val_t+0x2a655d8>
+11cb93d0:      	b	0x11cb9350 <_ZdaPvmSt11align_val_t+0x2a65554>
+11cb93d8:      	b	0x11cb9350 <_ZdaPvmSt11align_val_t+0x2a65554>
+11cb93f0:      	cbz	w8, 0x11cb9414 <_ZdaPvmSt11align_val_t+0x2a65618>
+11cb9404:      	bl	0x11cb9300 <_ZdaPvmSt11align_val_t+0x2a65504>
+11cb940c:      	b.ne	0x11cb93f8 <_ZdaPvmSt11align_val_t+0x2a655fc>
+11cb9414:      	cbz	x21, 0x11cb9420 <_ZdaPvmSt11align_val_t+0x2a65624>
+11cb9464:      	b	0x11cb9300 <_ZdaPvmSt11align_val_t+0x2a65504>
+11cb947c:      	cbnz	x0, 0x11cb948c <_ZdaPvmSt11align_val_t+0x2a65690>
+11cb9488:      	cbz	x0, 0x11cb9498 <_ZdaPvmSt11align_val_t+0x2a6569c>
+11cb94a8:      	b	0x11cb94ac <_ZdaPvmSt11align_val_t+0x2a656b0>
+11cb94c0:      	cbz	x0, 0x11cb9520 <_ZdaPvmSt11align_val_t+0x2a65724>
+11cb94dc:      	b.gt	0x11cb94f4 <_ZdaPvmSt11align_val_t+0x2a656f8>
+11cb94f0:      	b.eq	0x11cb953c <_ZdaPvmSt11align_val_t+0x2a65740>
+11cb9508:      	b.gt	0x11cb9520 <_ZdaPvmSt11align_val_t+0x2a65724>
+11cb951c:      	b.eq	0x11cb958c <_ZdaPvmSt11align_val_t+0x2a65790>
+11cb9550:      	cbz	w8, 0x11cb959c <_ZdaPvmSt11align_val_t+0x2a657a0>
+11cb9560:      	bl	0x11cb94ac <_ZdaPvmSt11align_val_t+0x2a656b0>
+11cb9568:      	cbnz	x0, 0x11cb9578 <_ZdaPvmSt11align_val_t+0x2a6577c>
+11cb9574:      	cbnz	x8, 0x11cb955c <_ZdaPvmSt11align_val_t+0x2a65760>
+11cb957c:      	cbz	x20, 0x11cb9524 <_ZdaPvmSt11align_val_t+0x2a65728>
+11cb9588:      	b	0x11cb9524 <_ZdaPvmSt11align_val_t+0x2a65728>
+11cb9594:      	tbz	w0, #0, 0x11cb9520 <_ZdaPvmSt11align_val_t+0x2a65724>
+11cb9598:      	b	0x11cb9524 <_ZdaPvmSt11align_val_t+0x2a65728>
+11cb95a0:      	b	0x11cb957c <_ZdaPvmSt11align_val_t+0x2a65780>
+11cb95c8:      	cbz	x8, 0x11cb95e0 <_ZdaPvmSt11align_val_t+0x2a657e4>
+11cb95dc:      	b	0x11cb9618 <_ZdaPvmSt11align_val_t+0x2a6581c>
+11cb9660:      	cbz	x8, 0x11cb9678 <_ZdaPvmSt11align_val_t+0x2a6587c>
+11cb9674:      	b	0x11cb96b0 <_ZdaPvmSt11align_val_t+0x2a658b4>
+11cb96f8:      	cbz	x8, 0x11cb9710 <_ZdaPvmSt11align_val_t+0x2a65914>
+11cb970c:      	b	0x11cb9748 <_ZdaPvmSt11align_val_t+0x2a6594c>
+11cb9790:      	cbz	x8, 0x11cb97a8 <_ZdaPvmSt11align_val_t+0x2a659ac>
+11cb97a4:      	b	0x11cb97e0 <_ZdaPvmSt11align_val_t+0x2a659e4>
+11cb9828:      	cbz	x8, 0x11cb9840 <_ZdaPvmSt11align_val_t+0x2a65a44>
+11cb983c:      	b	0x11cb9878 <_ZdaPvmSt11align_val_t+0x2a65a7c>
+11cb98c0:      	cbz	x8, 0x11cb98d8 <_ZdaPvmSt11align_val_t+0x2a65adc>
+11cb98d4:      	b	0x11cb9910 <_ZdaPvmSt11align_val_t+0x2a65b14>
+11cb9958:      	cbz	x8, 0x11cb9970 <_ZdaPvmSt11align_val_t+0x2a65b74>
+11cb996c:      	b	0x11cb99a8 <_ZdaPvmSt11align_val_t+0x2a65bac>
+11cb99f0:      	cbz	x8, 0x11cb9a08 <_ZdaPvmSt11align_val_t+0x2a65c0c>
+11cb9a04:      	b	0x11cb9a40 <_ZdaPvmSt11align_val_t+0x2a65c44>
+11cb9a88:      	cbz	x8, 0x11cb9aa0 <_ZdaPvmSt11align_val_t+0x2a65ca4>
+11cb9a9c:      	b	0x11cb9ad8 <_ZdaPvmSt11align_val_t+0x2a65cdc>
+11cb9b20:      	cbz	x8, 0x11cb9b38 <_ZdaPvmSt11align_val_t+0x2a65d3c>
+11cb9b34:      	b	0x11cb9b70 <_ZdaPvmSt11align_val_t+0x2a65d74>
+11cb9bb8:      	cbz	x8, 0x11cb9bd0 <_ZdaPvmSt11align_val_t+0x2a65dd4>
+11cb9bcc:      	b	0x11cb9c08 <_ZdaPvmSt11align_val_t+0x2a65e0c>
+11cb9c50:      	cbz	x8, 0x11cb9c68 <_ZdaPvmSt11align_val_t+0x2a65e6c>
+11cb9c64:      	b	0x11cb9ca0 <_ZdaPvmSt11align_val_t+0x2a65ea4>
+11cb9ce8:      	cbz	x8, 0x11cb9d00 <_ZdaPvmSt11align_val_t+0x2a65f04>
+11cb9cfc:      	b	0x11cb9d38 <_ZdaPvmSt11align_val_t+0x2a65f3c>
+11cb9dac:      	cbz	x8, 0x11cb9dc4 <_ZdaPvmSt11align_val_t+0x2a65fc8>
+11cf41f8:      	adrp	x1, 0x2ff9000 <_ZdaPvmSt11align_val_t+0x2a65010>
+11cf42e0:      	adrp	x1, 0x2ff9000 <_ZdaPvmSt11align_val_t+0x2a650f8>
+11cf4660:      	adrp	x1, 0x2ff9000 <_ZdaPvmSt11align_val_t+0x2a65478>
+11cf4744:      	adrp	x1, 0x2ff9000 <_ZdaPvmSt11align_val_t+0x2a6555c>
+11cf482c:      	adrp	x1, 0x2ff9000 <_ZdaPvmSt11align_val_t+0x2a65644>
+11cf7d44:      	adrp	x8, 0x23ce000 <_ZdaPvmSt11align_val_t+0x2a65aa4>
+11cf7d90:      	adrp	x0, 0x233e000 <_ZdaPvmSt11align_val_t+0x2a658b0>
+11cf7db0:      	adrp	x1, 0x233e000 <_ZdaPvmSt11align_val_t+0x2a658d0>
+11cf7eb8:      	adrp	x1, 0x23de000 <_ZdaPvmSt11align_val_t+0x2a65c58>
+11cf825c:      	adrp	x10, 0x23d2000 <_ZdaPvmSt11align_val_t+0x2a65fc8>
+11cf82c4:      	adrp	x0, 0x233e000 <_ZdaPvmSt11align_val_t+0x2a65de0>
+11cf844c:      	adrp	x0, 0x233e000 <_ZdaPvmSt11align_val_t+0x2a65f68>
+11d2a650:      	ret
+11d2a654:      	add	x0, x0, #1096
+11d2a658:      	ret
+11d2a65c:      	add	x0, x0, #1120
+11d7e1a0:      	b.eq	0x11d7e450 <_ZdaPvmSt11align_val_t+0x2b2a654>
+11df64ec:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x2b658ac>
+11df650c:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x2b658cc>
+11e2a650:      	ldp	x22, x21, [sp, #160]
+11e2a654:      	ldp	x29, x30, [sp, #144]
+11e2a658:      	add	sp, sp, #192
+11e2a65c:      	ret
+11e6c59c:      	adrp	x8, 0x16619000 <_ZdaPvmSt11align_val_t+0x2c2a654>
+11f2a650:      	ldr	x0, [x19, #1192]
+11f2a654:      	sub	x1, x29, #40
+11f2a658:      	bl	0x11332770 <_ZdaPvmSt11align_val_t+0x20de974>
+11f2a65c:      	ldur	x0, [x29, #-56]
+11f2a738:      	b	0x11f2a650 <_ZdaPvmSt11align_val_t+0x2cd6854>
+11f7e444:      	cbz	x0, 0x11f7e44c <_ZdaPvmSt11align_val_t+0x2d2a650>
+11f7e450:      	cbz	x0, 0x11f7e458 <_ZdaPvmSt11align_val_t+0x2d2a65c>
+1202a190:      	tbnz	w9, #31, 0x1202a658 <_ZdaPvmSt11align_val_t+0x2dd685c>
+1202a21c:      	b.ne	0x1202a658 <_ZdaPvmSt11align_val_t+0x2dd685c>
+1202a650:      	ldr	w9, [x25, #24]
+1202a654:      	b	0x12029e18 <_ZdaPvmSt11align_val_t+0x2dd601c>
+1202a658:      	mov	x0, x21
+1202a65c:      	mov	w1, wzr
+1212a650:      	str	x23, [sp, #48]
+1212a654:      	stp	x22, x21, [sp, #64]
+1212a658:      	stp	x20, x19, [sp, #80]
+1212a65c:      	add	x29, sp, #32
+1217e42c:      	b	0x1217e458 <_ZdaPvmSt11align_val_t+0x2f2a65c>
+1222a650:      	mov	x19, x2
+1222a654:      	movk	x22, #43282, lsl #16
+1222a658:      	str	xzr, [x23, #56]!
+1222a65c:      	ldur	x8, [x23, #-24]
+122a64a0:      	cbz	x1, 0x122a6540 <_ZdaPvmSt11align_val_t+0x3052744>
+122a64a8:      	tbnz	w8, #30, 0x122a6540 <_ZdaPvmSt11align_val_t+0x3052744>
+122a64d8:      	b.eq	0x122a652c <_ZdaPvmSt11align_val_t+0x3052730>
+122a6500:      	mov	x1, x20
+122a6504:      	mov	x21, x19
+122a6508:      	bl	0x122a6324 <_ZdaPvmSt11align_val_t+0x3052528>
+122a650c:      	ldr	x8, [sp]
+122a6510:      	cbz	x8, 0x122a651c <_ZdaPvmSt11align_val_t+0x3052720>
+122a6514:      	ldr	w8, [x8, #12]
+122a6518:      	tbz	w8, #30, 0x122a6544 <_ZdaPvmSt11align_val_t+0x3052748>
+122a651c:      	ldr	x0, [sp, #16]
+122a6520:      	cbz	x0, 0x122a6530 <_ZdaPvmSt11align_val_t+0x3052734>
+122a6524:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+122a6528:      	b	0x122a6530 <_ZdaPvmSt11align_val_t+0x3052734>
+122a652c:      	cbz	x8, 0x122a64e8 <_ZdaPvmSt11align_val_t+0x30526ec>
+122a6530:      	ldp	x20, x19, [sp, #64]
+122a6534:      	ldr	x21, [sp, #48]
+122a6538:      	ldp	x29, x30, [sp, #32]
+122a653c:      	add	sp, sp, #80
+122a6540:      	ret
+122a6544:      	ldr	w0, [x21, #3232]
+122a6548:      	ldr	w9, [x21, #3236]
+122a654c:      	mov	x8, x21
+122a6550:      	add	x19, x21, #3224
+122a6554:      	cmp	w0, w9
+122a6558:      	b.ne	0x122a6570 <_ZdaPvmSt11align_val_t+0x3052774>
+122a655c:      	add	x2, x8, #3236
+122a6560:      	mov	w0, #2080
+122a6564:      	mov	x1, x19
+122a6568:      	bl	0xc904310 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeabcc>
+122a656c:      	mov	x8, x21
+122a6570:      	ldr	x9, [x8, #3224]
+122a6574:      	sxtw	x10, w0
+122a6578:      	add	w11, w0, #1
+122a657c:      	sbfiz	x12, x0, #5, #32
+122a6580:      	ldr	q0, [sp]
+122a6584:      	str	w11, [x8, #3232]
+122a6588:      	add	x0, x9, x10, lsl #5
+122a658c:      	mov	w3, wzr
+122a6590:      	mov	x20, x8
+122a6594:      	str	q0, [x9, x12]
+122a6598:      	str	xzr, [x0, #16]!
+122a659c:      	ldr	x1, [sp, #16]
+122a65a0:      	ldr	w2, [sp, #24]
+122a65a4:      	bl	0x122c3b20 <_ZdaPvmSt11align_val_t+0x306fd24>
+122a65a8:      	ldr	w9, [x20, #3216]
+122a65ac:      	ldr	w8, [x20, #3232]
+122a65b0:      	tbnz	w9, #31, 0x122a65dc <_ZdaPvmSt11align_val_t+0x30527e0>
+122a65b4:      	cmp	w8, w9
+122a65b8:      	b.le	0x122a65dc <_ZdaPvmSt11align_val_t+0x30527e0>
+122a65bc:      	ldr	x11, [x19]
+122a65c0:      	adds	x10, x11, x9, lsl #5
+122a65c4:      	b.eq	0x122a65dc <_ZdaPvmSt11align_val_t+0x30527e0>
+122a65c8:      	add	x9, x11, x9, lsl #5
+122a65cc:      	ldr	s0, [sp, #12]
+122a65d0:      	ldr	s1, [x9, #12]
+122a65d4:      	fcmp	s0, s1
+122a65d8:      	b.pl	0x122a65e8 <_ZdaPvmSt11align_val_t+0x30527ec>
+122a65dc:      	sub	w8, w8, #1
+122a65e0:      	str	w8, [x21, #3216]
+122a65e4:      	b	0x122a651c <_ZdaPvmSt11align_val_t+0x3052720>
+122a65e8:      	ldr	x9, [x10]
+122a65ec:      	cbnz	x9, 0x122a651c <_ZdaPvmSt11align_val_t+0x3052720>
+122a65f0:      	b	0x122a65dc <_ZdaPvmSt11align_val_t+0x30527e0>
+122a65f4:      	stp	x29, x30, [sp, #-32]!
+122a65f8:      	str	x19, [sp, #16]
+122a65fc:      	mov	x29, sp
+122a6d24:      	bl	0x122a65f4 <_ZdaPvmSt11align_val_t+0x30527f8>
+122f83e4:      	bl	0x122a65f4 <_ZdaPvmSt11align_val_t+0x30527f8>
+1232a650:      	ldr	x19, [sp, #16]
+1232a654:      	ldp	x29, x30, [sp], #32
+1232a658:      	b	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+1232a65c:      	b	0xc93bbe8 <_ZdlPv>
+123d32ac:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x3140ef8>
+1242a650:      	strb	wzr, [sp, #207]
+1242a654:      	stur	s0, [x26, #1]
+1242a658:      	stp	x26, x24, [sp, #208]
+1242a65c:      	stp	x24, x27, [sp, #224]
+1247e478:      	b.ne	0x1247e450 <_ZdaPvmSt11align_val_t+0x322a654>
+124e99d8:      	adrp	x8, 0x1674d000 <_ZdaPvmSt11align_val_t+0x32a656c>
+124fa308:      	b.ne	0x124fa310 <_ZdaPvmSt11align_val_t+0x32a6514>
+1252a650:      	sub	x1, x29, #40
+1252a654:      	bl	0xc90fa50 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdf630c>
+1252a658:      	ldr	x8, [sp, #104]
+1252a65c:      	sub	x2, x29, #40
+1262a650:      	stp	x20, x19, [sp, #32]
+1262a654:      	add	x29, sp, #16
+1262a658:      	mov	x19, x1
+1262a65c:      	mov	x1, sp
+1266bbdc:      	adrp	x23, 0x17087000 <_ZdaPvmSt11align_val_t+0x342a650>
+1272a650:      	add	x1, x23, #80
+1272a654:      	bl	0xcae68a8 <_Znam+0x190f60>
+1272a658:      	add	x0, x25, #112
+1272a65c:      	add	x1, x23, #112
+1277e44c:      	b.ne	0x1277e454 <_ZdaPvmSt11align_val_t+0x352a658>
+1277e49c:      	b	0x1277e450 <_ZdaPvmSt11align_val_t+0x352a654>
+1282a650:      	cbz	x8, 0x1282a660 <_ZdaPvmSt11align_val_t+0x35d6864>
+1282a654:      	add	x1, x8, #8
+1282a658:      	mov	w0, #1
+1282a65c:      	bl	0x14b89810 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xc17eb4>
+1284eb5c:      	adrp	x3, 0x2a65000 <_ZdaPvmSt11align_val_t+0x35bb5bc>
+128706ec:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x35dd0c4>
+1292a650:      	b.eq	0x1292a6e8 <_ZdaPvmSt11align_val_t+0x36d68ec>
+1292a654:      	sub	w8, w20, #1
+1292a658:      	eor	w8, w8, w22
+1292a65c:      	ror	w9, w8, #8
+1295c5c4:      	adrp	x10, 0x1b0ff000 <_ZdaPvmSt11align_val_t+0x372a654>
+12a2a650:      	stp	x24, x23, [sp, #384]
+12a2a654:      	stp	x22, x21, [sp, #400]
+12a2a658:      	stp	x20, x19, [sp, #416]
+12a2a65c:      	add	x29, sp, #336
+12a65000:      	cbz	x21, 0x12a650ac <_ZdaPvmSt11align_val_t+0x38112b0>
+12a65004:      	ldrb	w8, [x23]
+12a65008:      	cbz	w8, 0x12a650ac <_ZdaPvmSt11align_val_t+0x38112b0>
+12a6500c:      	mov	x0, x21
+12a65010:      	bl	0xcac3ad0 <_Znam+0x16e188>
+12a65014:      	adrp	x8, 0x23c8000 <_ZdaPvmSt11align_val_t+0x37cf7a4>
+12a65018:      	str	xzr, [sp, #104]
+12a6501c:      	ldr	d0, [x8, #352]
+12a65020:      	str	s0, [sp, #112]
+12a65024:      	ldr	x8, [x21]
+12a65028:      	mov	x0, x21
+12a6502c:      	ldr	x8, [x8, #800]
+12a65030:      	blr	x8
+12a65034:      	movi	v0.2d, #0000000000000000
+12a65038:      	str	x0, [sp, #120]
+12a6503c:      	strb	wzr, [sp, #114]
+12a65040:      	stp	q0, q0, [sp, #128]
+12a65044:      	cbz	x22, 0x12a65058 <_ZdaPvmSt11align_val_t+0x381125c>
+12a65048:      	ldrb	w8, [x23]
+12a6504c:      	cbz	w8, 0x12a65058 <_ZdaPvmSt11align_val_t+0x381125c>
+12a65050:      	mov	x0, x22
+12a65054:      	bl	0xcac3ad0 <_Znam+0x16e188>
+12a65058:      	str	x22, [sp, #104]
+12a6505c:      	add	x1, sp, #96
+12a65060:      	mov	x0, x19
+12a65064:      	ldr	x8, [x19]
+12a65068:      	ldr	x8, [x8, #1128]
+12a6506c:      	blr	x8
+12a65070:      	ldr	x8, [sp, #96]
+12a65074:      	cbz	x8, 0x12a65094 <_ZdaPvmSt11align_val_t+0x3811298>
+12a65078:      	ldrb	w8, [sp, #112]
+12a6507c:      	cbz	w8, 0x12a65094 <_ZdaPvmSt11align_val_t+0x3811298>
+12a65080:      	ldr	x8, [x19]
+12a65084:      	add	x1, sp, #96
+12a65088:      	mov	x0, x19
+12a6508c:      	ldr	x8, [x8, #1136]
+12a65090:      	blr	x8
+12a65094:      	ldr	x8, [x21, #232]
+12a65098:      	ldr	x25, [x19, #56]
+12a6509c:      	ldr	x8, [x8, #56]
+12a650a0:      	cbnz	x8, 0x12a650c8 <_ZdaPvmSt11align_val_t+0x38112cc>
+12a650a4:      	mov	x23, xzr
+12a650a8:      	b	0x12a650f4 <_ZdaPvmSt11align_val_t+0x38112f8>
+12a650ac:      	adrp	x8, 0x23c8000 <_ZdaPvmSt11align_val_t+0x37cf83c>
+12a650b0:      	mov	x0, xzr
+12a650b4:      	str	xzr, [sp, #104]
+12a650b8:      	ldr	d0, [x8, #352]
+12a650bc:      	str	s0, [sp, #112]
+12a650c0:      	cbnz	x21, 0x12a65024 <_ZdaPvmSt11align_val_t+0x3811228>
+12a650c4:      	b	0x12a65034 <_ZdaPvmSt11align_val_t+0x3811238>
+12a650c8:      	mov	x0, x20
+12a650cc:      	bl	0x12a54914 <_ZdaPvmSt11align_val_t+0x3800b18>
+12a650d0:      	adrp	x8, 0x1a1f4000 <_ZdaPvmSt11align_val_t+0x382f110>
+12a650d4:      	add	x8, x8, #2040
+12a650d8:      	add	x1, sp, #176
+12a650dc:      	mov	x23, x0
+12a650e0:      	str	x8, [sp, #176]
+12a650e4:      	bl	0x12d73990 <_ZdaPvmSt11align_val_t+0x3b1fb94>
+12a650e8:      	mov	x0, x21
+12a650ec:      	mov	x1, x23
+12a650f0:      	bl	0x12a652bc <_ZdaPvmSt11align_val_t+0x38114c0>
+12a650f4:      	stp	x19, x22, [sp, #80]
+12a650f8:      	mov	x0, x22
+12a650fc:      	stp	x19, x19, [sp, #64]
+12a65100:      	stp	x21, x19, [sp, #16]
+12a65104:      	stp	x22, x24, [sp, #32]
+12a65108:      	stp	x25, x23, [sp, #48]
+12a6510c:      	ldr	x8, [x22]
+12a65110:      	ldr	x8, [x8, #1160]
+12a65114:      	blr	x8
+12a65118:      	mov	w1, w0
+12a6511c:      	cbz	x20, 0x12a6519c <_ZdaPvmSt11align_val_t+0x38113a0>
+12a65120:      	ldrb	w8, [x20, #273]
+12a65124:      	cbnz	w8, 0x12a6519c <_ZdaPvmSt11align_val_t+0x38113a0>
+12a65128:      	add	x9, sp, #80
+12a6512c:      	nop
+12a65130:      	adr	x10, #285396
+12a65134:      	stp	x10, x9, [sp, #176]
+12a65138:      	add	x9, sp, #16
+12a6513c:      	nop
+12a65140:      	adr	x10, #285508
+12a65144:      	mov	w8, #1
+12a65148:      	add	x0, x20, #136
+12a6514c:      	stp	x10, x9, [x29, #-16]
+12a65150:      	add	x9, sp, #72
+12a65154:      	nop
+12a65158:      	adr	x10, #286540
+12a6515c:      	add	x2, sp, #176
+12a65160:      	sub	x3, x29, #16
+12a65164:      	stp	x10, x9, [x29, #-32]
+12a65168:      	add	x9, sp, #64
+12a6516c:      	nop
+12a65170:      	adr	x10, #286544
+12a65174:      	sub	x4, x29, #32
+12a65178:      	sub	x5, x29, #48
+12a6517c:      	mov	w6, wzr
+12a65180:      	mov	w7, #64
+12a65184:      	strb	w8, [x20, #273]
+12a65188:      	stp	x10, x9, [x29, #-48]
+12a6518c:      	strb	w8, [sp]
+12a65190:      	bl	0x12ce3034 <_ZdaPvmSt11align_val_t+0x3a8f238>
+12a65194:      	strb	wzr, [x20, #273]
+12a65198:      	b	0x12a6524c <_ZdaPvmSt11align_val_t+0x3811450>
+12a6519c:      	add	x9, sp, #80
+12a651a0:      	nop
+12a651a4:      	adr	x10, #285280
+12a651a8:      	adrp	x8, 0x234b000 <_ZdaPvmSt11align_val_t+0x37cf744>
+12a651ac:      	stp	x10, x9, [x29, #-16]
+12a651b0:      	add	x9, sp, #16
+12a651b4:      	nop
+12a651b8:      	adr	x10, #285388
+12a651bc:      	ldr	q0, [x8, #2512]
+12a651c0:      	mov	w8, #257
+12a651c4:      	stp	x10, x9, [x29, #-32]
+12a651c8:      	add	x9, sp, #72
+12a651cc:      	nop
+12a651d0:      	adr	x10, #286420
+12a651d4:      	str	w8, [sp, #312]
+12a651d8:      	mov	w8, #1
+12a651dc:      	stp	x10, x9, [x29, #-48]
+12a651e0:      	add	x9, sp, #64
+12a651e4:      	nop
+12a651e8:      	adr	x10, #286424
+12a651ec:      	add	x0, sp, #176
+12a651f0:      	sub	x2, x29, #16
+12a651f4:      	sub	x3, x29, #32
+12a651f8:      	sub	x4, x29, #48
+12a651fc:      	add	x5, sp, #160
+12a65200:      	mov	w6, wzr
+12a65204:      	mov	w7, #64
+12a65208:      	stp	wzr, wzr, [sp, #220]
+12a6520c:      	str	xzr, [sp, #264]
+12a65210:      	stp	xzr, xzr, [sp, #176]
+12a65214:      	stp	xzr, xzr, [sp, #200]
+12a65218:      	strb	wzr, [sp, #216]
+12a6521c:      	stp	xzr, xzr, [sp, #232]
+12a65220:      	str	q0, [sp, #272]
+12a65224:      	str	xzr, [sp, #296]
+12a65228:      	str	wzr, [sp, #304]
+12a6522c:      	strb	wzr, [sp, #316]
+12a65230:      	str	wzr, [sp, #192]
+12a65234:      	str	w8, [sp, #184]
+12a65238:      	stp	x10, x9, [sp, #160]
+12a6523c:      	strb	w8, [sp]
+12a65240:      	bl	0x12ce3034 <_ZdaPvmSt11align_val_t+0x3a8f238>
+12a65244:      	add	x0, sp, #176
+12a65248:      	bl	0x12a3900c <_ZdaPvmSt11align_val_t+0x37e5210>
+12a6524c:      	ldr	x0, [sp, #144]
+12a65250:      	ldr	w1, [sp, #152]
+12a65254:      	bl	0x12a6fce0 <_ZdaPvmSt11align_val_t+0x381bee4>
+12a65258:      	ldr	x0, [sp, #144]
+12a6525c:      	cbz	x0, 0x12a65264 <_ZdaPvmSt11align_val_t+0x3811468>
+12a65260:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+12a65264:      	ldr	x0, [sp, #128]
+12a65268:      	cbz	x0, 0x12a65270 <_ZdaPvmSt11align_val_t+0x3811474>
+12a6526c:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+12a65270:      	mov	x0, x19
+12a65274:      	ldp	x20, x19, [sp, #432]
+12a65278:      	ldp	x22, x21, [sp, #416]
+12a6527c:      	ldp	x24, x23, [sp, #400]
+12a65280:      	ldp	x28, x25, [sp, #384]
+12a65284:      	ldp	x29, x30, [sp, #368]
+12a65288:      	add	sp, sp, #448
+12a6528c:      	ret
+12a65290:      	sub	sp, sp, #32
+12a65294:      	stp	x29, x30, [sp, #16]
+12a65298:      	add	x29, sp, #16
+12a6529c:      	adrp	x8, 0x1a1f8000 <_ZdaPvmSt11align_val_t+0x382f2ec>
+12a652a0:      	add	x8, x8, #536
+12a652a4:      	add	x2, sp, #8
+12a652a8:      	str	x8, [sp, #8]
+12a652ac:      	bl	0x12a64f8c <_ZdaPvmSt11align_val_t+0x3811190>
+12a652b0:      	ldp	x29, x30, [sp, #16]
+12a652b4:      	add	sp, sp, #32
+12a652b8:      	ret
+12a652bc:      	sub	sp, sp, #352
+12a652c0:      	stp	x29, x30, [sp, #288]
+12a652c4:      	str	x28, [sp, #304]
+12a652c8:      	stp	x22, x21, [sp, #320]
+12a652cc:      	stp	x20, x19, [sp, #336]
+12a652d0:      	add	x29, sp, #288
+12a652d4:      	mov	x20, x0
+12a652d8:      	ldr	x0, [x0, #232]
+12a652dc:      	cbz	x0, 0x12a652f4 <_ZdaPvmSt11align_val_t+0x38114f8>
+12a652e0:      	ldr	x8, [x0]
+12a652e4:      	mov	x19, x1
+12a652e8:      	ldr	x8, [x8, #800]
+12a652ec:      	blr	x8
+12a652f0:      	cbnz	x0, 0x12a6530c <_ZdaPvmSt11align_val_t+0x3811510>
+12a652f4:      	ldp	x20, x19, [sp, #336]
+12a652f8:      	ldr	x28, [sp, #304]
+12a652fc:      	ldp	x22, x21, [sp, #320]
+12a65300:      	ldp	x29, x30, [sp, #288]
+12a65304:      	add	sp, sp, #352
+12a65308:      	ret
+12a6530c:      	ldr	x21, [x20, #232]
+12a65310:      	add	x22, sp, #144
+12a65314:      	stur	x21, [x29, #-64]
+12a65318:      	cbz	x21, 0x12a65474 <_ZdaPvmSt11align_val_t+0x3811678>
+12a6531c:      	adrp	x8, 0x1ae1f000 <_ZdaPvmSt11align_val_t+0x3832408>
+12a65320:      	add	x8, x8, #2528
+12a65324:      	ldrb	w8, [x8]
+12a65328:      	cbz	w8, 0x12a65474 <_ZdaPvmSt11align_val_t+0x3811678>
+12a6532c:      	mov	x0, x21
+12a65330:      	bl	0xcac3ad0 <_Znam+0x16e188>
+12a65334:      	adrp	x8, 0x23c8000 <_ZdaPvmSt11align_val_t+0x37cfac4>
+12a65338:      	stur	xzr, [x29, #-56]
+12a6533c:      	ldr	d0, [x8, #352]
+12a65340:      	stur	s0, [x29, #-48]
+12a65344:      	ldr	x8, [x21]
+12a65348:      	mov	x0, x21
+12a6534c:      	ldr	x8, [x8, #800]
+12a65350:      	blr	x8
+12a65354:      	movi	v0.2d, #0000000000000000
+12a65358:      	adrp	x8, 0x234b000 <_ZdaPvmSt11align_val_t+0x37cf8f4>
+12a6535c:      	stur	x0, [x29, #-40]
+12a65360:      	ldr	q1, [x8, #2512]
+12a65364:      	add	x1, sp, #144
+12a65368:      	mov	x0, x20
+12a6536c:      	stp	xzr, xzr, [sp, #144]
+12a65370:      	stur	q1, [x22, #40]
+12a65374:      	stp	q0, q0, [x22, #112]
+12a65378:      	sub	x22, x29, #64
+12a6537c:      	str	xzr, [sp, #176]
+12a65380:      	str	xzr, [sp, #208]
+12a65384:      	str	wzr, [sp, #216]
+12a65388:      	bl	0x12a65490 <_ZdaPvmSt11align_val_t+0x3811694>
+12a6538c:      	add	x0, sp, #8
+12a65390:      	add	x2, sp, #144
+12a65394:      	mov	x1, xzr
+12a65398:      	add	x21, sp, #8
+12a6539c:      	bl	0x12a6569c <_ZdaPvmSt11align_val_t+0x38118a0>
+12a653a0:      	ldrb	w8, [x20, #376]
+12a653a4:      	add	x1, x22, #48
+12a653a8:      	add	x2, x22, #60
+12a653ac:      	mov	w0, #2200
+12a653b0:      	strb	w8, [sp, #96]
+12a653b4:      	bl	0xc904310 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeabcc>
+12a653b8:      	mov	w8, #152
+12a653bc:      	adrp	x9, 0x17094000 <_ZdaPvmSt11align_val_t+0x3822e7c>
+12a653c0:      	add	x2, sp, #8
+12a653c4:      	ldr	x9, [x9, #2008]
+12a653c8:      	ldur	x10, [x29, #-16]
+12a653cc:      	nop
+12a653d0:      	smaddl	x8, w0, w8, x10
+12a653d4:      	add	w10, w0, #1
+12a653d8:      	mov	w1, wzr
+12a653dc:      	ldr	w11, [x9, #8]
+12a653e0:      	ldr	x9, [x9]
+12a653e4:      	stur	w10, [x29, #-8]
+12a653e8:      	add	x0, x8, #16
+12a653ec:      	str	w11, [x8, #8]
+12a653f0:      	str	x9, [x8]
+12a653f4:      	bl	0x12aab1e8 <_ZdaPvmSt11align_val_t+0x38573ec>
+12a653f8:      	ldr	x0, [x20, #232]
+12a653fc:      	sub	x1, x29, #64
+12a65400:      	mov	x2, x19
+12a65404:      	ldr	x8, [x0]
+12a65408:      	ldr	x8, [x8, #1104]
+12a6540c:      	blr	x8
+12a65410:      	ldr	w8, [sp, #28]
+12a65414:      	cmn	w8, #1
+12a65418:      	b.eq	0x12a65434 <_ZdaPvmSt11align_val_t+0x3811638>
+12a6541c:      	ldr	x0, [sp, #80]
+12a65420:      	str	wzr, [sp, #88]
+12a65424:      	cbz	x0, 0x12a6542c <_ZdaPvmSt11align_val_t+0x3811630>
+12a65428:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+12a6542c:      	add	x0, x21, #8
+12a65430:      	bl	0xc910eac <_Znwm+0x48c>
+12a65434:      	ldr	x0, [sp, #208]
+12a65438:      	str	wzr, [sp, #216]
+12a6543c:      	cbz	x0, 0x12a65444 <_ZdaPvmSt11align_val_t+0x3811648>
+12a65440:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+12a65444:      	add	x0, sp, #144
+12a65448:      	bl	0xc910eac <_Znwm+0x48c>
+12a6544c:      	ldur	x0, [x29, #-16]
+12a65450:      	ldur	w1, [x29, #-8]
+12a65454:      	bl	0x12a6fce0 <_ZdaPvmSt11align_val_t+0x381bee4>
+12a65458:      	ldur	x0, [x29, #-16]
+12a6545c:      	cbz	x0, 0x12a65464 <_ZdaPvmSt11align_val_t+0x3811668>
+12a65460:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+12a65464:      	ldur	x0, [x29, #-32]
+12a65468:      	cbz	x0, 0x12a652f4 <_ZdaPvmSt11align_val_t+0x38114f8>
+12a6546c:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+12a65470:      	b	0x12a652f4 <_ZdaPvmSt11align_val_t+0x38114f8>
+12a65474:      	adrp	x8, 0x23c8000 <_ZdaPvmSt11align_val_t+0x37cfc04>
+12a65478:      	mov	x0, xzr
+12a6547c:      	stur	xzr, [x29, #-56]
+12a65480:      	ldr	d0, [x8, #352]
+12a65484:      	stur	s0, [x29, #-48]
+12a65488:      	cbnz	x21, 0x12a65344 <_ZdaPvmSt11align_val_t+0x3811548>
+12a6548c:      	b	0x12a65354 <_ZdaPvmSt11align_val_t+0x3811558>
+12a65490:      	ldr	w8, [x0, #368]
+12a65494:      	cmp	w8, #2
+12a65498:      	b.lt	0x12a65554 <_ZdaPvmSt11align_val_t+0x3811758>
+12a6549c:      	sub	sp, sp, #80
+12a654a0:      	stp	x29, x30, [sp, #32]
+12a654a4:      	stp	x22, x21, [sp, #48]
+12a654a8:      	stp	x20, x19, [sp, #64]
+12a654ac:      	add	x29, sp, #32
+12a654b0:      	mov	x19, x1
+12a654b4:      	adrp	x2, 0x21fc000 <_ZdaPvmSt11align_val_t+0x37cf514>
+12a654b8:      	add	x2, x2, #90
+12a654bc:      	add	x0, x0, #360
+12a654c0:      	add	x1, sp, #16
+12a654c4:      	mov	w3, #1
+12a654c8:      	stp	xzr, xzr, [sp, #16]
+12a654cc:      	bl	0xd6bcca4 <_ZnwmSt11align_val_t+0x306c48>
+12a654d0:      	ldrsw	x8, [sp, #24]
+12a654d4:      	ldr	x0, [sp, #16]
+12a654d8:      	cbz	w8, 0x12a65558 <_ZdaPvmSt11align_val_t+0x381175c>
+12a654dc:      	lsl	x20, x8, #4
+12a654e0:      	add	x8, x0, #8
+12a654e4:      	adrp	x21, 0x233e000 <_ZdaPvmSt11align_val_t+0x37cfa4c>
+12a654e8:      	add	x21, x21, #758
+12a654ec:      	mov	x22, x8
+12a654f0:      	ldr	w9, [x22], #16
+12a654f4:      	cbz	w9, 0x12a65524 <_ZdaPvmSt11align_val_t+0x3811728>
+12a654f8:      	ldur	x1, [x8, #-8]
+12a654fc:      	add	x0, sp, #12
+12a65500:      	bl	0xca568e8 <_Znam+0x100fa0>
+12a65504:      	add	x1, sp, #12
+12a65508:      	mov	x0, x19
+12a6550c:      	mov	x2, xzr
+12a65510:      	bl	0xc977d20 <_Znam+0x223d8>
+12a65514:      	subs	x20, x20, #16
+12a65518:      	mov	x8, x22
+12a6551c:      	b.ne	0x12a654f0 <_ZdaPvmSt11align_val_t+0x38116f4>
+12a65520:      	b	0x12a6552c <_ZdaPvmSt11align_val_t+0x3811730>
+12a65524:      	mov	x1, x21
+12a65528:      	b	0x12a654fc <_ZdaPvmSt11align_val_t+0x3811700>
+12a6552c:      	ldr	x0, [sp, #16]
+12a65530:      	ldr	w1, [sp, #24]
+12a65534:      	bl	0xc904f70 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb82c>
+12a65538:      	ldr	x0, [sp, #16]
+12a6553c:      	cbz	x0, 0x12a65544 <_ZdaPvmSt11align_val_t+0x3811748>
+12a65540:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+12a65544:      	ldp	x20, x19, [sp, #64]
+12a65548:      	ldp	x22, x21, [sp, #48]
+12a6554c:      	ldp	x29, x30, [sp, #32]
+12a65550:      	add	sp, sp, #80
+12a65554:      	ret
+12a65558:      	mov	w1, wzr
+12a6555c:      	b	0x12a65534 <_ZdaPvmSt11align_val_t+0x3811738>
+12a65560:      	stp	x29, x30, [sp, #-48]!
+12a65564:      	str	x21, [sp, #16]
+12a65568:      	stp	x20, x19, [sp, #32]
+12a6556c:      	mov	x29, sp
+12a65570:      	adrp	x21, 0x17087000 <_ZdaPvmSt11align_val_t+0x3822ffc>
+12a65574:      	mov	x19, x0
+12a65578:      	mov	x20, x1
+12a6557c:      	ldr	x21, [x21, #2144]
+12a65580:      	ldr	x0, [x0, #224]
+12a65584:      	ldrb	w8, [x21]
+12a65588:      	cbz	w8, 0x12a655a8 <_ZdaPvmSt11align_val_t+0x38117ac>
+12a6558c:      	cbz	x0, 0x12a65630 <_ZdaPvmSt11align_val_t+0x3811834>
+12a65590:      	bl	0xcac3ad0 <_Znam+0x16e188>
+12a65594:      	ldrb	w8, [x21]
+12a65598:      	ldr	x9, [x19, #224]
+12a6559c:      	str	x9, [x20, #224]
+12a655a0:      	cbnz	w8, 0x12a65634 <_ZdaPvmSt11align_val_t+0x3811838>
+12a655a4:      	b	0x12a655ac <_ZdaPvmSt11align_val_t+0x38117b0>
+12a655a8:      	str	x0, [x20, #224]
+12a655ac:      	ldr	x8, [x19, #232]
+12a655b0:      	cmp	x20, x19
+12a655b4:      	str	x8, [x20, #232]
+12a655b8:      	ldp	q2, q0, [x19, #256]
+12a655bc:      	ldr	x8, [x19, #288]
+12a655c0:      	ldr	q1, [x19, #240]
+12a655c4:      	str	x8, [x20, #288]
+12a655c8:      	add	x8, x19, #296
+12a655cc:      	stp	q2, q0, [x20, #256]
+12a655d0:      	str	q1, [x20, #240]
+12a655d4:      	ldp	q2, q0, [x8, #16]
+12a655d8:      	ldr	x9, [x19, #344]
+12a655dc:      	ldr	q1, [x8]
+12a655e0:      	add	x8, x20, #296
+12a655e4:      	str	x9, [x20, #344]
+12a655e8:      	stp	q2, q0, [x8, #16]
+12a655ec:      	str	q1, [x8]
+12a655f0:      	ldr	w8, [x19, #352]
+12a655f4:      	str	w8, [x20, #352]
+12a655f8:      	b.eq	0x12a65610 <_ZdaPvmSt11align_val_t+0x3811814>
+12a655fc:      	ldr	x1, [x19, #360]
+12a65600:      	ldr	w2, [x19, #368]
+12a65604:      	add	x0, x20, #360
+12a65608:      	ldr	w3, [x20, #372]
+12a6560c:      	bl	0xc9044c0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdead7c>
+12a65610:      	ldrb	w8, [x19, #378]
+12a65614:      	ldrh	w9, [x19, #376]
+12a65618:      	strb	w8, [x20, #378]
+12a6561c:      	strh	w9, [x20, #376]
+12a65620:      	ldp	x20, x19, [sp, #32]
+12a65624:      	ldr	x21, [sp, #16]
+12a65628:      	ldp	x29, x30, [sp], #48
+12a6562c:      	ret
+12a65630:      	str	xzr, [x20, #224]
+12a65634:      	ldr	x0, [x19, #232]
+12a65638:      	cbz	x0, 0x12a655ac <_ZdaPvmSt11align_val_t+0x38117b0>
+12a6563c:      	bl	0xcac3ad0 <_Znam+0x16e188>
+12a65640:      	b	0x12a655ac <_ZdaPvmSt11align_val_t+0x38117b0>
+12a65644:      	stp	x29, x30, [sp, #-32]!
+12a65648:      	stp	x20, x19, [sp, #16]
+12a6564c:      	mov	x29, sp
+12a65650:      	mov	x19, x0
+12a65654:      	mov	x0, x1
+12a65658:      	bl	0x12a6567c <_ZdaPvmSt11align_val_t+0x3811880>
+12a6565c:      	mov	x20, x0
+12a65660:      	mov	x0, x19
+12a65664:      	mov	x1, x20
+12a65668:      	bl	0x12a65560 <_ZdaPvmSt11align_val_t+0x3811764>
+12a6566c:      	mov	x0, x20
+12a65670:      	ldp	x20, x19, [sp, #16]
+12a65674:      	ldp	x29, x30, [sp], #32
+12a65678:      	ret
+12a6567c:      	cbnz	x0, 0x12a65698 <_ZdaPvmSt11align_val_t+0x381189c>
+12a65680:      	stp	x29, x30, [sp, #-16]!
+12a65684:      	mov	x29, sp
+12a65688:      	bl	0xc9647c8 <_Znam+0xee80>
+12a6568c:      	bl	0xc95f7a4 <_Znam+0x9e5c>
+12a65690:      	ldp	x29, x30, [sp], #16
+12a65694:      	b	0x12aab168 <_ZdaPvmSt11align_val_t+0x385736c>
+12a65698:      	b	0x12aab0d8 <_ZdaPvmSt11align_val_t+0x38572dc>
+12a6569c:      	adrp	x8, 0x234b000 <_ZdaPvmSt11align_val_t+0x37cfc38>
+12a656a0:      	str	x1, [x0]
+12a656a4:      	ldr	q0, [x8, #2512]
+12a656a8:      	str	xzr, [x0, #40]
+12a656ac:      	str	xzr, [x0, #72]
+12a656b0:      	str	q0, [x0, #48]
+12a656b4:      	movi	d0, #0xffffffff00000000
+12a656b8:      	str	wzr, [x0, #80]
+12a656bc:      	strh	wzr, [x0, #88]
+12a656c0:      	strb	wzr, [x0, #128]
+12a656c4:      	str	d0, [x0, #16]
+12a656c8:      	str	xzr, [x0, #8]!
+12a656cc:      	cbz	x2, 0x12a656d8 <_ZdaPvmSt11align_val_t+0x38118dc>
+12a656d0:      	cmp	x0, x2
+12a656d4:      	b.ne	0x12a656dc <_ZdaPvmSt11align_val_t+0x38118e0>
+12a656d8:      	ret
+12a656dc:      	mov	x1, x2
+12a656e0:      	b	0xe3a3758 <_ZdlPvSt11align_val_t+0x1b420c>
+12a656e4:      	sub	sp, sp, #144
+12a656e8:      	stp	x29, x30, [sp, #64]
+12a656ec:      	str	x25, [sp, #80]
+12a656f0:      	stp	x24, x23, [sp, #96]
+12a656f4:      	stp	x22, x21, [sp, #112]
+12a656f8:      	stp	x20, x19, [sp, #128]
+12a656fc:      	add	x29, sp, #64
+12a65700:      	ldrb	w8, [x1, #19]
+12a65704:      	mov	x19, x2
+12a65708:      	cbnz	w8, 0x12a65750 <_ZdaPvmSt11align_val_t+0x3811954>
+12a6570c:      	mov	x21, x0
+12a65710:      	mov	x20, x0
+12a65714:      	ldr	x8, [x21, #224]!
+12a65718:      	cbnz	x8, 0x12a65770 <_ZdaPvmSt11align_val_t+0x3811974>
+12a6571c:      	mov	x0, x20
+12a65720:      	mov	x1, x19
+12a65724:      	bl	0x12a652bc <_ZdaPvmSt11align_val_t+0x38114c0>
+12a65728:      	ldr	x1, [x20, #56]
+12a6572c:      	mov	x0, x19
+12a65730:      	bl	0x12d6e2e8 <_ZdaPvmSt11align_val_t+0x3b1a4ec>
+12a65734:      	ldp	x20, x19, [sp, #128]
+12a65738:      	ldr	x25, [sp, #80]
+12a6573c:      	ldp	x22, x21, [sp, #112]
+12a65740:      	ldp	x24, x23, [sp, #96]
+12a65744:      	ldp	x29, x30, [sp, #64]
+12a65748:      	add	sp, sp, #144
+12a6574c:      	ret
+12a65750:      	mov	x2, x19
+12a65754:      	ldp	x20, x19, [sp, #128]
+12a65758:      	ldr	x25, [sp, #80]
+12a6575c:      	ldp	x22, x21, [sp, #112]
+12a65760:      	ldp	x24, x23, [sp, #96]
+12a65764:      	ldp	x29, x30, [sp, #64]
+12a65768:      	add	sp, sp, #144
+12a6576c:      	b	0x12a54b84 <_ZdaPvmSt11align_val_t+0x3800d88>
+12a65770:      	adrp	x22, 0x1ae1f000 <_ZdaPvmSt11align_val_t+0x383285c>
+12a65774:      	add	x22, x22, #2528
+12a65778:      	ldr	x0, [x1]
+12a6577c:      	ldrb	w8, [x22]
+12a65780:      	str	x0, [sp]
+12a65784:      	cbz	w8, 0x12a6579c <_ZdaPvmSt11align_val_t+0x38119a0>
+12a65788:      	cbz	x0, 0x12a6579c <_ZdaPvmSt11align_val_t+0x38119a0>
+12a6578c:      	mov	x23, x1
+12a65790:      	bl	0xcac3ad0 <_Znam+0x16e188>
+12a65794:      	ldrb	w8, [x22]
+12a65798:      	mov	x1, x23
+12a6579c:      	mov	x23, x1
+12a657a0:      	ldr	x0, [x23, #8]!
+12a657a4:      	str	x0, [sp, #8]
+12a657a8:      	cbz	w8, 0x12a657bc <_ZdaPvmSt11align_val_t+0x38119c0>
+12a657ac:      	cbz	x0, 0x12a657bc <_ZdaPvmSt11align_val_t+0x38119c0>
+12a657b0:      	mov	x24, x1
+12a657b4:      	bl	0xcac3ad0 <_Znam+0x16e188>
+12a657b8:      	mov	x1, x24
+12a657bc:      	ldr	w8, [x1, #16]
+12a657c0:      	ldr	w2, [x1, #40]
+12a657c4:      	mov	x24, sp
+12a657c8:      	add	x0, x24, #32
+12a657cc:      	mov	x25, x1
+12a657d0:      	mov	w3, wzr
+12a657d4:      	str	w8, [sp, #16]
+12a657d8:      	ldp	x9, x8, [x1, #24]
+12a657dc:      	mov	x1, x8
+12a657e0:      	stp	x9, xzr, [sp, #24]
+12a657e4:      	bl	0x12a6ed04 <_ZdaPvmSt11align_val_t+0x381af08>
+12a657e8:      	ldr	x1, [x25, #48]
+12a657ec:      	ldr	w2, [x25, #56]
+12a657f0:      	add	x0, x24, #48
+12a657f4:      	mov	w3, wzr
+12a657f8:      	str	xzr, [sp, #48]
+12a657fc:      	bl	0x12a6ed7c <_ZdaPvmSt11align_val_t+0x381af80>
+12a65800:      	ldr	x8, [x25, #8]
+12a65804:      	cmp	x8, #0
+12a65808:      	ldrb	w8, [x22]
+12a6580c:      	csel	x21, x21, x23, eq
+12a65810:      	ldr	x0, [x21]
+12a65814:      	cbz	w8, 0x12a65824 <_ZdaPvmSt11align_val_t+0x3811a28>
+12a65818:      	cbz	x0, 0x12a65824 <_ZdaPvmSt11align_val_t+0x3811a28>
+12a6581c:      	bl	0xcac3ad0 <_Znam+0x16e188>
+12a65820:      	ldr	x0, [x21]
+12a65824:      	str	x0, [sp]
+12a65828:      	mov	x1, sp
+12a6582c:      	mov	x2, x19
+12a65830:      	ldr	x8, [x0]
+12a65834:      	ldr	x8, [x8, #1104]
+12a65838:      	blr	x8
+12a6583c:      	ldr	x0, [sp, #48]
+12a65840:      	ldr	w1, [sp, #56]
+12a65844:      	bl	0x12a6fce0 <_ZdaPvmSt11align_val_t+0x381bee4>
+12a65848:      	ldr	x0, [sp, #48]
+12a6584c:      	cbz	x0, 0x12a65854 <_ZdaPvmSt11align_val_t+0x3811a58>
+12a65850:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+12a65854:      	ldr	x0, [sp, #32]
+12a65858:      	cbz	x0, 0x12a6571c <_ZdaPvmSt11align_val_t+0x3811920>
+12a6585c:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+12a65860:      	b	0x12a6571c <_ZdaPvmSt11align_val_t+0x3811920>
+12a65864:      	adrp	x0, 0x1a1fc000 <_ZdaPvmSt11align_val_t+0x382f8c4>
+12a65868:      	add	x0, x0, #808
+12a6586c:      	ret
+12a65870:      	mov	w8, #1
+12a65874:      	strb	w8, [x0, #112]
+12a65878:      	ret
+12a6587c:      	mov	w8, #1
+12a65880:      	strb	w8, [x0, #113]
+12a65884:      	ret
+12a65888:      	sub	sp, sp, #176
+12a6588c:      	stp	x29, x30, [sp, #112]
+12a65890:      	str	x23, [sp, #128]
+12a65894:      	stp	x22, x21, [sp, #144]
+12a65898:      	stp	x20, x19, [sp, #160]
+12a6589c:      	add	x29, sp, #112
+12a658a0:      	mov	x21, #32342
+12a658a4:      	mov	x20, x1
+12a658a8:      	mov	x19, x0
+12a658ac:      	movk	x21, #43282, lsl #16
+12a658b0:      	str	xzr, [x29, #24]
+12a658b4:      	movk	x21, #62243, lsl #32
+12a658b8:      	movk	x21, #6784, lsl #48
+12a658bc:      	bl	0xef5d768 <_ZdlPvSt11align_val_t+0xd6e21c>
+12a658c0:      	ldr	x8, [x20, #32]
+12a658c4:      	cbz	x8, 0x12a658dc <_ZdaPvmSt11align_val_t+0x3811ae0>
+12a658c8:      	ldr	x1, [x20, #24]
+12a658cc:      	add	x2, x29, #24
+12a658d0:      	mov	x0, x20
+12a658d4:      	bl	0xcb63ffc <_Znam+0x20e6b4>
+12a658d8:      	b	0x12a65904 <_ZdaPvmSt11align_val_t+0x3811b08>
+12a658dc:      	ldr	x2, [x20, #136]
+12a658e0:      	add	x1, x29, #24
+12a658e4:      	mov	x0, x20
+12a658e8:      	ldr	x8, [x2, #32]
+12a658ec:      	and	x9, x8, #0xfffffffffffffffe
+12a658f0:      	tst	x8, #0x1
+12a658f4:      	eor	x9, x9, x21
+12a658f8:      	csel	x8, x8, x9, eq
+12a658fc:      	str	x8, [x20, #136]
+12a65900:      	bl	0xef5d780 <_ZdlPvSt11align_val_t+0xd6e234>
+12a65904:      	movi	v0.2d, #0000000000000000
+12a65908:      	fmov	v2.2d, #1.00000000
+12a6590c:      	adrp	x8, 0x2394000 <_ZdaPvmSt11align_val_t+0x37cffcc>
+12a65910:      	ldr	q1, [x8, #64]
+12a65914:      	adrp	x8, 0x2376000 <_ZdaPvmSt11align_val_t+0x37cff5c>
+12a65918:      	stp	xzr, xzr, [sp, #16]
+12a6591c:      	stp	xzr, xzr, [x20, #56]
+12a65920:      	stp	q1, q0, [sp, #32]
+12a65924:      	stp	q0, q2, [sp, #64]
+12a65928:      	ldr	q0, [x8, #3728]
+12a6592c:      	ldr	x8, [x20, #32]
+12a65930:      	str	q0, [sp, #96]
+12a65934:      	cbz	x8, 0x12a6594c <_ZdaPvmSt11align_val_t+0x3811b50>
+12a65938:      	ldr	x1, [x20, #24]
+12a6593c:      	add	x2, sp, #16
+12a65940:      	mov	x0, x20
+12a65944:      	bl	0xcb63ffc <_Znam+0x20e6b4>
+12a65948:      	b	0x12a65974 <_ZdaPvmSt11align_val_t+0x3811b78>
+12a6594c:      	ldr	x2, [x20, #136]
+12a65950:      	add	x1, sp, #16
+12a65954:      	mov	x0, x20
+12a65958:      	ldr	x8, [x2, #32]
+12a6595c:      	and	x9, x8, #0xfffffffffffffffe
+12a65960:      	tst	x8, #0x1
+12a65964:      	eor	x9, x9, x21
+12a65968:      	csel	x8, x8, x9, eq
+12a6596c:      	str	x8, [x20, #136]
+12a65970:      	bl	0xef5d780 <_ZdlPvSt11align_val_t+0xd6e234>
+12a65974:      	ldr	x22, [x20, #56]
+12a65978:      	str	wzr, [sp, #12]
+12a6597c:      	bl	0xcb63f9c <_Znam+0x20e654>
+12a65980:      	ldr	x8, [x20, #32]
+12a65984:      	cbz	x8, 0x12a6599c <_ZdaPvmSt11align_val_t+0x3811ba0>
+12a65988:      	ldr	x1, [x20, #24]
+12a6598c:      	add	x2, sp, #12
+12a65990:      	mov	x0, x20
+12a65994:      	bl	0xcb63ffc <_Znam+0x20e6b4>
+12a65998:      	b	0x12a659c4 <_ZdaPvmSt11align_val_t+0x3811bc8>
+12a6599c:      	ldr	x2, [x20, #136]
+12a659a0:      	add	x1, sp, #12
+12a659a4:      	mov	x0, x20
+12a659a8:      	ldr	x8, [x2, #32]
+12a659ac:      	and	x9, x8, #0xfffffffffffffffe
+12a659b0:      	tst	x8, #0x1
+12a659b4:      	eor	x9, x9, x21
+12a659b8:      	csel	x8, x8, x9, eq
+12a659bc:      	str	x8, [x20, #136]
+12a659c0:      	bl	0xef5d780 <_ZdlPvSt11align_val_t+0xd6e234>
+12a659c4:      	ldr	w23, [sp, #12]
+12a659c8:      	str	wzr, [sp, #8]
+12a659cc:      	bl	0xcb63f9c <_Znam+0x20e654>
+12a659d0:      	ldr	x8, [x20, #32]
+12a659d4:      	cbz	x8, 0x12a659ec <_ZdaPvmSt11align_val_t+0x3811bf0>
+12a659d8:      	ldr	x1, [x20, #24]
+12a659dc:      	add	x2, sp, #8
+12a659e0:      	mov	x0, x20
+12a659e4:      	bl	0xcb63ffc <_Znam+0x20e6b4>
+12a659e8:      	b	0x12a65a14 <_ZdaPvmSt11align_val_t+0x3811c18>
+12a659ec:      	ldr	x2, [x20, #136]
+12a659f0:      	add	x1, sp, #8
+12a659f4:      	mov	x0, x20
+12a659f8:      	ldr	x8, [x2, #32]
+12a659fc:      	and	x9, x8, #0xfffffffffffffffe
+12a65a00:      	tst	x8, #0x1
+12a65a04:      	eor	x9, x9, x21
+12a65a08:      	csel	x8, x8, x9, eq
+12a65a0c:      	str	x8, [x20, #136]
+12a65a10:      	bl	0xef5d780 <_ZdlPvSt11align_val_t+0xd6e234>
+12a65a14:      	cmp	w23, #0
+12a65a18:      	ldr	w8, [sp, #8]
+12a65a1c:      	add	x9, sp, #16
+12a65a20:      	cset	w3, ne
+12a65a24:      	cmp	x22, #0
+12a65a28:      	ldr	x10, [x20, #32]
+12a65a2c:      	csel	x2, x9, x22, eq
+12a65a30:      	cmp	w8, #0
+12a65a34:      	ldr	x1, [x29, #24]
+12a65a38:      	cset	w4, ne
+12a65a3c:      	cmp	x10, #0
+12a65a40:      	mov	x0, x19
+12a65a44:      	cinc	x8, x10, ne
+12a65a48:      	str	x8, [x20, #32]
+12a65a4c:      	bl	0x12a65a68 <_ZdaPvmSt11align_val_t+0x3811c6c>
+12a65a50:      	ldp	x20, x19, [sp, #160]
+12a65a54:      	ldr	x23, [sp, #128]
+12a65a58:      	ldp	x22, x21, [sp, #144]
+12a65a5c:      	ldp	x29, x30, [sp, #112]
+12a65a60:      	add	sp, sp, #176
+12a65a64:      	ret
+12a65a68:      	sub	sp, sp, #432
+12a65a6c:      	stp	x29, x30, [sp, #368]
+12a65a70:      	stp	x28, x23, [sp, #384]
+12a65a74:      	stp	x22, x21, [sp, #400]
+12a65a78:      	stp	x20, x19, [sp, #416]
+12a65a7c:      	add	x29, sp, #368
+12a65a80:      	mov	x21, x2
+12a65a84:      	mov	x20, x1
+12a65a88:      	mov	x19, x0
+12a65a8c:      	and	w23, w3, #0x1
+12a65a90:      	and	w22, w4, #0x1
+12a65a94:      	cbz	x1, 0x12a65ab0 <_ZdaPvmSt11align_val_t+0x3811cb4>
+12a65a98:      	adrp	x8, 0x17087000 <_ZdaPvmSt11align_val_t+0x3823524>
+12a65a9c:      	ldr	x8, [x8, #2144]
+12a65aa0:      	ldrb	w8, [x8]
+12a65aa4:      	cbz	w8, 0x12a65ab0 <_ZdaPvmSt11align_val_t+0x3811cb4>
+12a65aa8:      	mov	x0, x20
+12a65aac:      	bl	0xcac3ad0 <_Znam+0x16e188>
+12a65ab0:      	add	x0, x19, #224
+12a65ab4:      	mov	x1, x21
+12a65ab8:      	mov	w2, #96
+12a65abc:      	str	x20, [x19, #560]
+12a65ac0:      	bl	0x14b8a180 <memcpy@plt>
+12a65ac4:      	ldr	w8, [x19, #484]
+12a65ac8:      	strb	w23, [x19, #552]
+12a65acc:      	strb	w22, [x19, #568]
+12a65ad0:      	str	wzr, [x19, #480]
+12a65ad4:      	tbz	w8, #31, 0x12a65af8 <_ZdaPvmSt11align_val_t+0x3811cfc>
+12a65ad8:      	add	x3, x19, #472
+12a65adc:      	add	x5, x19, #484
+12a65ae0:      	mov	w0, #16
+12a65ae4:      	mov	w1, #4
+12a65ae8:      	mov	w2, wzr
+12a65aec:      	mov	w4, wzr
+12a65af0:      	bl	0xc904418 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeacd4>
+12a65af4:      	ldr	x20, [x19, #560]
+12a65af8:      	cbz	x20, 0x12a65b9c <_ZdaPvmSt11align_val_t+0x3811da0>
+12a65afc:      	ldr	w8, [x20, #336]
+12a65b00:      	ldrb	w9, [x19, #552]
+12a65b04:      	str	w8, [x19, #548]
+12a65b08:      	ldr	w8, [x20, #340]
+12a65b0c:      	str	w8, [x19, #544]
+12a65b10:      	cbnz	w9, 0x12a65b84 <_ZdaPvmSt11align_val_t+0x3811d88>
+12a65b14:      	mov	x0, x20
+12a65b18:      	bl	0xd2db614 <_Znam+0x985ccc>
+12a65b1c:      	cbz	x0, 0x12a65b84 <_ZdaPvmSt11align_val_t+0x3811d88>
+12a65b20:      	ldr	x8, [x19, #560]
+12a65b24:      	ldrb	w20, [x8, #363]
+12a65b28:      	cmp	w20, #10
+12a65b2c:      	b.hi	0x12a65d8c <_ZdaPvmSt11align_val_t+0x3811f90>
+12a65b30:      	mov	w9, #1
+12a65b34:      	mov	w11, #1604
+12a65b38:      	lsl	w10, w9, w20
+12a65b3c:      	tst	w10, w11
+12a65b40:      	b.eq	0x12a65d8c <_ZdaPvmSt11align_val_t+0x3811f90>
+12a65b44:      	sturb	w9, [x29, #-24]
+12a65b48:      	mov	w9, #1182400512
+12a65b4c:      	adrp	x10, 0x23cc000 <_ZdaPvmSt11align_val_t+0x37d02ec>
+12a65b50:      	stur	w9, [x29, #-20]
+12a65b54:      	ldr	x9, [x0, #80]!
+12a65b58:      	ldr	d0, [x10, #3328]
+12a65b5c:      	ldr	x8, [x8, #336]
+12a65b60:      	add	x1, x19, #472
+12a65b64:      	ldr	x9, [x9, #152]
+12a65b68:      	sub	x2, x29, #32
+12a65b6c:      	sub	x3, x29, #48
+12a65b70:      	sturh	wzr, [x29, #-16]
+12a65b74:      	stur	d0, [x29, #-32]
+12a65b78:      	stur	xzr, [x29, #-12]
+12a65b7c:      	stp	xzr, x8, [x29, #-48]
+12a65b80:      	blr	x9
+12a65b84:      	ldr	x0, [x19, #560]
+12a65b88:      	ldr	x8, [x0]
+12a65b8c:      	ldr	x8, [x8, #480]
+12a65b90:      	blr	x8
+12a65b94:      	tbz	w0, #0, 0x12a65b9c <_ZdaPvmSt11align_val_t+0x3811da0>
+12a65b98:      	strb	wzr, [x19, #568]
+12a65b9c:      	ldp	q1, q2, [x19, #224]
+12a65ba0:      	add	x8, x19, #488
+12a65ba4:      	ldp	q19, q20, [x19, #288]
+12a65ba8:      	add	x9, sp, #160
+12a65bac:      	strb	wzr, [x19, #536]
+12a65bb0:      	add	x10, sp, #160
+12a65bb4:      	fadd	v0.2d, v1.2d, v1.2d
+12a65bb8:      	fadd	v3.2d, v2.2d, v2.2d
+12a65bbc:      	add	x11, x10, #64
+12a65bc0:      	fmul	v4.2d, v1.2d, v0.2d
+12a65bc4:      	fmul	v5.2d, v2.2d, v3.2d
+12a65bc8:      	ext	v6.16b, v0.16b, v3.16b, #8
+12a65bcc:      	zip1	v7.2d, v3.2d, v0.2d
+12a65bd0:      	ext	v17.16b, v0.16b, v0.16b, #8
+12a65bd4:      	fmov	v3.2d, #1.00000000
+12a65bd8:      	movi	v0.2d, #0000000000000000
+12a65bdc:      	ext	v16.16b, v4.16b, v4.16b, #8
+12a65be0:      	dup	v5.2d, v5.d[0]
+12a65be4:      	fmul	v6.2d, v1.2d, v6.2d
+12a65be8:      	fmul	v18.2d, v7.2d, v2.d[1]
+12a65bec:      	fmul	v1.2d, v7.2d, v1.d[0]
+12a65bf0:      	fmul	v2.2d, v17.2d, v2.d[1]
+12a65bf4:      	fmov	v17.2d, #-1.00000000
+12a65bf8:      	stp	q0, q0, [x8, #16]
+12a65bfc:      	str	xzr, [x8, #16]
+12a65c00:      	fadd	v5.2d, v16.2d, v5.2d
+12a65c04:      	fadd	v4.2d, v4.2d, v16.2d
+12a65c08:      	str	xzr, [x19, #528]
+12a65c0c:      	fadd	v7.2d, v6.2d, v18.2d
+12a65c10:      	fsub	v16.2d, v1.2d, v2.2d
+12a65c14:      	fsub	v6.2d, v6.2d, v18.2d
+12a65c18:      	str	q17, [x19, #512]
+12a65c1c:      	ldr	q17, [x19, #512]
+12a65c20:      	str	q3, [x19, #512]
+12a65c24:      	fsub	v5.2d, v3.2d, v5.2d
+12a65c28:      	fsub	v18.2d, v3.2d, v4.2d
+12a65c2c:      	fmul	v7.2d, v19.2d, v7.2d
+12a65c30:      	str	q17, [x8]
+12a65c34:      	fmul	v23.2d, v19.2d, v16.2d
+12a65c38:      	ldr	q4, [x8]
+12a65c3c:      	movi	d17, #0000000000000000
+12a65c40:      	fadd	v16.2d, v2.2d, v1.2d
+12a65c44:      	fmul	v21.2d, v19.2d, v5.2d
+12a65c48:      	ext	v5.16b, v19.16b, v20.16b, #8
+12a65c4c:      	fminnm	v24.2d, v4.2d, v3.2d
+12a65c50:      	ldr	d19, [x8, #16]
+12a65c54:      	fmul	v2.2d, v20.2d, v18.2d
+12a65c58:      	fmov	v18.2d, #0.50000000
+12a65c5c:      	fmul	v1.2d, v20.2d, v16.2d
+12a65c60:      	fminnm	d3, d19, d17
+12a65c64:      	mov	v2.d[1], xzr
+12a65c68:      	zip1	v22.2d, v21.2d, v7.2d
+12a65c6c:      	fmul	v4.2d, v5.2d, v6.2d
+12a65c70:      	movi	v6.2d, #0000000000000000
+12a65c74:      	mov	v23.d[1], xzr
+12a65c78:      	dup	v5.2d, v7.d[1]
+12a65c7c:      	dup	v7.2d, v21.d[1]
+12a65c80:      	str	q24, [x8]
+12a65c84:      	dup	v16.2d, v4.d[1]
+12a65c88:      	mov	v4.d[1], v7.d[0]
+12a65c8c:      	mov	v6.d[0], v3.d[0]
+12a65c90:      	st1	{ v22.2d, v23.2d }, [x9], #32
+12a65c94:      	mov	v5.d[1], xzr
+12a65c98:      	ldr	q7, [x8]
+12a65c9c:      	ldr	q17, [x19, #512]
+12a65ca0:      	mov	v1.d[1], v16.d[0]
+12a65ca4:      	fadd	v3.2d, v7.2d, v17.2d
+12a65ca8:      	fsub	v7.2d, v17.2d, v7.2d
+12a65cac:      	fsub	v0.2d, v0.2d, v6.2d
+12a65cb0:      	st1	{ v4.2d, v5.2d }, [x9]
+12a65cb4:      	ld1	{ v16.2d, v17.2d }, [x10]
+12a65cb8:      	fmov	d5, #1.00000000
+12a65cbc:      	ld1	{ v19.2d, v20.2d }, [x9]
+12a65cc0:      	st1	{ v1.2d, v2.2d }, [x11]
+12a65cc4:      	add	x9, x10, #96
+12a65cc8:      	ldp	q1, q2, [x19, #256]
+12a65ccc:      	ld1	{ v21.2d, v22.2d }, [x11]
+12a65cd0:      	fmul	v3.2d, v3.2d, v18.2d
+12a65cd4:      	fmul	v4.2d, v7.2d, v18.2d
+12a65cd8:      	fmul	v0.2d, v0.2d, v18.2d
+12a65cdc:      	mov	v2.d[1], v5.d[0]
+12a65ce0:      	fmul	v5.2d, v6.2d, v18.2d
+12a65ce4:      	fmul	v7.2d, v16.2d, v3.d[0]
+12a65ce8:      	fmul	v23.2d, v16.2d, v4.d[0]
+12a65cec:      	fmul	v24.2d, v19.2d, v4.d[1]
+12a65cf0:      	fmul	v25.2d, v17.2d, v3.d[0]
+12a65cf4:      	fmul	v16.2d, v17.2d, v4.d[0]
+12a65cf8:      	fmul	v4.2d, v20.2d, v4.d[1]
+12a65cfc:      	fmul	v6.2d, v22.2d, v0.d[0]
+12a65d00:      	fmul	v0.2d, v21.2d, v0.d[0]
+12a65d04:      	st1	{ v1.2d, v2.2d }, [x9]
+12a65d08:      	ld1	{ v1.2d, v2.2d }, [x9]
+12a65d0c:      	fmla	v7.2d, v19.2d, v3.d[1]
+12a65d10:      	fabs	v17.2d, v23.2d
+12a65d14:      	fabs	v18.2d, v24.2d
+12a65d18:      	fmla	v25.2d, v20.2d, v3.d[1]
+12a65d1c:      	fabs	v3.2d, v16.2d
+12a65d20:      	fabs	v4.2d, v4.2d
+12a65d24:      	fabs	v0.2d, v0.2d
+12a65d28:      	fabs	v6.2d, v6.2d
+12a65d2c:      	fmla	v7.2d, v21.2d, v5.d[0]
+12a65d30:      	fadd	v16.2d, v17.2d, v18.2d
+12a65d34:      	fmla	v25.2d, v22.2d, v5.d[0]
+12a65d38:      	fadd	v3.2d, v3.2d, v4.2d
+12a65d3c:      	fadd	v4.2d, v7.2d, v1.2d
+12a65d40:      	fadd	v0.2d, v16.2d, v0.2d
+12a65d44:      	fadd	v1.2d, v25.2d, v2.2d
+12a65d48:      	fadd	v2.2d, v3.2d, v6.2d
+12a65d4c:      	fsub	v3.2d, v4.2d, v0.2d
+12a65d50:      	fadd	v0.2d, v4.2d, v0.2d
+12a65d54:      	fsub	v5.2d, v1.2d, v2.2d
+12a65d58:      	fadd	v1.2d, v1.2d, v2.2d
+12a65d5c:      	str	q3, [x8]
+12a65d60:      	str	d5, [x8, #16]
+12a65d64:      	mov	w8, #1
+12a65d68:      	str	q0, [x19, #512]
+12a65d6c:      	str	d1, [x19, #528]
+12a65d70:      	strb	w8, [x19, #536]
+12a65d74:      	ldp	x20, x19, [sp, #416]
+12a65d78:      	ldp	x22, x21, [sp, #400]
+12a65d7c:      	ldp	x28, x23, [sp, #384]
+12a65d80:      	ldp	x29, x30, [sp, #368]
+12a65d84:      	add	sp, sp, #432
+12a65d88:      	ret
+12a65d8c:      	adrp	x8, 0x17094000 <_ZdaPvmSt11align_val_t+0x382384c>
+12a65d90:      	ldr	x8, [x8, #1776]
+12a65d94:      	ldrb	w8, [x8]
+12a65d98:      	cmp	w8, #3
+12a65d9c:      	b.lo	0x12a65b84 <_ZdaPvmSt11align_val_t+0x3811d88>
+12a65da0:      	adrp	x1, 0x308b000 <_ZdaPvmSt11align_val_t+0x37d383c>
+12a65da4:      	add	x1, x1, #2706
+12a65da8:      	mov	x0, sp
+12a65dac:      	mov	w2, #156
+12a65db0:      	mov	x21, sp
+12a65db4:      	bl	0x14b8a180 <memcpy@plt>
+12a65db8:      	mov	w11, #64322
+12a65dbc:      	mov	x8, xzr
+12a65dc0:      	mov	w9, #41
+12a65dc4:      	mov	w10, #8365
+12a65dc8:      	movk	w11, #11934, lsl #16
+12a65dcc:      	madd	w9, w9, w10, w11
+12a65dd0:      	ldrb	w12, [x21, x8]
+12a65dd4:      	eor	w12, w12, w9
+12a65dd8:      	strb	w12, [x21, x8]
+12a65ddc:      	add	x8, x8, #1
+12a65de0:      	cmp	x8, #156
+12a65de4:      	b.ne	0x12a65dcc <_ZdaPvmSt11align_val_t+0x3811fd0>
+12a65de8:      	add	x0, sp, #160
+12a65dec:      	mov	x1, sp
+12a65df0:      	mov	w2, #156
+12a65df4:      	bl	0x14b8a180 <memcpy@plt>
+12a65df8:      	bl	0xef61210 <_ZdlPvSt11align_val_t+0xd71cc4>
+12a65dfc:      	mov	x1, x20
+12a65e00:      	bl	0xca4445c <_Znam+0xeeb14>
+12a65e04:      	stur	w0, [x29, #-4]
+12a65e08:      	mov	x8, sp
+12a65e0c:      	sub	x0, x29, #4
+12a65e10:      	bl	0xc9c8248 <_Znam+0x72900>
+12a65e14:      	ldr	w8, [sp, #8]
+12a65e18:      	ldr	x9, [sp]
+12a65e1c:      	adrp	x1, 0x17094000 <_ZdaPvmSt11align_val_t+0x38238dc>
+12a65e20:      	adrp	x0, 0x233e000 <_ZdaPvmSt11align_val_t+0x37d0388>
+12a65e24:      	add	x0, x0, #758
+12a65e28:      	ldr	x1, [x1, #1776]
+12a65e2c:      	cmp	w8, #0
+12a65e30:      	add	x2, sp, #160
+12a65e34:      	csel	x3, x0, x9, eq
+12a65e38:      	bl	0xc9c1ffc <_Znam+0x6c6b4>
+12a65e3c:      	ldr	x0, [sp]
+12a65e40:      	cbz	x0, 0x12a65b84 <_ZdaPvmSt11align_val_t+0x3811d88>
+12a65e44:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+12a65e48:      	b	0x12a65b84 <_ZdaPvmSt11align_val_t+0x3811d88>
+12a65e4c:      	mov	w8, #1
+12a65e50:      	strb	w8, [x0, #568]
+12a65e54:      	ret
+12a65e58:      	mov	x0, xzr
+12a65e5c:      	ret
+12a65e60:      	b	0x12abd900 <_ZdaPvmSt11align_val_t+0x3869b04>
+12a65e64:      	stp	x29, x30, [sp, #-32]!
+12a65e68:      	str	x19, [sp, #16]
+12a65e6c:      	mov	x29, sp
+12a65e70:      	mov	x19, x0
+12a65e74:      	bl	0x12abd900 <_ZdaPvmSt11align_val_t+0x3869b04>
+12a65e78:      	mov	x0, x19
+12a65e7c:      	ldr	x19, [sp, #16]
+12a65e80:      	ldp	x29, x30, [sp], #32
+12a65e84:      	b	0xc93bbe8 <_ZdlPv>
+12a65e88:      	adrp	x9, 0x1a1fc000 <_ZdaPvmSt11align_val_t+0x382fee8>
+12a65e8c:      	add	x9, x9, #1968
+12a65e90:      	str	x9, [x8]
+12a65e94:      	ret
+12a65e98:      	ldrb	w8, [x0, #568]
+12a65e9c:      	cbz	w8, 0x12a65ecc <_ZdaPvmSt11align_val_t+0x38120d0>
+12a65ea0:      	stp	x29, x30, [sp, #-32]!
+12a65ea4:      	str	x19, [sp, #16]
+12a65ea8:      	mov	x29, sp
+12a65eac:      	mov	x19, x0
+12a65eb0:      	ldr	x0, [x0, #560]
+12a65eb4:      	cbz	x0, 0x12a65ec4 <_ZdaPvmSt11align_val_t+0x38120c8>
+12a65eb8:      	bl	0xcd13278 <_Znam+0x3bd930>
+12a65ebc:      	str	xzr, [x19, #560]
+12a65ec0:      	strb	wzr, [x19, #568]
+12a65ec4:      	ldr	x19, [sp, #16]
+12a65ec8:      	ldp	x29, x30, [sp], #32
+12a65ecc:      	ret
+12a65ed0:      	stp	x29, x30, [sp, #-32]!
+12a65ed4:      	stp	x20, x19, [sp, #16]
+12a65ed8:      	mov	x29, sp
+12a65edc:      	mov	x19, x1
+12a65ee0:      	mov	x20, x0
+12a65ee4:      	bl	0x12a4da0c <_ZdaPvmSt11align_val_t+0x37f9c10>
+12a65ee8:      	mov	x0, x20
+12a65eec:      	mov	x1, x19
+12a65ef0:      	ldp	x20, x19, [sp, #16]
+12a65ef4:      	ldp	x29, x30, [sp], #32
+12a65ef8:      	b	0x12e14a1c <_ZdaPvmSt11align_val_t+0x3bc0c20>
+12a65efc:      	ldr	x0, [x0, #560]
+12a65f00:      	ret
+12a65f04:      	stp	x29, x30, [sp, #-32]!
+12a65f08:      	str	x19, [sp, #16]
+12a65f0c:      	mov	x29, sp
+12a65f10:      	ldr	x0, [x0, #560]
+12a65f14:      	mov	x19, x8
+12a65f18:      	cbz	x0, 0x12a65f40 <_ZdaPvmSt11align_val_t+0x3812144>
+12a65f1c:      	bl	0xc9649e8 <_Znam+0xf0a0>
+12a65f20:      	cbz	x0, 0x12a65f40 <_ZdaPvmSt11align_val_t+0x3812144>
+12a65f24:      	ldr	x8, [x0, #16]
+12a65f28:      	str	x8, [x19]
+12a65f2c:      	cbz	x8, 0x12a65f44 <_ZdaPvmSt11align_val_t+0x3812148>
+12a65f30:      	add	x1, x8, #8
+12a65f34:      	mov	w0, #1
+12a65f38:      	bl	0x14b89840 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xc17ee4>
+12a65f3c:      	b	0x12a65f44 <_ZdaPvmSt11align_val_t+0x3812148>
+12a65f40:      	str	xzr, [x19]
+12a65f44:      	ldr	x19, [sp, #16]
+12a65f48:      	ldp	x29, x30, [sp], #32
+12a65f4c:      	ret
+12a65f50:      	stp	x29, x30, [sp, #-32]!
+12a65f54:      	stp	x20, x19, [sp, #16]
+12a65f58:      	mov	x29, sp
+12a65f5c:      	mov	x20, x0
+12a65f60:      	mov	x0, x1
+12a65f64:      	bl	0x12a65fc0 <_ZdaPvmSt11align_val_t+0x38121c4>
+12a65f68:      	mov	x19, x0
+12a65f6c:      	mov	x0, x20
+12a65f70:      	mov	x1, x19
+12a65f74:      	bl	0x12abe9a8 <_ZdaPvmSt11align_val_t+0x386abac>
+12a65f78:      	ldrb	w8, [x20, #568]
+12a65f7c:      	cbnz	w8, 0x12a65fb8 <_ZdaPvmSt11align_val_t+0x38121bc>
+12a65f80:      	adrp	x8, 0x1ae1f000 <_ZdaPvmSt11align_val_t+0x383306c>
+12a65f84:      	add	x8, x8, #2528
+12a65f88:      	ldr	x0, [x20, #560]
+12a65f8c:      	ldrb	w8, [x8]
+12a65f90:      	cbz	w8, 0x12a65fa0 <_ZdaPvmSt11align_val_t+0x38121a4>
+12a65f94:      	cbz	x0, 0x12a65fa0 <_ZdaPvmSt11align_val_t+0x38121a4>
+12a65f98:      	bl	0xcac3ad0 <_Znam+0x16e188>
+12a65f9c:      	ldr	x0, [x20, #560]
+12a65fa0:      	str	x0, [x19, #560]
+12a65fa4:      	mov	x0, x19
+12a65fa8:      	strb	wzr, [x19, #568]
+12a65fac:      	ldp	x20, x19, [sp, #16]
+12a65fb0:      	ldp	x29, x30, [sp], #32
+12a65fb4:      	ret
+12a65fb8:      	strb	wzr, [x20, #568]
+12a65fbc:      	b	0x12a65f80 <_ZdaPvmSt11align_val_t+0x3812184>
+12a65fc0:      	cbnz	x0, 0x12a65fdc <_ZdaPvmSt11align_val_t+0x38121e0>
+12a65fc4:      	stp	x29, x30, [sp, #-16]!
+12a65fc8:      	mov	x29, sp
+12a65fcc:      	bl	0xc9647c8 <_Znam+0xee80>
+12a65fd0:      	bl	0xc95f7a4 <_Znam+0x9e5c>
+12a65fd4:      	ldp	x29, x30, [sp], #16
+12a65fd8:      	b	0x12aab2fc <_ZdaPvmSt11align_val_t+0x3857500>
+12a65fdc:      	b	0x12aab26c <_ZdaPvmSt11align_val_t+0x3857470>
+12a65fe0:      	adrp	x0, 0x1a1fc000 <_ZdaPvmSt11align_val_t+0x3830040>
+12a65fe4:      	add	x0, x0, #2736
+12a65fe8:      	ret
+12a65fec:      	mov	x0, xzr
+12a65ff0:      	ret
+12a65ff4:      	b	0x12e127ec <_ZdaPvmSt11align_val_t+0x3bbe9f0>
+12a65ff8:      	stp	x29, x30, [sp, #-32]!
+12a65ffc:      	str	x19, [sp, #16]
+12a68648:      	bl	0x12a6567c <_ZdaPvmSt11align_val_t+0x3811880>
+12a6b534:      	bl	0x12a65560 <_ZdaPvmSt11align_val_t+0x3811764>
+12abd700:      	b	0x12a65ff4 <_ZdaPvmSt11align_val_t+0x38121f8>
+12abd730:      	bl	0x12a65ff4 <_ZdaPvmSt11align_val_t+0x38121f8>
+12ac4334:      	bl	0x12a65864 <_ZdaPvmSt11align_val_t+0x3811a68>
+12b2a650:      	csel	x9, x22, x9, eq
+12b2a654:      	tbz	w0, #0, 0x12b2a664 <_ZdaPvmSt11align_val_t+0x38d6868>
+12b2a658:      	ldr	w11, [x9, w8, uxtw #2]
+12b2a65c:      	orr	w10, w11, w10
+12c1f4c8:      	bl	0x12a65fe0 <_ZdaPvmSt11align_val_t+0x38121e4>
+12c29460:      	cbz	w8, 0x12c2a654 <_ZdaPvmSt11align_val_t+0x39d6858>
+12c2a650:      	b	0x12c2b288 <_ZdaPvmSt11align_val_t+0x39d748c>
+12c2a654:      	adrp	x8, 0x1b101000 <_ZdaPvmSt11align_val_t+0x39f7bb4>
+12c2a658:      	add	x8, x8, #2840
+12c2a65c:      	ldr	x20, [x8, #16]
+12c4f474:      	bl	0x12a65fc0 <_ZdaPvmSt11align_val_t+0x38121c4>
+12c4f48c:      	bl	0x12a65a68 <_ZdaPvmSt11align_val_t+0x3811c6c>
+12c7e448:      	b.eq	0x12c7e454 <_ZdaPvmSt11align_val_t+0x3a2a658>
+12ca3698:      	bl	0x12a65fc0 <_ZdaPvmSt11align_val_t+0x38121c4>
+12ca36b0:      	bl	0x12a65a68 <_ZdaPvmSt11align_val_t+0x3811c6c>
+12d2a640:      	cbz	x0, 0x12d2a650 <_ZdaPvmSt11align_val_t+0x3ad6854>
+12d2a650:      	ldr	x0, [sp, #128]
+12d2a654:      	ldr	x19, [sp, #80]
+12d2a658:      	cbz	x0, 0x12d2a668 <_ZdaPvmSt11align_val_t+0x3ad686c>
+12d2a65c:      	ldr	x8, [x0]
+12e2a5d4:      	b.lo	0x12e2a650 <_ZdaPvmSt11align_val_t+0x3bd6854>
+12e2a64c:      	b	0x12e2a654 <_ZdaPvmSt11align_val_t+0x3bd6858>
+12e2a650:      	mov	w8, #1
+12e2a654:      	ldr	w9, [x19, #72]
+12e2a658:      	cbz	w9, 0x12e2a6a0 <_ZdaPvmSt11align_val_t+0x3bd68a4>
+12e2a65c:      	cmp	w9, w8
+12f2a650:      	ldp	x29, x30, [sp, #400]
+12f2a654:      	add	sp, sp, #448
+12f2a658:      	ret
+12f2a65c:      	adrp	x0, 0x1a2d8000 <_ZdaPvmSt11align_val_t+0x3cf3718>
+130009cc:      	bl	0x102a6520 <_ZdaPvmSt11align_val_t+0x1052724>
+1302a650:      	ldr	w19, [x8, w9, uxtw #2]
+1302a654:      	cmn	w19, #1
+1302a658:      	b.eq	0x1302a614 <_ZdaPvmSt11align_val_t+0x3dd6818>
+1302a65c:      	ldr	w8, [x2]
+1312a650:      	ldr	x19, [sp, #16]
+1312a654:      	ldp	x29, x30, [sp], #32
+1312a658:      	b	0xcebf65c <_Znam+0x569d14>
+1312a65c:      	stp	x29, x30, [sp, #-32]!
+1322a650:      	mov	x19, x0
+1322a654:      	adrp	x8, 0x16a90000 <_ZdaPvmSt11align_val_t+0x3fe49f0>
+1322a658:      	add	x8, x8, #160
+1322a65c:      	mov	w9, #5096
+1327e428:      	b	0x1327e454 <_ZdaPvmSt11align_val_t+0x402a658>
+132a60a0:      	b.hs	0x132a6514 <_ZdaPvmSt11align_val_t+0x4052718>
+132a6500:      	bl	0xc98d96c <_Znam+0x38024>
+132a6504:      	ldr	x0, [sp, #192]
+132a6508:      	cbz	x0, 0x132a6030 <_ZdaPvmSt11align_val_t+0x4052234>
+132a650c:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+132a6510:      	b	0x132a6030 <_ZdaPvmSt11align_val_t+0x4052234>
+132a6514:      	mov	w21, #64322
+132a6518:      	adrp	x1, 0x30da000 <_ZdaPvmSt11align_val_t+0x4011fec>
+132a651c:      	add	x1, x1, #1404
+132a6520:      	add	x0, sp, #240
+132a6524:      	mov	w2, #94
+132a6528:      	movk	w21, #11934, lsl #16
+132a652c:      	add	x22, sp, #240
+132a6530:      	bl	0x14b8a180 <memcpy@plt>
+132a6534:      	mov	x8, xzr
+132a6538:      	mov	w9, #958
+132a653c:      	mov	w10, #8365
+132a6540:      	madd	w9, w9, w10, w21
+132a6544:      	ldrb	w11, [x22, x8]
+132a6548:      	eor	w11, w11, w9
+132a654c:      	strb	w11, [x22, x8]
+132a6550:      	add	x8, x8, #1
+132a6554:      	cmp	x8, #94
+132a6558:      	b.ne	0x132a6540 <_ZdaPvmSt11align_val_t+0x4052744>
+132a655c:      	add	x0, sp, #72
+132a6560:      	add	x1, sp, #240
+132a6564:      	mov	w2, #94
+132a6568:      	add	x21, sp, #240
+132a656c:      	bl	0x14b8a180 <memcpy@plt>
+132a6570:      	adrp	x8, 0x23be000 <_ZdaPvmSt11align_val_t+0x400ebd4>
+132a6574:      	add	x9, sp, #56
+132a6578:      	add	x0, sp, #64
+132a657c:      	ldr	d0, [x8, #1536]
+132a6580:      	add	x8, x21, #26
+132a6584:      	add	x1, sp, #240
+132a6588:      	stp	x8, x8, [sp, #240]
+132a658c:      	add	x8, x21, #1050
+132a6590:      	strb	wzr, [sp, #61]
+132a6594:      	str	x9, [sp, #64]
+132a6598:      	stur	s0, [sp, #57]
+132a659c:      	str	x8, [sp, #256]
+132a65a0:      	strh	wzr, [sp, #264]
+132a65a4:      	bl	0xc973a78 <_Znam+0x1e130>
+132a65a8:      	ldp	x8, x9, [sp, #248]
+132a65ac:      	add	x10, x8, #2
+132a65b0:      	cmp	x10, x9
+132a65b4:      	b.hi	0x132a66f4 <_ZdaPvmSt11align_val_t+0x40528f8>
+132a65b8:      	strh	wzr, [x8]
+132a65bc:      	add	x8, sp, #224
+132a65c0:      	mov	x0, x19
+132a65c4:      	ldr	x21, [sp, #240]
+132a65c8:      	bl	0x13280870 <_ZdaPvmSt11align_val_t+0x402ca74>
+132a65cc:      	ldr	w8, [sp, #232]
+132a65d0:      	ldr	x9, [sp, #224]
+132a65d4:      	adrp	x22, 0x233e000 <_ZdaPvmSt11align_val_t+0x400ea38>
+132a65d8:      	add	x22, x22, #758
+132a65dc:      	mov	x0, x19
+132a65e0:      	cmp	w8, #0
+132a65e4:      	add	x8, sp, #208
+132a65e8:      	csel	x23, x22, x9, eq
+132a65ec:      	bl	0x1327ca70 <_ZdaPvmSt11align_val_t+0x4028c74>
+132a65f0:      	ldr	w8, [sp, #216]
+132a65f4:      	ldr	x9, [sp, #208]
+132a65f8:      	mov	x0, x19
+132a65fc:      	mov	w1, w20
+132a6704:      	b	0x132a65b8 <_ZdaPvmSt11align_val_t+0x40527bc>
+13304b48:      	bl	0xf4fa320 <_ZdaPvmSt11align_val_t+0x2a6524>
+13304b88:      	bl	0xf4fa320 <_ZdaPvmSt11align_val_t+0x2a6524>
+1332a650:      	bl	0xcbe687c <_Znam+0x290f34>
+1332a654:      	adrp	x8, 0x16ad5000 <_ZdaPvmSt11align_val_t+0x40e4704>
+1332a658:      	add	x8, x8, #4024
+1332a65c:      	ldur	q0, [x22, #32]
+1342a650:      	ldrb	w10, [x9, #3991]
+1342a654:      	orr	x8, x8, x10, lsl #8
+1342a658:      	str	x8, [x19, #1872]
+1342a65c:      	and	x8, x8, #0xfffffffffffffdff
+134fa208:      	cbz	w8, 0x134fa370 <_ZdaPvmSt11align_val_t+0x42a6574>
+134fa2a8:      	b	0x134fa374 <_ZdaPvmSt11align_val_t+0x42a6578>
+134fa2e4:      	b.gt	0x134fa2fc <_ZdaPvmSt11align_val_t+0x42a6500>
+134fa310:      	cbz	w0, 0x134fa330 <_ZdaPvmSt11align_val_t+0x42a6534>
+134fa32c:      	b.ne	0x134fa318 <_ZdaPvmSt11align_val_t+0x42a651c>
+134fa338:      	b.ne	0x134fa354 <_ZdaPvmSt11align_val_t+0x42a6558>
+134fa37c:      	cbz	w9, 0x134fa3a0 <_ZdaPvmSt11align_val_t+0x42a65a4>
+134fa384:      	cbz	w9, 0x134fa3a0 <_ZdaPvmSt11align_val_t+0x42a65a4>
+134fa38c:      	cbz	x0, 0x134fa3a0 <_ZdaPvmSt11align_val_t+0x42a65a4>
+134fa3a4:      	cbz	w9, 0x134fa3c4 <_ZdaPvmSt11align_val_t+0x42a65c8>
+134fa3ac:      	cbz	w9, 0x134fa3c4 <_ZdaPvmSt11align_val_t+0x42a65c8>
+134fa3b4:      	cbz	x0, 0x134fa3c4 <_ZdaPvmSt11align_val_t+0x42a65c8>
+134fa424:      	b.hi	0x134fa3f4 <_ZdaPvmSt11align_val_t+0x42a65f8>
+134fa47c:      	b	0x134fa378 <_ZdaPvmSt11align_val_t+0x42a657c>
+1352a650:      	ldp	x29, x30, [sp], #16
+1352a654:      	ret
+1352a658:      	stp	x29, x30, [sp, #-16]!
+1352a65c:      	mov	x29, sp
+1362a138:      	b.eq	0x1362a650 <_ZdaPvmSt11align_val_t+0x43d6854>
+1362a650:      	ldr	x0, [sp, #96]
+1362a654:      	str	wzr, [sp, #104]
+1362a658:      	cbz	x0, 0x1362a660 <_ZdaPvmSt11align_val_t+0x43d6864>
+1362a65c:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+1367e438:      	cbz	w12, 0x1367e458 <_ZdaPvmSt11align_val_t+0x442a65c>
+1372a650:      	b.eq	0x1372a688 <_ZdaPvmSt11align_val_t+0x44d688c>
+1372a654:      	ldr	x8, [sp]
+1372a658:      	ldr	x19, [x22]
+1372a65c:      	str	x8, [x22]
+1382a650:      	ldr	x9, [sp, #48]
+1382a654:      	str	x8, [x9, #24]
+1382a658:      	ldr	w8, [sp, #712]
+1382a65c:      	str	xzr, [sp, #704]
+1392a650:      	bl	0x14b89810 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xc17eb4>
+1392a654:      	ldr	x21, [x19]
+1392a658:      	cbnz	x21, 0x1392a66c <_ZdaPvmSt11align_val_t+0x46d6870>
+1392a65c:      	b	0x1392a690 <_ZdaPvmSt11align_val_t+0x46d6894>
+13a2a620:      	cbz	x0, 0x13a2a650 <_ZdaPvmSt11align_val_t+0x47d6854>
+13a2a650:      	ldr	w8, [x21]
+13a2a654:      	stur	w8, [x29, #-4]
+13a2a658:      	cbnz	w8, 0x13a2a674 <_ZdaPvmSt11align_val_t+0x47d6878>
+13a2a65c:      	mov	x0, xzr
+13a7e440:      	tbz	w1, #0, 0x13a7e458 <_ZdaPvmSt11align_val_t+0x482a65c>
+13b2a650:      	mov	x20, x0
+13b2a654:      	strb	wzr, [x29, #28]
+13b2a658:      	bl	0xccc20dc <_Znam+0x36c794>
+13b2a65c:      	ldr	x8, [x21, #32]
+13c2a650:      	str	x19, [sp, #16]
+13c2a654:      	mov	x29, sp
+13c2a658:      	ldr	x9, [x1, #32]
+13c2a65c:      	adrp	x8, 0x1b134000 <_ZdaPvmSt11align_val_t+0x49f3c88>
+13d2a650:      	ldr	x21, [sp, #144]
+13d2a654:      	ldp	x29, x30, [sp, #128]
+13d2a658:      	add	sp, sp, #176
+13d2a65c:      	ret
+13e2a650:      	mov	w8, #1
+13e2a654:      	strb	w8, [x0, #170]
+13e2a658:      	ret
+13e2a65c:      	mov	w8, #1
+13f2a650:      	add	x23, x23, #758
+13f2a654:      	mov	x22, x0
+13f2a658:      	adrp	x1, 0x1b28000 <_ZdaPvmSt11align_val_t+0x4c8d854>
+13f2a65c:      	add	x1, x1, #1080
+13f55410:      	adrp	x1, 0x2a65000 <_ZdaPvmSt11align_val_t+0x4cbc254>
+1402a650:      	b.ne	0x1402a5d4 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xb8c78>
+1402a654:      	cmp	x9, x23
+1402a658:      	b.ne	0x1402a5d4 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xb8c78>
+1402a65c:      	b	0x1402a540 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xb8be4>
+1409bf70:      	b	0x1409bfac <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x12a650>
+1412a5a0:      	b.lt	0x1412a654 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x1b8cf8>
+1412a650:      	b.ge	0x1412a664 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x1b8d08>
+1412a654:      	ldr	x0, [x23]
+1412a658:      	cbz	x0, 0x1412a550 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x1b8bf4>
+1412a65c:      	bl	0xc904fd0 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdeb88c>
+1412a6c4:      	b.lo	0x1412a654 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x1b8cf8>
+1412a790:      	b	0x1412a654 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x1b8cf8>
+1420c4c8:      	adrp	x23, 0x17087000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x2a6558>
+14214118:      	adrp	x8, 0x15182000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x2a6574>
+1422a650:      	mov	w0, wzr
+1422a654:      	ret
+1422a658:      	ret
+1422a65c:      	stp	x29, x30, [sp, #-32]!
+142a1f20:      	bl	0x142a65f4 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x334c98>
+142a6500:      	ldr	x19, [sp, #16]
+142a6504:      	ldp	x29, x30, [sp], #32
+142a6508:      	ret
+142a650c:      	stp	x29, x30, [sp, #-48]!
+142a6510:      	str	x21, [sp, #16]
+142a6514:      	stp	x20, x19, [sp, #32]
+142a6518:      	mov	x29, sp
+142a651c:      	mov	x21, x0
+142a6520:      	add	x0, x0, #24
+142a6524:      	mov	w19, w2
+142a6528:      	mov	x20, x1
+142a652c:      	bl	0xc90f5c4 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdf5e80>
+142a6530:      	ldp	x3, x8, [x21, #32]
+142a6534:      	add	x0, x0, x8, asr #1
+142a6538:      	tbz	w8, #0, 0x142a6544 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x334be8>
+142a653c:      	ldr	x8, [x0]
+142a6540:      	ldr	x3, [x8, x3]
+142a6544:      	mov	x1, x20
+142a6548:      	mov	w2, w19
+142a654c:      	ldp	x20, x19, [sp, #32]
+142a6550:      	ldr	x21, [sp, #16]
+142a6554:      	ldp	x29, x30, [sp], #48
+142a6558:      	br	x3
+142a655c:      	stp	x29, x30, [sp, #-64]!
+142a6560:      	str	x23, [sp, #16]
+142a6564:      	stp	x22, x21, [sp, #32]
+142a6568:      	stp	x20, x19, [sp, #48]
+142a656c:      	mov	x29, sp
+142a6570:      	mov	w19, w2
+142a6574:      	mov	x20, x1
+142a6578:      	mov	x23, x0
+142a657c:      	bl	0xc9647c8 <_Znam+0xee80>
+142a6580:      	tbz	w0, #0, 0x142a658c <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x334c30>
+142a6584:      	mov	x21, xzr
+142a6588:      	b	0x142a659c <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x334c40>
+142a658c:      	add	x8, x29, #24
+142a6590:      	add	x0, x23, #24
+142a6594:      	bl	0xc9623f0 <_Znam+0xcaa8>
+142a6598:      	ldr	x21, [x29, #24]
+142a659c:      	add	x0, x23, #24
+142a65a0:      	bl	0xc90f5c4 <Java_com_epicgames_unreal_GameActivity_nativeTextureProcessingReady+0xdf5e80>
+142a65a4:      	mov	x22, x0
+142a65a8:      	cbz	x0, 0x142a65cc <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x334c70>
+142a65ac:      	ldp	x8, x9, [x23, #32]
+142a65b0:      	add	x0, x22, x9, asr #1
+142a65b4:      	tbz	w9, #0, 0x142a65c0 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x334c64>
+142a65b8:      	ldr	x9, [x0]
+142a65bc:      	ldr	x8, [x9, x8]
+142a65c0:      	mov	x1, x20
+142a65c4:      	mov	w2, w19
+142a65c8:      	blr	x8
+142a65cc:      	cbz	x21, 0x142a65d8 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x334c7c>
+142a65d0:      	mov	x0, x21
+142a65d4:      	bl	0xc960f34 <_Znam+0xb5ec>
+142a65d8:      	cmp	x22, #0
+142a65dc:      	cset	w0, ne
+142a65e0:      	ldp	x20, x19, [sp, #48]
+142a65e4:      	ldr	x23, [sp, #16]
+142a65e8:      	ldp	x22, x21, [sp, #32]
+142a65ec:      	ldp	x29, x30, [sp], #64
+142a65f0:      	ret
+142a65f4:      	stp	x29, x30, [sp, #-64]!
+142a65f8:      	str	x23, [sp, #16]
+142a65fc:      	stp	x22, x21, [sp, #32]
+1432a650:      	cbz	w8, 0x1432a848 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x3b8eec>
+1432a654:      	ldp	q2, q1, [sp, #160]
+1432a658:      	mov	w9, #56
+1432a65c:      	mov	w10, #1
+1442a650:      	ldr	w8, [x23, #8]
+1442a654:      	str	w8, [x24, #8]
+1442a658:      	ldr	x8, [x23, #16]
+1442a65c:      	str	x8, [x24, #16]
+14491c2c:      	bl	0x102a6520 <_ZdaPvmSt11align_val_t+0x1052724>
+1452a650:      	ldr	q1, [x19, #32]
+1452a654:      	ldr	x8, [sp]
+1452a658:      	str	q0, [x19, #32]
+1452a65c:      	str	q1, [sp, #32]
+1462a650:      	ldur	x9, [x29, #-240]
+1462a654:      	adrp	x0, 0x1f76000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x66f228>
+1462a658:      	add	x0, x0, #2104
+1462a65c:      	cmp	w8, #0
+1472a650:      	add	x3, sp, #128
+1472a654:      	add	x4, sp, #60
+1472a658:      	bl	0x14729224 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x7b78c8>
+1472a65c:      	ldr	x0, [x22, #352]
+14781cb8:      	adrp	x9, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x7c8eec>
+147f484c:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x83b8b4>
+1480521c:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x84c240>
+14818550:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x85f528>
+1482a650:      	ldp	x28, x27, [sp, #80]
+1482a654:      	ldp	x29, x30, [sp, #64]
+1482a658:      	add	sp, sp, #160
+1482a65c:      	ret
+1489bee8:      	cbz	w22, 0x1489bfac <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x92a650>
+1489bf08:      	b.eq	0x1489bfac <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x92a650>
+148ee1e8:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x934e68>
+148ee378:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x934ff8>
+148f4a98:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x93b700>
+148f4adc:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x93b744>
+148f4b00:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x93b768>
+14916b40:      	adrp	x21, 0xffffffff52a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x69d720>
+1492a650:      	<unknown>
+1492a654:      	orr	x26, x12, x8, lsl #22
+1492a658:      	<unknown>
+1492a65c:      	<unknown>
+1492ce08:      	b	0x13e2a654 <_ZdaPvmSt11align_val_t+0x4bd6858>
+149b3768:      	adrp	x8, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x9fa0d4>
+149b3778:      	adrp	x8, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x9fa0e4>
+149b390c:      	adrp	x8, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x9fa278>
+149b3910:      	adrp	x9, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0x9fa27c>
+149c5dc4:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa0c6e8>
+149c5dc8:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa0c6ec>
+14a17ba4:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa5e380>
+14a188dc:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa5f0b4>
+14a18a54:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa5f22c>
+14a18d78:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa5f550>
+14a19064:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa5f838>
+14a19120:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa5f8f4>
+14a19474:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa5fc48>
+14a19520:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa5fcf4>
+14a19630:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa5fe04>
+14a19858:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa6002c>
+14a19a34:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa60208>
+14a19a94:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa60268>
+14a19ad8:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa602ac>
+14a19b14:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa602e8>
+14a19b50:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa60324>
+14a19bf4:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa603c8>
+14a1a0ec:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa608bc>
+14a1a1c8:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa60998>
+14a1a280:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa60a50>
+14a1a338:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa60b08>
+14a1a5cc:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa60d9c>
+14a1c5e0:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa62da8>
+14a1c65c:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa62e24>
+14a1c69c:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa62e64>
+14a1c6dc:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa62ea4>
+14a1c76c:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa62f34>
+14a222e0:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa68a90>
+14a23bd0:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa6a37c>
+14a26c00:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa6d3a0>
+14a2708c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa6d828>
+14a29234:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa6f9c8>
+14a29f84:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa70718>
+14a2a650:      	ldr	x8, [x8, #3296]
+14a2a654:      	ldr	x8, [x8]
+14a2a658:      	blr	x8
+14a2a65c:      	cbz	x0, 0x14a2aa34 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xab90d8>
+14a388e8:      	adrp	x21, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa7f040>
+14a39e6c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa805c0>
+14a3e074:      	adrp	x8, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa847b4>
+14a3e088:      	adrp	x10, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa847c8>
+14a3e090:      	adrp	x8, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa847d0>
+14a55d74:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa9c458>
+14a55e44:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa9c528>
+14a57b84:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa9e260>
+14a583dc:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xa9eab4>
+14a62c94:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xaa9344>
+14a64ab0:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xaab158>
+14a659f8:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xaac09c>
+14a661f8:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xaac898>
+14a67200:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xaad89c>
+14a67374:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xaada10>
+14a69890:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xaaff24>
+14a6b70c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xab1d98>
+14a6e25c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xab48dc>
+14a6e2b0:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xab4930>
+14a6e334:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xab49b4>
+14a709c4:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xab703c>
+14a72488:      	adrp	x22, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xab8af8>
+14a73788:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xab9df4>
+14a73bf8:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xaba264>
+14a7468c:      	adrp	x8, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xabacf4>
+14a768c8:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xabcf28>
+14a77600:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xabdc5c>
+14a77664:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xabdcc0>
+14a77754:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xabddb0>
+14a78a60:      	adrp	x0, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xabf0b8>
+14a78af0:      	adrp	x0, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xabf148>
+14a78b50:      	adrp	x0, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xabf1a8>
+14a7b87c:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac1ec8>
+14a7cb40:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac3188>
+14a7cbf8:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac3240>
+14a7cea0:      	adrp	x20, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac34e8>
+14a7cea4:      	adrp	x26, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac34ec>
+14a7e610:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac4c50>
+14a7f178:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac57b4>
+14a7f26c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac58a8>
+14a7f2dc:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac5918>
+14a80a28:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac7060>
+14a80c04:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac723c>
+14a80f3c:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac7574>
+14a81ed8:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xac850c>
+14a86828:      	adrp	x1, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xacce48>
+14aff2cc:      	adrp	x9, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xb45708>
+14aff2d0:      	adrp	x10, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xb4570c>
+14b1c2f8:      	adrp	x2, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xb626c0>
+14b2a650:      	ldr	w8, [x3]
+14b2a654:      	sub	w10, w8, #4
+14b2a658:      	cmp	w10, #1
+14b2a65c:      	b.lt	0x14b2a740 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xbb8de4>
+14b877c0:      	adrp	x3, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xbcd9dc>
+14b87a74:      	adrp	x0, 0x2a65000 <Java_com_epicgames_unreal_ONEStoreWrapper_nativeOnLaunchPurchaseFlowFail+0xbcdc90>
